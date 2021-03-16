@@ -108,6 +108,15 @@ zdetor:Currency rdf:type owl:Class ;
                                     ] .
 
 
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Drink
+zdetor:Drink rdf:type owl:Class ;
+             owl:disjointWith zdetor:Food .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Food
+zdetor:Food rdf:type owl:Class .
+
+
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/HawaiianPizza
 zdetor:HawaiianPizza rdf:type owl:Class ;
                      rdfs:subClassOf zdetor:NamedPizza .
@@ -134,15 +143,21 @@ zdetor:PepperoniPizza rdf:type owl:Class ;
 
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Pizza
 zdetor:Pizza rdf:type owl:Class ;
-             rdfs:subClassOf zdetor:MenuItem .
+             rdfs:subClassOf zdetor:Food .
 
 
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/PizzaTopping
-zdetor:PizzaTopping rdf:type owl:Class .
+zdetor:PizzaTopping rdf:type owl:Class ;
+                    rdfs:subClassOf zdetor:Food .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Place
+zdetor:Place rdf:type owl:Class .
 
 
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Site
-zdetor:Site rdf:type owl:Class .
+zdetor:Site rdf:type owl:Class ;
+            rdfs:subClassOf zdetor:Place .
 
 
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/SiteAddress
@@ -180,19 +195,6 @@ zdetor:USD rdf:type owl:NamedIndividual ,
   owl:members ( zdetor:BiancaWhitePizza
                 zdetor:HawaiianPizza
                 zdetor:MargheritaPizza
-              )
-] .
-
-
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( zdetor:City
-                zdetor:Country
-                zdetor:Currency
-                zdetor:MenuItem
-                zdetor:PizzaTopping
-                zdetor:Site
-                zdetor:SiteAddress
-                zdetor:State
               )
 ] .
 
