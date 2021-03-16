@@ -21,6 +21,14 @@ zdetor:creator rdf:type owl:AnnotationProperty .
 #    Object Properties
 #################################################################
 
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/hasAddress
+zdetor:hasAddress rdf:type owl:ObjectProperty ;
+                  owl:inverseOf zdetor:isAddressOf ;
+                  rdf:type owl:FunctionalProperty ;
+                  rdfs:domain zdetor:Place ;
+                  rdfs:range zdetor:SiteAddress .
+
+
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/hasCity
 zdetor:hasCity rdf:type owl:ObjectProperty ,
                         owl:FunctionalProperty ;
@@ -49,6 +57,10 @@ zdetor:hasState rdf:type owl:ObjectProperty ,
                          owl:FunctionalProperty ;
                 rdfs:domain zdetor:SiteAddress ;
                 rdfs:range zdetor:State .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/isAddressOf
+zdetor:isAddressOf rdf:type owl:ObjectProperty .
 
 
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/isMenuItemOf
