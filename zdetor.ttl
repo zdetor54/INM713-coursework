@@ -1,0 +1,287 @@
+@prefix : <https://www.city.ac.uk/ds/inm713/zacharias_detorakis/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix zdetor: <https://www.city.ac.uk/ds/inm713/zacharias_detorakis/> .
+@base <https://www.city.ac.uk/ds/inm713/zacharias_detorakis/> .
+
+<https://www.city.ac.uk/ds/inm713/zacharias_detorakis/> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/creator
+zdetor:creator rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/hasAddress
+zdetor:hasAddress rdf:type owl:ObjectProperty ;
+                  owl:inverseOf zdetor:isAddressOf ;
+                  rdf:type owl:FunctionalProperty .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/hasCity
+zdetor:hasCity rdf:type owl:ObjectProperty ,
+                        owl:FunctionalProperty ;
+               rdfs:domain zdetor:Address ;
+               rdfs:range zdetor:City .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/hasCountry
+zdetor:hasCountry rdf:type owl:ObjectProperty ,
+                           owl:FunctionalProperty ;
+                  rdfs:domain zdetor:Address ;
+                  rdfs:range zdetor:Country .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/hasMenuItem
+zdetor:hasMenuItem rdf:type owl:ObjectProperty ;
+                   owl:inverseOf zdetor:isMenuItemOf ;
+                   rdf:type owl:AsymmetricProperty ,
+                            owl:IrreflexiveProperty ;
+                   rdfs:domain zdetor:Restaurant ;
+                   rdfs:range zdetor:MenuItem .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/hasState
+zdetor:hasState rdf:type owl:ObjectProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain zdetor:Address ;
+                rdfs:range zdetor:State .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/isAddressOf
+zdetor:isAddressOf rdf:type owl:ObjectProperty .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/isMenuItemOf
+zdetor:isMenuItemOf rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/addressLine
+zdetor:addressLine rdf:type owl:DatatypeProperty ;
+                   rdfs:domain zdetor:Address ;
+                   rdfs:range xsd:string ;
+                   rdfs:comment "The address line is not made functional to allow for multiple address lines per address" .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/postCode
+zdetor:postCode rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain zdetor:Address ;
+                rdfs:range xsd:string .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/price
+zdetor:price rdf:type owl:DatatypeProperty ,
+                      owl:FunctionalProperty ;
+             rdfs:domain zdetor:MenuItem ;
+             rdfs:range xsd:float .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/restaurantName
+zdetor:restaurantName rdf:type owl:DatatypeProperty ;
+                      rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Address
+zdetor:Address rdf:type owl:Class .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/AmericanRestaurant
+zdetor:AmericanRestaurant rdf:type owl:Class ;
+                          rdfs:subClassOf zdetor:Restaurant .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/AsianRestaurant
+zdetor:AsianRestaurant rdf:type owl:Class ;
+                       rdfs:subClassOf zdetor:Restaurant .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/BarRestaurant
+zdetor:BarRestaurant rdf:type owl:Class ;
+                     rdfs:subClassOf zdetor:Place .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/BiancaWhitePizza
+zdetor:BiancaWhitePizza rdf:type owl:Class ;
+                        rdfs:subClassOf zdetor:NamedPizza .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/CheesePizza
+zdetor:CheesePizza rdf:type owl:Class ;
+                   rdfs:subClassOf zdetor:Pizza .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/City
+zdetor:City rdf:type owl:Class .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Country
+zdetor:Country rdf:type owl:Class ;
+               rdfs:comment "This is a class that will have all the countries that can be used as part of the address of the restaurant sites"@en ;
+               rdfs:label "Country"@en ;
+               zdetor:creator "zacharias.detorakis"@en .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Currency
+zdetor:Currency rdf:type owl:Class ;
+                owl:equivalentClass [ rdf:type owl:Class ;
+                                      owl:oneOf ( zdetor:EUR
+                                                  zdetor:GBP
+                                                  zdetor:USD
+                                                )
+                                    ] .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Drink
+zdetor:Drink rdf:type owl:Class ;
+             owl:disjointWith zdetor:Food .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Food
+zdetor:Food rdf:type owl:Class .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/GreekRestaurant
+zdetor:GreekRestaurant rdf:type owl:Class ;
+                       rdfs:subClassOf zdetor:Restaurant .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/HawaiianPizza
+zdetor:HawaiianPizza rdf:type owl:Class ;
+                     rdfs:subClassOf zdetor:NamedPizza .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/ItalianRestaurant
+zdetor:ItalianRestaurant rdf:type owl:Class ;
+                         rdfs:subClassOf zdetor:Restaurant .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/MargheritaPizza
+zdetor:MargheritaPizza rdf:type owl:Class ;
+                       rdfs:subClassOf zdetor:NamedPizza .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/MediterraneanRestaurant
+zdetor:MediterraneanRestaurant rdf:type owl:Class ;
+                               rdfs:subClassOf zdetor:Restaurant .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/MenuItem
+zdetor:MenuItem rdf:type owl:Class ;
+                rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                  owl:onProperty zdetor:isMenuItemOf ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onClass zdetor:Restaurant
+                                ] .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/MexicanRestaurant
+zdetor:MexicanRestaurant rdf:type owl:Class ;
+                         rdfs:subClassOf zdetor:Restaurant .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/NamedPizza
+zdetor:NamedPizza rdf:type owl:Class ;
+                  rdfs:subClassOf zdetor:Pizza .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/PepperoniPizza
+zdetor:PepperoniPizza rdf:type owl:Class ;
+                      rdfs:subClassOf zdetor:NamedPizza .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Pizza
+zdetor:Pizza rdf:type owl:Class ;
+             rdfs:subClassOf zdetor:Food .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/PizzaRestaurant
+zdetor:PizzaRestaurant rdf:type owl:Class ;
+                       rdfs:subClassOf zdetor:Restaurant .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/PizzaTopping
+zdetor:PizzaTopping rdf:type owl:Class ;
+                    rdfs:subClassOf zdetor:Food .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Place
+zdetor:Place rdf:type owl:Class ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty zdetor:hasAddress ;
+                               owl:someValuesFrom zdetor:Address
+                             ] .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Restaurant
+zdetor:Restaurant rdf:type owl:Class ;
+                  rdfs:subClassOf zdetor:Place ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty zdetor:hasMenuItem ;
+                                    owl:someValuesFrom zdetor:MenuItem
+                                  ] .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/SeafoodRestaurant
+zdetor:SeafoodRestaurant rdf:type owl:Class ;
+                         rdfs:subClassOf zdetor:Restaurant .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/State
+zdetor:State rdf:type owl:Class .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/SushiRestaurant
+zdetor:SushiRestaurant rdf:type owl:Class ;
+                       rdfs:subClassOf zdetor:Restaurant .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/EUR
+zdetor:EUR rdf:type owl:NamedIndividual ,
+                    zdetor:Currency .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/GBP
+zdetor:GBP rdf:type owl:NamedIndividual ,
+                    zdetor:Currency .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/USD
+zdetor:USD rdf:type owl:NamedIndividual ,
+                    zdetor:Currency .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( zdetor:BiancaWhitePizza
+                zdetor:HawaiianPizza
+                zdetor:MargheritaPizza
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

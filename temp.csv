@@ -1,0 +1,992 @@
+,name,address,city,country,state,postcode,new_state
+0,Little Pizza Paradise,Cascade Village Mall Across From Target,Bend,US,OR,97701,OR
+2,The Brentwood,148 S Barrington Ave,Los Angeles,US,Brentwood,90049,CA
+7,Bravo Pizza Hollywood,5142 Hollywood Blvd,Los Angeles,US,Los Feliz,90027,CA
+13,Lucky's Pub,801 Saint Emanuel St,Houston,US,TX,77003,TX
+14,Roadhouse Cafe,478 South St,Hyannis,US,MA,2601,MA
+16,Brigham Young University,1 N University Hl,Provo,US,UT,84602,UT
+20,Luke's Locker,9595 Six Pines Dr,Spring,US,TX,77380,TX
+21,Francesca's On Chestnut,200 E Chestnut St,Chicago,US,Ontario Street,60611,IL
+25,Country Bagel Bakery,145 E Gay St,West Chester,US,PA,,PA
+31,Country Bagel Bakery,145 E Gay St,West Chester,US,PA,19380,PA
+32,Buca Di Beppo - San Jose - Oakridge,925 Blossom Hill Road Oakridge Mall,San Jose,US,CA,95123,CA
+33,Giovanni's Pizza and Pasta,26900 Newport Rd,Menifee,US,CA,92584,CA
+42,Uncle John's Pizza,3480 S Carrier Pkwy,Grand Prairie,US,TX,75052,TX
+44,Philly's Subs,2111 Stewart Ave,Wausau,US,WI,54401,WI
+45,Satsuma,1707 Delaware Ave,Wilmington,US,DE,19806,DE
+47,Gatehouse Restaurant,116 Ann St,Pickens,US,SC,29671,SC
+48,Imo's Pizza,2000 El Lago Dr,Arnold,US,MO,63010,MO
+53,Applebee's Tracy,3060 Naglee Rd,Tracy,US,CA,95304,CA
+54,Little Caesars Pizza,2619 Red Bluff Kroger Jct,Pasadena,US,TX,77506,TX
+57,Joey's N Y Pizza,11165 S Eastern Ave,Henderson,US,NV,89052,NV
+61,Keyme,21100 91st Pl S,Kent,US,WA,98031,WA
+62,Tower Hill Tavern,264 Lakeside Ave,Laconia,US,Weirs Beach,3246,NH
+63,Brio Tuscan Grille - Southlake - Southlake Town Square,1431 Plaza Pl,Southlake,US,TX,76092,TX
+64,Doubledave's Pizza Works,3505 A Longmire Dr,College Station,US,TX,77845,TX
+66,Frank's Pizzeria,711 N 132nd St,Omaha,US,NE,68154,NE
+71,Casino's Pizza,190 N Swift Rd,Addison,US,IL,60101,IL
+73,Glutenfree Things,11651 W 64th Ave,Arvada,US,CO,80004,CO
+75,Mediterraneo Ristorante,22 Englar Rd,Westminster,US,MD,21157,MD
+76,Patrick Molloy's Sports Pub,50a,Hermosa Beach,US,CA,90254,CA
+79,Salerno's Pizza Restaurant,19 Kelly St,Luzerne,US,PA,18709,PA
+81,Nino's Trattoria & Pizzeria,111 Lawrence Rd,Lawrence Township,US,Lawrenceville,8648,
+109,Oceano Bistro - Clayton,44 N Brentwood,Saint Louis,US,MO,63105,MO
+110,Brothers 2,2901 Watson Blvd,Endicott,US,Crestview Heights,13760,
+112,Uno Pizzeria & Grill - Sturbridge,100 Charlton Rd,Sturbridge,US,MA,1566,MA
+120,Doubledave's Pizzaworks,401 E Whitestone Blvd,Cedar Park,US,TX,78613,TX
+122,Buon Cibo,2631 Mcingvale Rd,Hernando,US,MS,38632,MS
+125,Tomato & Basil,1876 Black Rock Tpke,Fairfield,US,CT,6825,CT
+127,Blockbuster,1310 N W 23rd Ave,Gainesville,US,FL,32605,FL
+128,Stissing House,7801 S Main St,Pine Plains,US,Mount Ross,12567,
+129,Larosa's Pizzeria,901 Loveland Madeira Rd,Loveland,US,Murdock,45140,OH
+130,Mario's - Staten Island,1657 Richmond Rd,Staten Island,US,NY,10304,NY
+133,The Lookout Catering,8680 Pineview Ln N,Osseo,US,Hassan,55369,MN
+135,Boston's Restaurant & Sports Bar,14004 E Indiana Ave,Spokane,US,City Of Spokane Valley,99216,WA
+136,Ristorante Italiano,555 Soquel Ave,Santa Cruz,US,CA,95062,CA
+137,Zios Italian Kitchen - Olathe,11981 S Strang Line Rd,Olathe,US,KS,66062,KS
+144,Town Pub,378 Broad St,Bloomfield,US,Grove,7003,MO
+148,I Love Bagels,28985 Golden Lantern,Laguna Niguel,US,CA,92677,CA
+149,Ming Garden Cocktails Chinese Restaurant,4138 Ogletown Stanton Rd,Newark,US,DE,19713,DE
+150,Tascali's Decades Pasta & Grill,6007 Us 60 E,Barboursville,US,WV,25504,WV
+152,Chena's Alaskan Grill,4200 Boat St,Fairbanks,US,AK,99709,AK
+153,La Hacienda,1602 E Forsyth St,Americus,US,GA,31709,GA
+154,West River Cafe,148 W River St,Providence,US,No Providence,2904,KY
+155,Original Giorgio's,14 Scott Adam Rd,Cockeysville,US,MD,21030,MD
+175,Casa-Rica,400 N Center St,Westminster,US,MD,21157,MD
+176,Crane Alley,115 W Main St,Urbana,US,IL,61801,IL
+177,Peter Piper Pizza,4940 E Ray Rd,Phoenix,US,AZ,85044,AZ
+178,Gina Maria's Pizza,1400 County Road 101 N,Minneapolis,US,MN,55447,MN
+180,Martinizing,14805 W 64th Ave,Arvada,US,CO,80007,CO
+181,Nypd Pizza,400 S Orlando Ave,Maitland,US,FL,32751,FL
+184,Enterprise Deli,1 Corporate Dr,Shelton,US,CT,6484,CT
+185,Pizza Bistro,4952 Merrick Rd,Massapequa Park,US,NY,11762,NY
+186,Riccardo's Pizza,522 Saddle River Rd,Saddle Brook,US,NJ,7663,NJ
+198,Carluccio's,932 S 10th St,Philadelphia,US,PA,19147,PA
+201,Avellino's Pizza,775 Goodman Rd E,Southaven,US,MS,38671,MS
+202,Prima Pizza,133 Back River Neck Rd,Essex,US,MD,21221,MD
+210,Prince Pizza,22507 Plymouth Rd,Redford,US,MI,48239,MI
+212,Jet's Pizza,901 Nordic Dr,White Lake,US,MI,48383,MI
+214,Harry's Pizza,405 Sea St,Quincy,US,Quincy Center,2169,IL
+215,Greek's Pizzeria,8028 S Emerson Ave,Indianapolis,US,IN,46237,IN
+221,The Spud Spot,1818 Manhattan Blvd,Harvey,US,LA,70058,LA
+222,China Kitchen,406 E Colfax Ave,Denver,US,CO,80203,CO
+223,Tavern At The Inn,200 E Main Cross St,Findlay,US,OH,45840,OH
+226,California Pizza Kitchen,10300 Forest Hill Blvd,Wellington,US,Village Of Wellington,33414,FL
+228,Knolla's Pizza,3817 W 13th St N,Wichita,US,KS,67203,KS
+229,Sluggers Sports Bar,14 E 10th St,Erie,US,PA,16501,PA
+231,Suraya's - Grill and Fried Chicken,1665 Stelton Rd,Piscataway,US,NJ,8854,NJ
+237,Icon Grill,1933 5th Ave,Seattle,US,WA,98101,WA
+244,Michael's Jewish Delicatessen,130 Town Center Rd,King Of Prussia,US,PA,19406,PA
+245,Spagio,1295 Grandview Ave,Columbus,US,Marble Cliff,43212,OH
+246,Atheneos Greek Village Cafe,1425 Gross Rd,Mesquite,US,TX,75149,TX
+249,Midori Japanese Restaurant,3130 Route 10 W,Denville,US,NJ,7834,NJ
+250,China Moon,938 N Main St,Suffolk,US,VA,23434,VA
+251,Louie's Pizza,1019 Westgate Ave,Newark,US,OH,43055,OH
+252,Walnut Grille,1203 Walnut St,Newton Highlands,US,MA,2461,MA
+255,Pirate's Cove,1401 Coshocton Ave,Mount Vernon,US,OH,43050,OH
+264,Antonio's Pizza,1001 Jason Pl,Chatham,US,IL,62629,IL
+271,Broad Street Cafe,562 Broad St,Newark,US,Midtown,7102,AR
+274,Art Cafe,3610 Route 378,Bethlehem,US,PA,18015,PA
+275,Hunan Gourmet,357 Us Highway 9,Englishtown,US,NJ,7726,NJ
+276,Austin's Pizza,7301 N Fm 620,Austin,US,TX,78726,TX
+281,Sir Pizza,Madison St,Madison,US,TN,,TN
+282,Milanos Pizza,9822 Libra Ave,Sacramento,US,CA,95827,CA
+293,Lineage - Permanently Closed,242 Harvard St,Brookline,US,MA,2446,MA
+294,Fox's Pizza Den,4921 State Road 26 E,Lafayette,US,IN,47905,IN
+298,Bronson Strike Zone,717 E Chicago St,Bronson,US,MI,49028,MI
+302,Copeland's Cheescake Bistro,2001 Saint Charles Ave,New Orleans,US,LA,70130,LA
+304,Uno Pizzeria & Grill,95 Mall Rd Burlington Mall Nordstrom Entrance,Burlington,US,MA,1803,MA
+313,Dioli's Italian Market,2898 Reynolda Rd,Winston Salem,US,Oldtown,27106,
+315,D. Vino Italian Food and Wine Bar - Monte Carlo,3770 Las Vegas Blvd S,Las Vegas,US,NV,89109,NV
+316,Little Italy Pizza,1495 Union Ave,Memphis,US,Mphs,38104,TN
+317,Mexican Gardens,15950 Eureka Rd,Southgate,US,MI,48195,MI
+319,Mi Pal's Deli,2300 S 16th St,Philadelphia,US,PA,19145,PA
+329,Supreme Roast Beef & Sea Food,18 Maple St,Danvers,US,MA,1923,MA
+330,Rosa Ii Pizzeria & Restaurant,7559 Metropolitan Ave,Middle Village,US,Elmhurst,11379,
+332,Taco Pronto,8385 W 21st St N,Wichita,US,KS,67205,KS
+333,Tre Restaurant & Wine Bar,173 Ludlow St,New York,US,New York City,10002,NY
+334,Tilted Kilt Mission Valley,1640 Camino Del Rio N,San Diego,US,CA,92108,CA
+335,Gran Morsi,22 Warren St,New York,US,Manhattan,10007,NY
+346,Kennebunk House Of Pizza,5 York St,Kennebunk,US,ME,4043,ME
+348,The Fire Den,1231 Park St,Alameda,US,CA,94501,CA
+361,Russo's Pizza,1760 44th St S W,Wyoming,US,MI,49519,MI
+363,Kyoto Sushi,153 11 Union Tpke,Flushing,US,Queens,11367,MI
+364,Booies Pizza,653 W 26th St,Erie,US,PA,16508,PA
+365,Patsy's Pizzeria,801 2nd Ave,New York,US,Manhattan,10017,NY
+366,Fazoli's,315 S College Mall Rd,Bloomington,US,IN,47401,IN
+368,Paisans Pizza - Berwyn,6226 W Ogden,Berwyn,US,IL,60402,IL
+371,The Italian Oven,623 Highland Ave,Connellsville,US,S Connelsvl,15425,
+372,Pagliacci Pizza,13005 N E 70th Pl,Kirkland,US,Juanita,98033,WA
+373,The Melting Pot - White Plains,30 Mamaroneck Ave,White Plains,US,NY,10601,NY
+375,Oh' Brian's on the Green,1300 Raritan Rd,Clark,US,NJ,7066,NJ
+377,Baldinelli Pizza,12326 W 143rd St,Homer Glen,US,IL,,IL
+379,Valley Lahvosh Baking,502 M St,Fresno,US,CA,,CA
+380,Cristy's Pizza,1001 S Main St,Baltimore,US,OH,43105,OH
+389,Steinway Pizza,3151 Steinway St,Astoria,US,Queens,11103,OR
+399,Potbelly Sandwich Shop,Midway Airport,Chicago,US,Forest View,60638,IL
+400,Charlies American Grill & Spirits,701 Gordon Dr,Sioux City,US,IA,51101,IA
+401,Cafe Veloce,12514 120th Ave N E,Kirkland,US,Kingsgate,98034,WA
+402,Hungry Howie's Pizza,1909 E Ray Rd,Chandler,US,AZ,85225,AZ
+416,Tony Soprano's Pizza,3747 Church Rd,Mount Laurel,US,Mount Laurel Township,8054,
+417,Pie In The Sky,267 Swanton Rd,Saint Albans,US,St Albans,5478,
+418,Mellow Mushroom Pizza Bakers,1201 16th St,Denver,US,CO,80202,CO
+429,Grassfields Bar & Grill,Rt 114,Danvers,US,MA,1923,MA
+430,Tavern On The Square,18607 Bothell Way N E,Bothell,US,Queensgate,98011,WA
+431,Euro Pizzeria,120 E Post Rd,White Plains,US,NY,10601,NY
+441,Abo's Pizza,2220 Wildcat Reserve,Littleton,US,CO,80129,CO
+449,Rivertowne North Shore,337 N Shore Dr,Pittsburgh,US,Pitt,15212,PA
+462,Lake Bowl Inc,1165 N Stratford Rd,Moses Lake,US,Raugust,98837,WA
+463,Burgers & Cupcakes,458 9th Ave,New York,US,Nyc,10018,NY
+472,Mo's Pub Eatery,317 2nd St,Langley,US,WA,98260,WA
+474,Larosa's Pizzeria,6607 Glenway Ave,Cincinnati,US,Fairmont,45211,OH
+475,Baglianis Food Market,417 12th St,Hammonton,US,Blue Anchor,8037,
+476,The Hamilton Inn,708 Jersey Ave,Hoboken,US,Uptown,7030,NJ
+477,Rancho Viejo Mexican Grill,715 Lenoir Rhyne Blvd S E,Hickory,US,Longview,28602,NC
+478,Ton's Drive-in,101 W Main St,Broussard,US,LA,70518,LA
+479,Khan's Bar & Grill,1125 H St NE,Washington,US,DC,20002,DC
+480,C19,267 S 19th St,Philadelphia,US,Phila,19103,PA
+481,Zpizza,5365 Alton Pkwy,Irvine,US,CA,92604,CA
+483,California Pizza Kitchen,3401 Esperanza Xing,Austin,US,TX,78758,TX
+486,Bosses Pizza - Keller,201 N Main St,Keller,US,TX,76248,TX
+490,East Coast Wings & Grill,800 N Main St,Kernersville,US,Matthewstown,27284,
+491,Brando's Pizza,1042 Union Rd,Buffalo,US,NY,14224,NY
+497,Woolworth Tower Kitchen,233 Broadway,New York,US,Nyc,10279,NY
+498,Ralph's Grocery Deli,2035 4th Ave,Seattle,US,WA,98121,WA
+499,John's of 12th Street,302 E 12th St,New York,US,Manhattan,10003,NY
+501,Kingston Pizza,659 W Main Rd,Middletown,US,RI,2842,RI
+515,Hotel Fiesole - Bella Rossa,4046 Skippack Pike,Skippack,US,PA,19474,PA
+520,Doubledave's Pizzaworks,3208 N Loop 250 W,Midland,US,TX,79707,TX
+521,Maggiano's Little Italy,4999 Old Orchard Shopping Ctr,Skokie,US,IL,60077,IL
+522,Bearno's Pizza,6101 Bardstown Rd,Louisville,US,KY,40291,KY
+528,Piero's Pizza Vino,73722 El Paseo,Palm Desert,US,CA,92260,CA
+529,That 70s Dough,1720 E Sternberg Rd,Fruitport,US,MI,49415,MI
+530,Sanderlings - Seascape Resort,1 Seascape Resort Dr,Aptos,US,Seacliff,95003,
+531,Ace's Pizza,1516 E Wood St,Paris,US,TN,38242,TN
+534,California Pizza Kitchen,109 W County Ctr,Saint Louis,US,Country Life Acres,63131,MO
+537,Papa John's Pizza,16049 Johnson Rd,Charlotte,US,NC,28277,NC
+540,Tailgators Sports Grill,1788 Main St W,Locust,US,NC,28097,NC
+541,Medway Village Pizza,135 Village St,Medway,US,MA,2053,MA
+543,Casey's General Store,1402 S 12th Ave,Marshalltown,US,IA,50158,IA
+549,Pizza Chef,944 S Irby St,Florence,US,SC,29501,SC
+551,Papa Joe's Pizza,1294 Chalkstone Ave,Providence,US,RI,2908,RI
+554,Bagelface Bakery,700 Main St,Nashville,US,TN,37206,TN
+555,Old Mill Brewpub,711 E Main St,Lexington,US,Edmund,29072,KY
+556,Cruise Shop,317 S Main St,Grapevine,US,TX,76051,TX
+561,Suds & Suds,1045 NW Kings Blvd,Corvallis,US,OR,97330,OR
+562,Philtower Building,427 S Boston Ave,Tulsa,US,OK,74103,OK
+563,Ciao Bella,1514 Us 41,Schererville,US,IN,46375,IN
+572,Bay Ridge Eatery,9128 5th Ave,Brooklyn,US,NY,11209,NY
+573,Don Giovanni Ristorante Italiano and Wine Bar,18 Auburn Way S,Auburn,US,WA,98002,WA
+574,Terramia Ristorante,1150 Douglas Ave,Altamonte Springs,US,FL,32714,FL
+576,Oscar's Woodmont Kitchen,186 Hillside Ave,Milford,US,CT,6460,CT
+577,District - San Francisco,216 Townsend St,San Francisco,US,CA,94107,CA
+578,Interurban,300 E Grand Ave,Chickasha,US,OK,73018,OK
+581,Candlelight Dinner Playhouse,4747 Marketplace Dr,Johnstown,US,CO,80534,CO
+582,Waterfront Restaurant,& The Embarcadero,San Francisco,US,CA,94111,CA
+588,Pizza Pizazz,32925 1st Ave S,Federal Way,US,WA,98003,WA
+589,Tomo Steak and Sushi,3500 E Main St,Farmington,US,NM,87402,NM
+590,Victoria's Secret Pink,11301 Rockville Pike,Kensington,US,MD,20895,MD
+591,Baba Louie's,286 Main St,Great Barrington,US,N Egremont,1230,
+594,Ayhan's Shish Kebab,1504 Old Country Rd,Westbury,US,NY,11590,NY
+596,Bella Via,4746 Vernon Blvd,Long Island City,US,Queens,11101,
+599,Dennisport House of Pizza,481 Main St,Dennis Port,US,MA,2639,MA
+601,Custom Pie,6593 Collins Dr,Moorpark,US,CA,93021,CA
+605,Twisted Olive Cafe,319 Bay St,Petoskey,US,MI,49770,MI
+607,Patrizio,305 W Fm 1382,Cedar Hill,US,TX,75104,TX
+608,Gluten Free Creations,10880 N 32nd St,Phoenix,US,AZ,85028,AZ
+611,Labella Pizza and Pasta,15 Route 236,Clifton Park,US,Elnora,12065,
+642,Captains Point,305 E Harrison St,Lakeview,US,OH,43331,OH
+643,The Perfect Pizza Company,9774 Zimbro Ave,Manassas,US,VA,20110,VA
+647,7 Day 24 Hours Emergency Locks,3502 Park Ave,Weehawken,US,NJ,7086,NJ
+665,Pancho Mc Gillicuddy's Mexican,141 W Railroad Ave,Williams,US,AZ,86046,AZ
+666,Doughboys,8136 W 3rd St,Los Angeles,US,Bicentennial,90048,CA
+667,Green Garden,15740 Aurora Ave N,Seattle,US,Richmond Highlands,98133,WA
+668,Pizza Hut,551 E Laburnum Ave,Richmond,US,VA,23222,VA
+671,Breakside Brewery,5821 SE International Way,Portland,US,OR,97222,OR
+672,Spinelli's Pizza,2905 Goose Creek Rd,Louisville,US,Brownsboro Farm,40241,KY
+680,Franklin Giant Grinder Shop,448 Franklin Ave,Hartford,US,Htfd,6114,IA
+681,Takka Grill,418 E Wyoming Ave,Philadelphia,US,PA,19120,PA
+707,Mamma Lucia,12274 Rockville Pike,Rockville,US,No Bethesda,20852,MD
+716,Il Primo Pizza Wings,5781 Lee Blvd,Lehigh Acres,US,FL,33971,FL
+721,Campania Pizza,291 Grand Ave,Southlake,US,TX,76092,TX
+722,You-be's U-bake Pizza,820 N Alta Ave,Dinuba,US,CA,93618,CA
+724,"Solamor Hospice | Denver, Co",2460 W 26th Ave,Denver,US,CO,80211,CO
+727,Pizza Chalet,34579 Yucaipa Blvd,Yucaipa,US,CA,92399,CA
+741,Calderone Club,8001 N Port Washington Rd,Milwaukee,US,Glendale,53217,WI
+742,Franky's,1250 W Lake St,Addison,US,IL,60101,IL
+746,Izakaya Bincho,112 Internatl Boardwalk,Redondo Beach,US,CA,90277,CA
+748,Giovanni's Pizzeria,637 Wyckoff Ave,Wyckoff,US,NJ,7481,NJ
+768,Rico's Pizza,1420 E Hatch Rd,Modesto,US,CA,95351,CA
+769,Mediterranean Harbour Bar & Grill,13 Harbourside Ln,Hilton Head Island,US,SC,29928,SC
+770,Lucero's Pizza,11200 Scaggsville Rd,Laurel,US,MD,20723,MD
+771,Pasta Faire,10401 Us 441,Belleview,US,FL,34420,FL
+779,Roosevelt's American Homestyle Deli,684 King George Rd,Fords,US,NJ,8863,NJ
+781,Buca Di Beppo,1812 Red Cliffs Dr,Saint George,US,Bloomington Hills,84790,UT
+782,Olivas' Mexican Food,8370 E State Route 69,Prescott Valley,US,AZ,86314,AZ
+783,Village Roast Beef & Seafood,6 Bessom St,Marblehead,US,MA,1945,MA
+784,Stella Notte,8809 Baltimore National Pike,Ellicott City,US,Oella,21043,
+793,The Veranda At The Kahala Resort,5000 Kahala Ave,Honolulu,US,Hono,96816,HI
+794,Nobody's Sports Grill and Bbq,116 John R Rice Blvd,Murfreesboro,US,Murfreesbr,37129,TN
+797,Dream Cafe,2800 Routh St,Dallas,US,TX,75201,TX
+798,Crown Fried Chicken,1101 Filbert St,Philadelphia,US,Wm Penn Anx W,19107,PA
+799,La Hacienda Real,3960 Commercial St S E,Salem,US,OR,,OR
+805,Nm Cafe At Neiman Marcus Topanga,6550 Topanga Canyon Blvd,Chatsworth,US,CA,91313,CA
+807,Kings Chicago - Lincoln Park,1500 N Clybourn Ave,Chicago,US,Fort Dearborn,60610,IL
+809,Toni's By George,399 Main St,Medford,US,West Medford,2155,OR
+810,Joey Nova's Pizzeria and Grilled Subs,5655 Manitou Rd,Excelsior,US,Deephaven,55331,MN
+817,Bellacino's Grinders & Pizza,2320 Tiffin Ave,Findlay,US,OH,45840,OH
+821,Suite 600,600 George Washington Hwy,Lincoln,US,RI,2865,RI
+823,John Gino's Pizza,8436 S 88th Ave,Justice,US,IL,60458,IL
+825,The Sportsgrille,121 4th Ave S,Nashville,US,TN,37201,TN
+826,Buddha Belly Deli,50 N Valle Verde Dr,Henderson,US,NV,89074,NV
+827,Blue Agave Mexican Restaurant,3558 W Pinhook Rd,Lafayette,US,LA,70508,LA
+828,Donte's Restaurant & Pizza Shop,20850 Sheldon Rd,Brookpark,US,OH,44142,OH
+829,Goodfella's Cafe,31 S Arlington Ave,Baltimore,US,MD,21223,MD
+830,Caseys Carry Out Pizza,487 S Business Route 5,Camdenton,US,MO,65020,MO
+834,Galaxy Diner,293 Saint Georges Ave,Rahway,US,NJ,7065,NJ
+837,Vecchia - Wayne,134 N Wayne Ave,Wayne,US,Saint Davids,19087,MO
+842,Rye Grill and Bar,1 Station Plz,Rye,US,NY,10580,NY
+844,La Fresca Pizza,5300 N Braeswood Blvd,Houston,US,TX,77096,TX
+846,The County Cork Wine Pub,1716 Liberty Rd,Sykesville,US,MD,21784,MD
+853,The Marina,2404 Sunnyside Dr,Cadillac,US,MI,49601,MI
+855,The Melting Pot - Albuquerque,2201 Uptown Loop N E,Albuquerque,US,NM,87110,NM
+857,Pietro's Coal Oven Pizza - South Street,121 123 South St,Philadelphia,US,PA,19147,PA
+858,Applebee's,4100 Crain Hwy,Bowie,US,South Bowie,20716,MD
+859,Minervas,257 Main St,Wareham,US,MA,2571,MA
+861,Two Brothers Pizza,19065 Beach Blvd,Huntington Beach,US,CA,92648,CA
+876,Papa John's Pizza,275 N Morton St,Franklin,US,Bengal,46131,IN
+879,Brix Wine Café,9749 N E 119th Way,Kirkland,US,Kingsgate,98034,WA
+882,The 263 Restaurant & Provisions,1705 N. Cuernavaca Dr.,Austin,US,TX,78733,TX
+883,Hungry Howie's Pizza,33901 Woodward Ave,Birmingham,US,MI,48009,MI
+891,Mama's Pizza & Restaurant,15080 Idlewild Rd,Matthews,US,Wesley Chapel,28104,KY
+898,Calabash Island Eats,1515 Pease St,Houston,US,TX,77002,TX
+900,California Pizza Kitchen - Nyc,440 Park Ave S,New York,US,Nyc,10016,NY
+902,Laishley Crab House,150 Laishley Ct,Punta Gorda,US,FL,33950,FL
+903,Mr. Chung's,78 Speedwell Ave,Morristown,US,NJ,7960,NJ
+905,Bodrum Turkish Mediterranean,584 Amsterdam Ave,New York,US,Nyc,10024,NY
+912,Lazy Mary's,30 Littleton Rd,Ayer,US,Fort Devens,1432,MO
+913,American Pie,13440 22 Mile Rd,Utica,US,MI,48315,MI
+915,Amico's Pizza & Pasta,4032 Cedar Springs Rd,Dallas,US,TX,75219,TX
+916,Passero's Pizza,5328 Main Saint (rt 53),Lisle,US,IL,60532,IL
+919,Panda Garden,600 N Colony Rd,Wallingford,US,CT,6492,CT
+920,Mr. Broast,2202 Ogden Ave,Aurora,US,IL,60504,IL
+921,Milt's Pizza Place Llc,8122 Guide Meridian Rd,Lynden,US,WA,,WA
+926,Pizza Time,3906 S 12th St,Tacoma,US,WA,98405,WA
+928,Ciddici's,859 Belmont Ave S W,Albany,US,OR,97321,OR
+930,Francesco Pizzeria and Ristorante,340 W Broad St,Burlington,US,Burlngtn City,8016,IA
+933,AquaTerra Grille,420 N Middletown Rd,Pearl River,US,NY,10965,NY
+938,Cafe Americana,550 Main St,Cincinnati,US,OH,45202-5211,OH
+940,Terra American Bistro,7091 El Cajon,San Diego,US,CA,92115,CA
+941,Ya Ya Noodles Chinese Restaurant,1325 Us Highway 206,Skillman,US,NJ,8558,NJ
+942,Penn State Sub Shop #3,1788 N Atherton St,State College,US,PA,16803,PA
+946,Applebee's,980 Razorback Dr,Houghton,US,MI,49931,MI
+947,Freshii,2420 Columbia House Blvd,Vancouver,US,WA,98661,WA
+949,Bravo Cucina Italiana - Willow Grove,2500 Moreland Rd,Willow Grove,US,PA,19090,PA
+954,Delicious Heights Berkley Heights,428 Springfield Ave,Berkeley Heights,US,NJ,7922,NJ
+955,Mango Cafe,222 E Main St,Mount Kisco,US,NY,10549,NY
+956,Good Company Bar,7625 N Union Blvd,Colorado Springs,US,Colorado Spgs,80920,CO
+964,The Wild Goose,4144 Erie St,Willoughby,US,Willoughby Hills,44094,OH
+965,The Tuck Room-north Miami,3701 N E 163rd St,North Miami Beach,US,Miami,33160,FL
+967,City Pizza,1370 Riverfront Ctr,Amsterdam,US,West Glenville,12010,NY
+979,Nick's Pizza,750 W High St,Pottstown,US,PA,19464,PA
+980,Harry & Izzy's - Northside,4050 E 82nd St,Indianapolis,US,IN,46250,IN
+982,Spinning Wheel Diner,283 U.S. 22,Califon,US,NJ,7830,NJ
+983,Park Deli Too,51 Commercial Ave,New Brunswick,US,NJ,8901,NJ
+984,Villa Enrico,11 01 43rd Ave,Long Island City,US,Queens,11101,
+986,Bagels & Brew,26601 Aliso Creek Rd,Aliso Viejo,US,CA,92656,CA
+989,Mario's Pizza,1066 Hanes Mall Blvd,Winston Salem,US,Hanes,27103,
+992,Terrace Bagel,222 And 222a Prospect W,Brooklyn,US,NY,11215,NY
+994,Mama Pepino's Pizza,2417 Oneil Blvd,Mckeesport,US,PA,15131,PA
+996,Starbucks Coffee,3100 Lakeville Hwy,Petaluma,US,CA,94954,CA
+999,Hog Wild,14933 Pulaski Rd,Midlothian,US,IL,60445,IL
+1000,Maggiano's - Orlando,9101 International Dr,Orlando,US,FL,32819,FL
+1001,The Hil,9110 Selborne Ln,Palmetto,US,GA,30268,GA
+1004,Vinny's New York Pizza & Grill,6590 Sugarloaf Pkwy,Duluth,US,GA,30097,GA
+1009,Bulldawgs Pizza,2026 S Milledge Ave,Athens,US,GA,30605,GA
+1010,Pronto Pizza,303 SE 17th St,Ocala,US,FL,34471,FL
+1029,Great River Bowl & Partners Pub,208 2nd St S,Sartell,US,MN,56377,MN
+1030,Toscana,11633 San Vicente Blvd,Los Angeles,US,Brentwood,90049,CA
+1032,Greco's,45 Washington Ave,Wheeling,US,Mozart,26003,WV
+1037,Mr Zubs Deli,132 S Water St,Kent,US,OH,44240,OH
+1038,Little Nick's New York Pizzeria,2815 N Loop 1604 E,San Antonio,US,Hollywood Park,78232,TX
+1043,Mr Jims Pizza Inc,1604 N State Highway 161,Grand Prairie,US,TX,75050,TX
+1045,Phat Boyz New York Style Pizzeria,1365 Sam Nunn Blvd,Perry,US,GA,31069,GA
+1056,The Depot,201 Railroad St W,Missoula,US,MT,59802,MT
+1064,Ken Stewart's Grille,1970 W Market St,Akron,US,OH,44313,OH
+1066,Ynot Italian,1036 Volvo Pkwy,Chesapeake,US,VA,23320,VA
+1071,Pizza Bella,1136 Thorn Run Rd,Coraopolis,US,Carpolis,15108,
+1080,Mazatlan Restaurant,21616 Hwy 410,Bonney Lake,US,Bonney Lk,98391,WA
+1081,Chicken Derby Inc,10 Old Clairton Rd,Pittsburgh,US,West Mifflin,15236,PA
+1086,"Cedar + Stone, Urban Table",2141 Lindau Ln,Minneapolis,US,MN,55425,MN
+1090,Lola's Bowl and Bistro,9045 Crawfordsville Rd,Indianapolis,US,IN,46234,IN
+1096,That Pizza Place,3189 King Ave W,Billings,US,MT,59102,MT
+1097,Cellar Restaurant,302 N Main St,Blacksburg,US,VA,24060,VA
+1100,Crown Fried Chicken,9240 Guy R Brewer Blvd,Jamaica,US,Queens,11433,IA
+1102,Zeppoz,780 SE Bishop Blvd,Pullman,US,WA,99163,WA
+1103,Southside Grill & Margarita Factory,242 W Broadway,Gardner,US,MA,1440,MA
+1104,Fazoli's,1730 E Highland Dr,Jonesboro,US,AR,72401,AR
+1107,Anya's Pizza,7270 Victoria Park Ln,Rancho Cucamonga,US,CA,91739,CA
+1110,Senior Tequila,8605 Highway 107,Sherwood,US,Nlr,72120,AR
+1111,Paris Cafe,16607 Champion Way,Sandy,US,OR,97055,OR
+1113,The Cheesecake Factory - Thousand Oaks,442 W Hillcrest Dr,Thousand Oaks,US,CA,91360,CA
+1120,House of Brews,363 W 46th St,New York,US,Nyc,10036,NY
+1122,Papa Murphy's Pizza,61160 S Highway 97,Bend,US,OR,97702,OR
+1123,Printers Inc Cafe,310 S California Ave,Palo Alto,US,CA,94306,CA
+1124,Campion's Pizza,465 Buckland Rd,South Windsor,US,Wapping,6074,
+1128,Gino's Pizza,1829 Eastgate Rd,Toledo,US,OH,43614,OH
+1135,Kimono Japanese & Chinese Restaurant,519 Germantown Pike,Lafayette Hill,US,PA,19444,PA
+1136,Somma Pizza & Sports Bar,380 Route 909,Verona,US,PA,15147,PA
+1137,California Pizza Kitchen,11800 W Broad St,Henrico,US,VA,23233,VA
+1141,Lucky Mouse Chinese Gifts,5770 W Irlo Bronson Memorial Hwy,Kissimmee,US,FL,34746,FL
+1142,Tea For Two Lite,2811 Nostrand Ave,Brooklyn,US,NY,11229,NY
+1144,Straw Hat Pizza,191 San Felipe Rd,Hollister,US,CA,95023,CA
+1152,Verdile's,572 2nd Ave,Troy,US,Pleasantdale,12182,MO
+1153,Paloma's Pasta Cafe,650 Westchester Ave,Bronx,US,NY,10455,NY
+1154,Masago,39 Broad St,Morristown,US,NJ,,NJ
+1155,Cave of The Winds,Goat Is,Niagara Falls,US,NY,14303,NY
+1156,Maaco Collision Repair & Auto Painting,510 S Mason Rd,Katy,US,TX,77450,TX
+1164,Angie's Restaurant Pizzeria,8352 S Pulaski Rd,Chicago,US,IL,60652,IL
+1166,Centerville Pizza & Bbq,9470 Dayton Lebanon Pike,Dayton,US,Washington Township,45458,OH
+1170,Ristorante Via Alto 27,27 High St,Clinton,US,MA,1510,MA
+1171,The Boarding House,720 N Wls,Chicago,US,IL,60654,IL
+1175,Pizza City,7408 Windsor Mill Rd,Windsor Mill,US,MD,,MD
+1191,Raimondo's Pizza,1033 Kilbery Ln,North Aurora,US,IL,60542,IL
+1193,Susie's Pizza Inc,203 S Sandusky Ave,Upper Sandusky,US,OH,43351,OH
+1195,Clara's,6550 Lincoln Ave,Woodridge,US,IL,60517,IL
+1198,Pizza Masters,532 Broadway,Bayonne,US,Pamrapo,7002,NJ
+1200,Lpc - La Pietra Cucina,1545 Peachtree St N E,Atlanta,US,GA,30309,GA
+1202,Fresco,Rainbow Bazaar Hilton Hawaiian Vlg,Honolulu,US,Hono,96815,HI
+1206,Jacksons,1000 Corporate Dr,Canonsburg,US,PA,15317,PA
+1210,Raz's Little Italy,23233 Saticoy St,Canoga Park,US,CA,91304,CA
+1211,Tutti Gusti,Harrisonburg Va,Harrisonburg,US,VA,22801,VA
+1216,Bellini's Pizza & Grill,2918 N Herritage St,Kinston,US,NC,28501,NC
+1222,"Anastasia���s Pizza, Oven and Grill",12 Union Ave,Framingham,US,MA,1702,MA
+1223,Gio's Ristorante and Bar,701 Market St,Saint Louis,US,MO,63101,MO
+1225,Marco's Pizza,298 Racetrack Rd,Mcdonough,US,GA,30252,GA
+1235,Amis Creperie + Cafe,415 Grand Ave,South San Francisco,US,Ssf,94080,CA
+1236,Roma Bistro,655 5th Ave S,Naples,US,FL,34102,FL
+1241,La Vita's Pizzeria,121 W Main St,Moorestown,US,NJ,8057,NJ
+1248,Southend Brewery & Smokehouse,161 E Bay St,Charleston,US,SC,29401,SC
+1254,Jerry's Pizza & Subs,924 W 436,Altamonte Springs,US,FL,32714,FL
+1259,Golden Fox,1115 Culver Rd,Rochester,US,NY,14609,NY
+1260,Avenue Italy Cucina Italiana,31243 Palos Verdes Dr W,Rancho Palos Verdes,US,Pls Vrds Est,90275,CA
+1261,Famous Pizza of West Warwick,1738 Main St,West Warwick,US,RI,2893,RI
+1265,Town Pizza Deli,648 Main St,Reading,US,MA,1867,MA
+1267,The Ups Store,315 S Coast Highway 101,Encinitas,US,Olivenhain,92024,CA
+1268,24 Hour Express Locksmith Inc,2328 Fairmount Ave,Philadelphia,US,PA,19130,PA
+1275,River Rock,12833 Ventura Blvd,Studio City,US,CA,91604,CA
+1276,Jimmys Slice,586 E Main St,Ventura,US,La Conchita,93001,CA
+1279,Lebel Pizza,5254 Market St,Philadelphia,US,PA,19139,PA
+1289,Olde World Restaurant,14415 Tamiami Trl,North Port,US,FL,34287,FL
+1291,Eleni's Restaurant,2136 Middle Country Rd,Centereach,US,NY,11720,NY
+1295,The Grille At Shadowrock Sedona Hilton,90 Ridge Trail Dr,Sedona,US,AZ,86351-7390,AZ
+1296,Mike's Pizza And Pasta,803 Spartanburg Hwy,Hendersonville,US,NC,28792,NC
+1299,Bill's Pizza,14 Main St,Hopkinton,US,MA,1748,MA
+1300,China Taste,8 E Main St,Ephrata,US,Durlach,17522,WA
+1301,Sal Vito Pizza,910 Haddonfield Berlin Rd,Voorhees,US,Echelon,8043,
+1318,Barn Board Grill,517 Cherry Ln,Roberts,US,WI,54023,WI
+1320,Linguine's Italian Eatery,350 Boston Post Rd W,Marlborough,US,MA,1752,MA
+1328,Pizza Time,190 Moser Rd,Pottstown,US,PA,19464,PA
+1330,David's Club Bar & Grill,6001 Destination Parkway Hilton Orlando,Orlando,US,FL,32819,FL
+1332,New York Pizza Department & Bagels,2279 Eagle Glen Pkwy,Corona,US,CA,92883,CA
+1333,North End Pizzeria,11628 Santa Monica Blvd,Los Angeles,US,Wla,90025,CA
+1367,Little Hut Sandwich Shop,241 E Chester Pike,Ridley Park,US,PA,19078,PA
+1368,Spinners Rootop Revolving Bistro & Lounge @ Grand Plaza Hotel-st Pete Beach,5250 Gulf Blvd,Saint Petersburg,US,Saint Pete Beach,33706,FL
+1369,Flatbread Neapolitan Pizzeria,375 S W Powerhouse Dr,Bend,US,OR,97702,OR
+1370,Nana Sushi,411 Granby St,Norfolk,US,VA,23510,VA
+1371,Harvey's Bistro Park Ave @ Metro West,6400 Time Square Ave,Orlando,US,FL,32835,FL
+1372,Pizza Time,1223 Washington Ave,Portland,US,ME,4103,ME
+1376,Grant Street Pizza & Subs (reported��closed),4310 Vance Jackson Rd,San Antonio,US,TX,78230,TX
+1379,Uncle Al's Pizza Parlours,8707 W Ridge Rd,Elyria,US,Sheffield Village,44035,OH
+1382,Roosters Brewing Co,748 Heritage Park Blvd,Layton,US,UT,84041,UT
+1386,Rob,10 Chicago Ave,Oak Park,US,IL,60302,IL
+1387,Johnny Brusco Pizza,700 S E Walton Blvd,Bentonville,US,AR,72712,AR
+1395,Mama Mia's - Hollywood,1818 S Young Cir,Hollywood,US,FL,33020,FL
+1398,Manor Restaurant,Manor Rd,Staten Island,US,NY,10314,NY
+1399,Lagrande Pizza & Subs,16 S Blackhoof St,Wapakoneta,US,OH,45895,OH
+1402,Omelette & Waffle Café,580 Forest Ave,Plymouth,US,MI,48170,MI
+1403,Bikram's Yoga College of India,119 W Phoenix Ave,Flagstaff,US,AZ,86001,AZ
+1408,Oliveri's Pizzeria,14 Lebanon St,Hamilton,US,Randallsville,13346,MO
+1411,Dewolf Tavern,267 Thames St,Bristol,US,RI,2809,RI
+1413,Alexander's - Hilton Head Island,76 Queens Folly Rd,Hilton Head Island,US,SC,29928,SC
+1414,Zuccos Restaurant,451 Dalton Ave,Pittsfield,US,MA,1201,MA
+1415,Sonny's Delite,1730 Essington Rd,Joliet,US,Cresthill,60435,IL
+1417,Nonna's Pizza,52 Lake St,White Plains,US,North White Plains,10603,NY
+1434,The Allen Street Grill (hotel State College),100 W College Ave,State College,US,PA,16801-3838,PA
+1437,Zone Action Park,2600 W Expressway 83,Mcallen,US,TX,78501,TX
+1442,Elmer Sudds,475 E Northampton St,Wilkes Barre,US,City Of Wb,18702,PA
+1448,Casa Margarita's,101 West St,Grinnell,US,IA,50112,IA
+1449,Main Street Pie Company,14933 Main St,Alachua,US,FL,32615,FL
+1452,East End Kitchen - Permanently Closed,539 E 81st St,New York,US,Nyc,10028,NY
+1453,Firehouse,7701 White Ln,Bakersfield,US,CA,93309,CA
+1455,Brio Tuscan Grille - Las Vegas - Town Square,6653 S Las Vegas Blvd,Las Vegas,US,NV,89119,NV
+1456,Blackfinn Ameripub - Mt. Prospect,157 Randhurst Village Dr,Mount Prospect,US,IL,60056,IL
+1457,Verace: True Italian,599 Main St,Islip,US,Islip Manor,11751,
+1458,Positano - Greensboro,2605 Lawndale Dr,Greensboro,US,Guilford Courthouse National,27408,NC
+1466,Joey's Northside Pizzeria,200 Oak Hill Ave,Endicott,US,Crestview Heights,13760,
+1469,Kaydee Kats!,4109 N Prospect Rd,Peoria Heights,US,IL,61616,IL
+1485,The Melting Pot - Maple Shade Nj,584 Route 38 E,Maple Shade,US,NJ,8052,NJ
+1487,The Bistro,109 Old Chapin Rd,Lexington,US,Edmund,29072,KY
+1488,Visconti's Ristorante,2700 E Bidwell St,Folsom,US,Mormon Island,95630,CA
+1490,Wei Chuan Kitchen,46 Bergen Tpke,Little Ferry,US,NJ,7643,NJ
+1491,Bertucci's,2929 Berlin Tpke,Newington,US,Htfd,6111,
+1497,T.j.'s Hero Shop,524 Mastic Rd,Mastic Beach,US,Village Of Mastic Beach,11951,
+1499,Buca Di Beppo - Cedar Park,11200 Lakeline Mall Dr,Cedar Park,US,TX,78613,TX
+1500,Tony's Mexican Grill,8699 Ogden Ave,Lyons,US,IL,60534,IL
+1506,Kafe Neo - Marysville,9730 State Ave,Marysville,US,WA,98270,WA
+1507,Nm Cafe At Neiman Marcus - Palo Alto,400 Stanford Shopping Ctr,Palo Alto,US,CA,94304,CA
+1509,Greek Grill,90 Summit Ave,Summit,US,NJ,7901,NJ
+1515,'l Bistro,100 S 42nd St,Grand Forks,US,ND,58201,ND
+1521,Brio Tuscan Grille - North Bethesda,20 Paseo Dr,Rockville,US,No Bethesda,20852,MD
+1522,Brio Tuscan Grille - Danbury - Danbury Fair,7 Backus Ave,Danbury,US,CT,6810,CT
+1523,The Cheesecake Factory,8701 Keystone Xing,Indianapolis,US,Williams Crk,46240,IN
+1530,Buca Di Beppo - Thousand Oaks,205 N Moorpark Rd,Thousand Oaks,US,CA,91360,CA
+1531,Bistro Colorado,1552 Bergen Pkwy,Evergreen,US,CO,80439,CO
+1532,"Camden On The Lake Resort, Spa, Yacht Club",2359 Bittersweet Rd,Lake Ozark,US,Vlg Of 4 Ssns,65049,MO
+1534,Tiffany's Pizza,25066 Telegraph Rd,Flat Rock,US,Brownstown Twp,48134,MI
+1536,Giovanni's Pizzeria,250 Sicklerville Rd,Sicklerville,US,NJ,8081,NJ
+1546,Brio Tuscan Grille - Marlton - The Promenade At Sagemore,500 S Rt 73 10,Marlton,US,Evesham Twp,8053,
+1547,Italian Jim's Restaurant,15 S Broadway,Edmond,US,OK,73034,OK
+1549,Lucky Star Lounge,205 E Main St,Front Royal,US,Riverton,22630,VA
+1550,Papa John's Pizza,1602 Madison Ave,Covington,US,Park Hills,41011,KY
+1553,Francesco's Ristorante & Pizzeria,400 S Orlando Ave,Maitland,US,FL,32751,FL
+1555,The Uptown Restaurant & Bar,1576 3rd Ave,New York,US,Ny,10128,Ny
+1556,Roula's Pizza,6200 Germantown Ave,Philadelphia,US,PA,19144,PA
+1560,Brio Tuscan Grille - Columbus - Easton,3993 Easton Sta,Columbus,US,OH,43219,OH
+1561,Zimorino's Red Pies Over Montana,1250 W Broadway St,Missoula,US,MT,59802,MT
+1563,J & G Restaurant,35 S Main St,East Granby,US,CT,6026,CT
+1618,Eduardo's,1304 N Highway 81,Duncan,US,OK,73533,OK
+1620,Charley's Restaurant & Lounge,920 Madison Ave,Mankato,US,MN,56001,MN
+1621,Bellacino's Pizza & Grinders,1176 Roanoke Rd,Daleville,US,VA,24083,VA
+1625,The British Beer Company,263 Grand Ave,Falmouth,US,MA,2540,MA
+1627,The 10th,Mid Vail Area On Vail Mtn,Vail,US,West Vail,81657,IA
+1631,Aubree's Northville,20420 Haggerty Rd,Northville,US,MI,48167,MI
+1638,Papa Dino's,718 Culbertson Dr,Oklahoma City,US,OK,73105,OK
+1641,Land Sharks Pizza Co,300 Harbor Blvd,Destin,US,FL,32541,FL
+1642,Speak Easy,1100 N Shore Dr,Detroit Lakes,US,MN,56501,MN
+1645,Maggiano's - Perimeter,4400 Ashford Dunwoody Rd,Atlanta,US,GA,30346,GA
+1646,Primo's Pizza,24330 Meadowbrook Rd,Novi,US,MI,48375,MI
+1647,Macy's Place Pizzeria,3348 Genesee St,Buffalo,US,NY,14225,NY
+1652,Brio Tuscan Grille - Cherokee - Cherokee Casino,777 Casino Dr,Cherokee,US,NC,28719,NC
+1653,Louie's Pizza,5996 Stetson Hills Blvd,Colorado Springs,US,Cimarron Hills,80923,CO
+1659,The Round Table Cafe,2959 N Oakland Ave,Decatur,US,IL,62526,IL
+1660,Doubletree Hotel Modesto,1150 9th St,Modesto,US,CA,95354,CA
+1661,Chesdan's Pizzeria,15764 S Bell Rd,Homer Glen,US,IL,60491,IL
+1662,Draft Pick,1620 E Riverside Dr,Austin,US,TX,78741,TX
+1664,Brendan's Bar & Grill,42 W 35th St,New York,US,G P O,10001,NY
+1667,Center Pizza,648 Center St,Manchester,US,CT,6040,CT
+1669,Laveranda Ristorante Italiano,444 Railroad Ave,Pittsburg,US,West Pittsburg,94565,CA
+1671,Ellden's Grill & Banquet - River Oaks Golf Club,201 Whitehaven Rd,Grand Island,US,NY,14072,NY
+1674,Giannotti's Country Manor,3118 Pricetown Rd,Fleetwood,US,Ruscombmanor Twp,19522,
+1675,Yummy Yummy,115 S Black Horse Pike,Bellmawr,US,Gloucester City,8031,
+1676,The Green Table,4 Enterprise Ave N E,Isanti,US,MN,55040,MN
+1677,Sal's Italian Ristorante,6280 W Sample Rd,Pompano Beach,US,FL,33067,FL
+1682,Family Affair Cafe/restaurant,2061 W Galena Ave,Freeport,US,IL,61032,IL
+1683,Holy Cannoli,72 Main St,Waterville,US,ME,4901,ME
+1684,Marco's Pizza,244 N Court St,Medina,US,OH,44256,OH
+1689,Drkula's 32 Bowl,6710 Cahill Ave,Inver Grove Heights,US,South St Paul,55076,MN
+1699,Papa John's Pizza,1407 E Main St,Cherryville,US,NC,28021,NC
+1702,Villa Rose Pizza,1114 N State Road 7,Broward County,US,FL,,FL
+1703,Mama's Bakery Pizza & Salad Bar,800 Nicollet Mall,Minneapolis,US,MN,55402,MN
+1704,Mellow Mushroom Pizza Bakers,16000 Stuebner Airline Rd,Spring,US,TX,77379,TX
+1710,Life Is Good Store,Thames St,Newport,US,RI,2840,RI
+1714,Blackfinn American Grille,4840 Big Island Dr,Jacksonville,US,FL,32246,FL
+1715,Piara Pizza,1664 Indian Hill Blvd,Pomona,US,CA,91767,CA
+1721,Marcos Pizza,3910 Schofield Ave,Schofield,US,WI,54476,WI
+1726,Pat's Pizza,791 Us 1,Yarmouth,US,ME,4096,ME
+1728,Puerto Vallarta Mexican Restaurant,3207 N Pleasantburg Dr,Greenville,US,SC,29609,SC
+1730,Morina's Italian Restaurant,2006 S Pine St,Cabot,US,AR,72023,AR
+1740,Lucia of Greenlake,7102 Woodlawn Ave N E,Seattle,US,Wedgwood,98115,WA
+1741,Pasta Brioni,4416 N Miller,Scottsdale,US,AZ,85251,AZ
+1742,Pizza Factory,100 N White Mountain Rd,Show Low,US,AZ,85901,AZ
+1744,Papa John's Pizza,8251 W Union Hills Dr,Glendale,US,AZ,85308,AZ
+1747,Ameci Pizza & Pasta,25431 Trabuco Rd,Lake Forest,US,CA,92630,CA
+1765,La China Poblana,556 State Route 18,East Brunswick,US,NJ,8816,NJ
+1771,Michael's Cuisine,3413 W 7th St,Fort Worth,US,TX,76107,TX
+1778,Brio Tuscan Grille - Puerto Rico,1000 Mall Of San Juan Blvd,San Juan,US,Alt De Berwind,924,CA
+1779,Pino's On Main Pizza,2511 N Main St,Rockford,US,IL,61103,IL
+1783,Delosa's Pizza,12800 Village Blvd,Saint Petersburg,US,North Redington Beach,33708,FL
+1785,San Remo Pizza,7575 Buckley Rd,Syracuse,US,Syr,13212,MO
+1786,Obed & Isaac's Microbrewery and Eatery,500 S 6th St,Springfield,US,IL,62701,IL
+1787,Antoni's Italian Cafe,1118 Coolidge Blvd,Lafayette,US,LA,70503,LA
+1788,Brixx,5110 Washington Ave,Houston,US,TX,77007,TX
+1789,Johnny Carino's,2159 Burke St,Bozeman,US,MT,59718,MT
+1790,Max Brenner Chocolate Bar,1 Garden State Plz,Paramus,US,NJ,7652,NJ
+1791,El Rey Burrito Lounge,1031 E Fairview Ave,Montgomery,US,AL,36106,AL
+1792,Taste of Tuscany,7753 Roseville Rd,Sacramento,US,CA,95842,CA
+1793,Ak Diamonds,Old South Rd,Nantucket,US,MA,,MA
+1798,Anania's,323 Broadway,South Portland,US,So Portland,4106,ME
+1799,Papa John's Pizza,400 Us 130,E Windsor,US,NJ,,NJ
+1802,I.talia,2505 4th Ave W,Olympia,US,WA,98502,WA
+1807,Thurmans To Go,14950 Broad At,Reynoldsburg,US,OH,43068,OH
+1810,Italian Pizza & Subs,3711 Peppermill Dr N,Wilson,US,NC,27896,NC
+1813,Ruscello - Nordstrom Mayfair,2424 N Mayfair Rd,Milwaukee,US,WI,53226,WI
+1816,Escape From New York Pizza,831 Middlefield Rd,Redwood City,US,CA,94063,CA
+1822,Pasquale's,224 Harper Park Dr,Beckley,US,WV,25801,WV
+1824,Ciminos,421 Challenge St,Freeport,US,IL,61032,IL
+1828,Slugger's Pizzeria,701 N Queen St,Lancaster,US,Manor Ridge,17603,KY
+1831,Prime De Leon,33 Patio De Leon,Fort Myers,US,Fmy,33901,FL
+1832,The Pizza Joint,2402 N High St,Columbus,US,OH,43202,OH
+1868,Legacy Diner,136 S White Horse Pike,Audubon,US,Camden,8106,KY
+1869,Casey's General Store,300 E Locust St,Chatsworth,US,IL,60921,IL
+1870,Don Juan's Mexican Restaurant,43 S Talbert Blvd,Lexington,US,Arnold,27292,NC
+1871,La Hacienda Taqueria,1401 Grant Ave,Novato,US,San Marin,94945,CA
+1872,Lia's,4435 Willard Ave,Chevy Chase,US,Chevy Chs Vlg,20815,MD
+1879,Josephine's Pizza Pastaria,2560 Glendale Ave,Green Bay,US,Howard,54313,WI
+1880,Chester's Kitchen & Bar,111 S Broadway,Rochester,US,MN,55904,MN
+1881,Giovanni's Pizza and Pasta,431 E Us Hwy 22 Bishop's Plz,Whitehouse Station,US,NJ,8889,NJ
+1885,Mediterranea,578 Bloomfield Ave,Montclair,US,NJ,7043,NJ
+1886,Davanti Enoteca - Little Italy,1655 India St,San Diego,US,CA,92101,CA
+1893,Fortune Cookie,7708 Maple Ave,Merchantville,US,NJ,8109,NJ
+1895,Valentino Pizza I,5536 Torresdale Ave,Philadelphia,US,PA,19124,PA
+1913,"Francesca's Pizza, Pasta and Grill",127 Ark Rd,Mount Laurel,US,Mount Laurel Township,8054,
+1923,Buca Di Beppo - Wheeling,604 N Milwaukee Ave,Wheeling,US,IL,60090,IL
+1924,Dollar Tree,1006 US Highway 46,Clifton,US,NJ,7013,NJ
+1925,Louie's Bar Restaurant,13825 Britton Park Rd,Fishers,US,IN,46038,IN
+1930,Big Blue Bagel,120 N College St,Auburn,US,AL,36830,AL
+1931,Giovanni's Pizza,715 Greenup Ave,Ashland,US,Bellefonte,41101,KY
+1941,Nanuet Restaurant,211 Main St,Nanuet,US,NY,10954,NY
+1946,Bertucci's,10333 S Roberts Rd,Palos Hills,US,IL,60465,IL
+1947,Chicago Connection,344 W State St,Eagle,US,ID,83616,ID
+1962,Gianni's Pizza & Wings,6 E Main St,Frostburg,US,MD,21532,MD
+1967,Gino's Pizza of Babylon,258 Deer Park Ave,Babylon,US,Gilgo Beach,11702,
+1981,Buttermilk Hill Restaruant and Bar,300 E 3rd St,Sylacauga,US,Talladega Springs,35150,AL
+1982,Maggiano's - Buckhead,3368 Peachtree Rd,Atlanta,US,GA,30326,GA
+1983,The Pizza Lady,50 Liberty St,Pawcatuck,US,CT,6379,CT
+1984,Besa's Pizza,7602 N Jupiter Rd,Garland,US,TX,75044,TX
+1987,Strano! Sicilian Kitchen & Bar,948 S Cooper St,Memphis,US,Mphs,38104,TN
+1999,Andy's Pizza Subs,22118 West Rd,Trenton,US,Brownstown Twp,48183,MI
+2002,Kennedy Fried Chicken,1429 Nostrand Ave,Brooklyn,US,NY,11226,NY
+2003,Caffe Il Cipresso,130 Middlesex Rd,Tyngsboro,US,MA,1879,MA
+2005,Stone and Paddle,40 West St,Vernon Rockville,US,Rockville,6066,
+2029,Kennedy Fried Chicken,638 E 169th St,Bronx,US,NY,10456,NY
+2031,Zpizza,111 S Broadway,Rochester,US,MN,55904,MN
+2032,Fire Works - Arlington,2350 Clarendon Blvd,Arlington,US,VA,22201,VA
+2035,Gianfabio's Italian Cafe,127 Hilltown Village Ctr,Chesterfield,US,Clarkson Valley,63017,MO
+2042,Fiamma Wood Fire Tavern,18 Clark Pl,Mahopac,US,Lake Mahopac,10541,
+2044,Casey's General Store,1822 N Lincoln Ave,York,US,NE,68467,NE
+2050,Applebee's,12719 W Sunrise Blvd,Fort Lauderdale,US,Sunrise,33323,FL
+2051,Jerry's Pizza,701 S Broad St,Trenton,US,Hamilton Twp,8611,KY
+2056,Dragon Inn Chinese Restaurant,7710 City Ave,Philadelphia,US,Phila,19151,PA
+2057,Casa Bianca Pizza,217 Campbell Ave,West Haven,US,N Haven,6516,CT
+2062,Marquart's Landing,300 W,Washington,US,Clover Bottom,63090,MO
+2063,Toyo Japanese Sushi Bar & Hibachi,2305 Jackson Ave W,Oxford,US,MS,38655,MS
+2064,Papa Romeo's Pizza,410 Sheridan Rd,Highwood,US,IL,60040,IL
+2072,Pasta Loft,241 Union Sq,Milford,US,NH,3055,NH
+2076,Pizza Time,30 Metacom Dr,Simsbury,US,CT,6070,CT
+2078,Serafina Harlem,1260 Amsterdam Ave,New York,US,Manhattanville,10027,NY
+2082,Seco,140 S Lake Ave,Pasadena,US,CA,91101,CA
+2088,Eat Maine Gourmet,4112 Pennsylvania Ave,Kansas City,US,MO,64111,MO
+2090,Casey's General Store,2017 Fox Creek Rd,Bloomington,US,Bloomington Heights,61701,IL
+2096,Mezza Westwood,20 Jefferson Ave,Westwood,US,Rivervale,7675,KS
+2097,Romeo's Pizza,14769 Pearl Rd,Strongsville,US,OH,44136,OH
+2103,Daddy's Pizza,902 13th St,Saint Cloud,US,FL,34769,FL
+2113,Avocado Cafe,6060 Scholarship,Irvine,US,CA,92612,CA
+2114,The Grey Plume,220 S 31st Ave,Omaha,US,NE,68131,NE
+2115,Wolfgang Puck Bar & Grill - Summerlin,10955 Oval Park Dr,Las Vegas,US,NV,89135,NV
+2118,House of Pizza,133 Main St,North Andover,US,MA,1845,MA
+2119,Jcpenney,1245 Worcester St,Natick,US,No Natick,1760,
+2127,Cafe Zucchero,1731 India St,San Diego,US,CA,92101,CA
+2129,Tavola,488 9th Ave,New York,US,Nyc,10018,NY
+2134,It's Greek To Me,352 Anderson Ave,Cliffside Park,US,NJ,7010,NJ
+2144,"Idevicemd Iphone, Cell Phone Repair and Sell",123 S Olive Ave,West Palm Beach,US,FL,33401,FL
+2145,Derby Grille,110 Bunyan Ave Berthoud,Berthoud,US,CO,80513,CO
+2146,Fisher's Cafe,7 07 Fair Lawn Ave,Fair Lawn,US,Radburn,7410,
+2147,Brannon's Pub and Brewery,3800 S W Cedar Hills Blvd D,Beaverton,US,OR,97005,OR
+2150,Saltwater Willys,2455 E Grapevine Mills Cir,Grapevine,US,TX,76051,TX
+2151,Cart-driver,2500 Larimer St,Denver,US,CO,80205,CO
+2153,Pipitone Publications Inc,226 Baltimore Pike,Springfield,US,PA,19064,PA
+2154,Gracie See,6889 Greenfield Rd,Detroit,US,MI,48228,MI
+2158,Joey D's Italian Grill,114 Pleasant St,Marblehead,US,MA,1945,MA
+2165,Aj's Pizza,12 Main St,Butler,US,Fayson Lakes,7405,KY
+2167,Planet Pizza,3000 Custer Rd,Plano,US,TX,75075,TX
+2170,Abyssinia Chinese,5125 E Main St,Columbus,US,OH,43213,OH
+2171,Mi Amore Pizza & Pasta,1321 N H St,Lompoc,US,CA,93436,CA
+2173,Garden Room At Santa Maria Inn,801 S Broadway,Santa Maria,US,CA,93454-6668,CA
+2175,Zeiderelli's Pizza,33 E Simpson St,Mechanicsburg,US,Brandtsville,17055,
+2180,Jandro's,703 Mckinney Ave,Dallas,US,TX,75201,TX
+2184,Mr Shoes Pizza,107 Driving Park Ave,Rochester,US,NY,14613,NY
+2193,Hershey Country Club,1000 E Derry Rd,Hershey,US,Derry Church,17033,
+2194,Leo's Grill & Malt Shop,131 Main St S,Stillwater,US,Oak Park Hts,55082,MN
+2195,Trattoria Il Mulino - Nashville,144 Fifth Ave S,Nashville,US,TN,37203,TN
+2200,Miller's Drive Thru,557 S Main St,Gunnison,US,UT,84634,UT
+2201,Sicilian Style Pizza Pie,2415 Mission St,Santa Cruz,US,Paradise Park,95060,CA
+2207,Jake's Italian Bistro & Brew,12170 4th St,Yucaipa,US,CA,92399,CA
+2209,The Hideaway Grill,6746 E Cave Creek Rd,Cave Creek,US,AZ,85331,AZ
+2210,Buona Vita Pizzeria,441 6th Ave,Dayton,US,KY,41074,KY
+2211,Mark Twain Diner,1601 Morris Ave,Union,US,Townley,7083,IA
+2212,River House Bar & Grill,2495 Harrisburg Pike,Middletown,US,Hbg Inter Airp,17057,KY
+2217,Buona Gente,5205 E 2nd St,Long Beach,US,Naples,90803,CA
+2218,Fred's Rivertown Alehouse,1114 1st St,Snohomish,US,Larimers Corner,98290,WA
+2223,Calandra's Mediterranean Grill,118 Us Highway 46 E,Fairfield,US,NJ,7004,NJ
+2237,Lunch Box,355 Saint Mark Rd,Taylors,US,SC,29687,SC
+2238,Bricco Kent,210 S Depeyster St,Kent,US,OH,44240,OH
+2239,Pizza Inn,5040 Hardy St,Hattiesburg,US,MS,39402,MS
+2245,Gia Nina's Pizza,312 S Evergreen Ave,West Deptford,US,Woodbury,8096,
+2246,Victoria Pub & Grill,1413 S Victoria Ave,Ventura,US,CA,93003,CA
+2247,Dobro's,658 W New York Ave Deland,Deland,US,FL,32720,FL
+2252,Stephi's In Southie,130 Dorchester Ave,Boston,US,MA,2127,MA
+2253,The Crazy Tuna,203 Nanticoke Rd,Essex,US,MD,21221,MD
+2254,Holsteins - The Cosmopolitan of Las Vegas,3708 Las Vegas Blvd S,Las Vegas,US,NV,89109,NV
+2257,Dancing Marlin,20590 S Lagrange Rd,Frankfort,US,IL,60423,IL
+2259,Marco's Pizza,1301 Williston Rd,South Burlington,US,Queen City,5403,
+2265,Sicilia's Pizzeria,1605 Kanawha Blvd W,Charleston,US,WV,25387,WV
+2329,Buster's Sports Bar and Grill,1325 Madison Ave,Mankato,US,MN,56001,MN
+2330,Mattress Factory Museum,500 Sampsonia Way,Pittsburgh,US,Pitt,15212,PA
+2332,Crow & The Pitcher,267 S 19th St,Philadelphia,US,Phila,19103,PA
+2333,Tony's of North Beach,288 Golf Course Dr W,Rohnert Park,US,CA,94928,CA
+2337,U Pick 6 Beer Store,7520 Peach St,Erie,US,PA,16509,PA
+2340,Inis Cairde School of Irish Dance,6166 Falls Of Neuse Rd,Raleigh,US,NC,27609,NC
+2341,Tony Colombos,208 Sunrise Hwy,Rockville Centre,US,Rockville Center,11570,
+2342,Midnight Muncheez,1125 Victoria St,Costa Mesa,US,CA,92627,CA
+2351,Firestone's,105 N Market St,Frederick,US,MD,21701,MD
+2353,Clavio's Eatery,1908 5th Ave,River Grove,US,IL,60171,IL
+2355,Gamberetti's Italian Restaurant,325 High St S E,Salem,US,OR,97301,OR
+2357,Vincenzo's Pizzeria,109 Main St,Port Jefferson,US,Prt Jefferson,11777,
+2370,Stinger's Cafe,Fullerton College,Fullerton,US,CA,92832,CA
+2371,Tomaso's,163 Old River Rd,Edgewater,US,NJ,7020,NJ
+2378,Papa John's Pizza,2241 Westchester Ave,Bronx,US,NY,10462,NY
+2381,Briatore,13238 N E 20th St,Bellevue,US,WA,98005,WA
+2383,Laroma Pizzeria & Resturant,600 Floyd Ave,Rome,US,Camroden,13440,ID
+2386,Paradise Lanes,6501 Washington Ave,Racine,US,WI,53406,WI
+2387,Historic Revere Tavern,3063 Lincoln Hwy E,Paradise,US,Harristown,17562,TX
+2388,USA Doors Gates Svc,295 Mare Island Way,Vallejo,US,CA,94590,CA
+2390,Harper's Sandwiches Such,4390 Summit Bridge Rd,Middletown,US,DE,19709,DE
+2392,Mangia Mangia Café,505 S Flower St,Los Angeles,US,Arco-plaza,90071,CA
+2393,The Melting Pot - Jacksonville,7860 Gate Parkway 101,Jacksonville,US,FL,32256,FL
+2395,Cici's Pizza,1202 Kingwood Dr,Kingwood,US,TX,77339,TX
+2397,George's Pizza Restaurant,1 Dodgingtown Rd,Newtown,US,CT,6470,CT
+2399,Mamas Pizza,219 S Sandusky Ave,Bucyrus,US,OH,44820,OH
+2409,Marco's Pizza,23657 Lorain Rd,N Olmsted,US,OH,44070-2222,OH
+2414,Il Lupino,2233 B 180a Kalakaua Ave,Honolulu,US,Hono,96815,HI
+2419,Speakeasy Bar & Grill,254 Thames St,Newport,US,RI,2840,RI
+2420,Mangy Moose Emporium,80 W Broadway Ave,Jackson,US,Jackson Hole,83001,WY
+2421,Rico's Italian Pizza,4550 Balfour Rd,Brentwood,US,CA,94513,CA
+2422,Pepperoni Express,506 Boston Tpke,Shrewsbury,US,MA,1545,MA
+2424,Dolce Vita,10824 Fairfax Blvd,Fairfax,US,VA,22030,VA
+2425,Bamboo Restaurant,10835 Venice Blvd,Los Angeles,US,CA,90034,CA
+2431,Cooper's Hawk Winery & Restaurant,100 W Higgins Rd,Barrington,US,Fox Rv Vly Gn,60010,
+2432,Bella Frutteto,2602 Brandt School Rd,Wexford,US,PA,15090,PA
+2433,Toss Up Salads,8616 Griffin Rd,Fort Lauderdale,US,Ft Lauderdale,33328,FL
+2435,Old Chicago Pasta Pizza,4301 W 41st St,Sioux Falls,US,SD,57106,SD
+2442,North Italia - El Segundo,840 S Sepulveda,El Segundo,US,CA,90245,CA
+2444,Bella's Italian Grille,1061 W Bank Rd,Celina,US,OH,45822,OH
+2445,Marble Slab Creamery,4100 N 2nd St,Mcallen,US,TX,78504,TX
+2447,Chi Chi's Pizza,23043 Soledad Canyon Rd,Santa Clarita,US,Bouquet Canyon,91350,CA
+2449,Bagel Street Cafe,208 Northgate One,San Rafael,US,Santa Venetia,94903,CA
+2451,Raku Sakura,148 Main St,East Greenwich,US,RI,2818,RI
+2452,Two Mamas Gourmet,211 N Cortez,Prescott,US,AZ,86301,AZ
+2454,La Hacienda Real,5024 River Rd N,Salem,US,OR,97303,OR
+2455,Pane E Vino,8900 E Pinnacle Peak Rd,Scottsdale,US,AZ,85255,AZ
+2459,Roper's Reagle Beagle,3045 Godfrey Rd,Godfrey,US,IL,62035,IL
+2465,Milan's Pizza,15030 S Harlan Rd,Lathrop,US,CA,95330,CA
+2467,Palace Pizza Bartow,105 E Main St,Bartow,US,FL,33830,FL
+2487,Rogue Valley Roasting Company,917 E Main St,Ashland,US,OR,97520,OR
+2488,Bulls Head Inn,120 Sarah Wells Trl,Campbell Hall,US,NY,10916,NY
+2490,The Kimberly Hotel,145 E 50th St,New York,US,Manhattan,10022,NY
+2492,Soulshine Pizza Factory,308 S Lamar Blvd,Oxford,US,MS,38655,MS
+2494,Fiala Aesthetics | Metro Orlando Plastic Surgeon,220 E Central Pkwy,Altamonte Springs,US,FL,32701,FL
+2495,Louie's Famous Pizza,988 Bedford St,Abington,US,MA,2351,MA
+2512,Dengeos,195 W Dundee Rd,Buffalo Grove,US,IL,60089,IL
+2513,Tokai Sushi,1301 E Miller Ave,Salt Lake City,US,Salt Lake Cty,84106,UT
+2514,Nypd Pizza & Delicatessen,768 W 1425 N,Layton,US,UT,84041,UT
+2515,Atlantic City Country Club - Taproom Bar & Grille,One Leo Fraser Dr,Northfield,US,NJ,8225,NJ
+2525,Galaxy Restaurant Inc,5240 Cemetery Rd,Hilliard,US,OH,43026,OH
+2530,Mellow Mushroom,1167 Broad St,Augusta,US,GA,30901,GA
+2535,The Bahche,191 7th St,Brooklyn,US,NY,11215,NY
+2536,Peter Piper Pizza,10501 Gateway Blvd W,El Paso,US,TX,79925,TX
+2537,Restaurant & Bar Ko,3196 Waialae Ave,Honolulu,US,Hono,96816,HI
+2538,Big Daddy's Pizza,1300 N Charlotte St,Pottstown,US,PA,19464,PA
+2540,Capitol City Brewing Company - Downtown,1100 New York Ave N W,Washington,US,DC,20005,DC
+2544,Zo��s Kitchen,11225 Huebner Rd,San Antonio,US,TX,78230,TX
+2546,Cinema Cafe Restaurant,505 3rd Ave,New York,US,Nyc,10016,NY
+2550,Baratta's,2320 S Union St,Des Moines,US,IA,50315,IA
+2552,Larosa's Pizzeria,21 Lynn Ave,Oxford,US,Darrtown,45056,OH
+2553,The Beachhouse,200 Gulf Dr N,Bradenton Beach,US,FL,34217,FL
+2554,Johnny's Pizza,717 Sterlington Hwy,Farmerville,US,LA,71241,LA
+2562,Tony Roni's Pizza Drexel Hill,4911 Township Line Rd,Drexel Hill,US,Drexelbrook,19026,
+2565,Elicia's Pizza & Wings,2801 Hampton Ave,Saint Louis,US,MO,63139,MO
+2566,Eddie's Italian Restaurant,4002 Lincoln Blvd,Marina Del Rey,US,CA,90292,CA
+2575,Sammy's Woodfired Pizza & Grill,1620 Camino De La Reina,San Diego,US,CA,92108,CA
+2576,The Melting Pot - Wilmington(nc),885 Town Center Dr,Wilmington,US,Wilm,28405,NC
+2578,J. Willys Public House and Eatery,1717 Willamette Falls Dr,West Linn,US,Wankers Corners,97068,OR
+2581,Marzanos,6 School St,Peterborough,US,NH,3458,NH
+2585,Fazoli's,3812 Rib Mountain Dr,Wausau,US,WI,54401,WI
+2587,Di Nardo's Ristorante Italiano,76 Westchester Ave,Pound Ridge,US,NY,10576,NY
+2588,The Pizza Stop,222 E Main St,Collegeville,US,Rahns,19426,
+2597,Calabria Restaurant,80 S Main St,New City,US,NY,10956,NY
+2612,Hillside Pizza,173 Russell St,Hadley,US,MA,1035,MA
+2613,Blondie's Firehouse Pub,3435 S Inca St,Englewood,US,Cherry Hl Vlg,80110,CO
+2616,Main Street Restaurant,Main St,Detroit Lakes,US,MN,56501,MN
+2617,Astoria Craft,1801 26th Rd,Astoria,US,Queens,11102,OR
+2618,Joe Cristianos Pizza,1225 Route 9g,Hyde Park,US,NY,12538,NY
+2625,Jean Kay's Pasties & Subs,1635 Presque Isle Ave,Marquette,US,MI,49855,MI
+2627,Papa John's Pizza,610 Wesley Dr,Charleston,US,Saint Andrews,29407,SC
+2630,Good Fella's Pizza,9641 Olio Rd,Mc Cordsville,US,Woodbury,46055,
+2635,Bamcaf��,30 Lafayette Ave,Brooklyn,US,NY,11217,NY
+2636,Ipic Theaters Bayshore,5800 N Bayshore Dr,Milwaukee,US,Glendale,53217,WI
+2637,The Shrimp Shack,6658 W Archer Ave,Chicago,US,Forest View,60638,IL
+2638,Tastee Corner,30 20 30th Ave,Astoria,US,Queens,11102,OR
+2640,The Brickyard Restaurant and Sports Bar,415 N Prince St,Lancaster,US,Manor Ridge,17603,KY
+2641,Papa John's Pizza,1233 Sage Dr,Cedar City,US,UT,84720,UT
+2644,The Melting Pot - St Petersburg,2221 4th St N,Saint Petersburg,US,FL,33704,FL
+2646,The Melting Pot - Myrtle Beach,5001 N Kings Hwy,Myrtle Beach,US,SC,29577,SC
+2648,Paesanos Delicatessen,108 Kennedy Blvd,Bayonne,US,Pamrapo,7002,NJ
+2649,Nordstrom The Plaza At King of Prussia,190 N Gulph Rd,King Of Prussia,US,PA,19406,PA
+2651,Hair Like Before,1032 Old Peachtree Rd N W,Lawrenceville,US,GA,30043,GA
+2653,Sicilia's Pizzeria,3601 Main St,Weirton,US,WV,26062,WV
+2685,Caf������ Milano,3251 Prospect St N W,Washington,US,DC,20007,DC
+2688,Cafe Europa,30 Bank St,Waterbury,US,CT,06702-2220,CT
+2693,Sake Cafe -japanese Steak House & Bar,774 Park Ave,Bloomfield,US,CT,6002,CT
+2694,Tommy V's Osteria Pizzeria,3223 E Camelback Rd,Phoenix,US,AZ,85018,AZ
+2702,Palomino Restaurant Rotisseria (reported closed),825 Hennepin Ave,Minneapolis,US,MN,55402,MN
+2704,Nacho Mamma's,76 State St,Bristol,US,RI,2809,RI
+2707,First and Last Tavern,240 Pine Point Rd,Scarborough,US,ME,4074,ME
+2708,Avanti's Italian Restaurant,4711 N Rockwood Dr,Peoria,US,IL,61615,IL
+2714,Billy's Red Room,60 Parsippany Rd,Whippany,US,NJ,7981,NJ
+2718,Los Compadres,25 Foothill Rd,Reno,US,Pleasant Valley,89511,NV
+2719,The Firehouse,42 Plauderville Ave,Garfield,US,Ritz,7026,OH
+2722,Andrea's Pizza,2014 Boston St S E,Grand Rapids,US,Cascade,49506,MI
+2725,Vigilucci's Trattoria Italiana,530 N Coast Hwy 101,Encinitas,US,Olivenhain,92024,CA
+2727,Mellow Mushroom,5575 Chamblee Dunwoody Rd,Atlanta,US,Atl,30338,GA
+2733,Fusha East,1065 First Ave,New York,US,Manhattan,10022,NY
+2734,Yesterday's Food Spirits,12594 Adams Rd,Granger,US,IN,46530,IN
+2735,Phở Lê Hòa Phat,508 Contra Costa Blvd,Pleasant Hill,US,CA,94523,CA
+2738,Buck's Pizza,3295 Bel Air Mall,Mobile,US,AL,36606,AL
+2743,Cvs/pharmacy,Mcdermott,Allen,US,TX,75013,TX
+2745,Ken's West End Pizza,801 Islington St,Portsmouth,US,NH,3801,NH
+2747,Jona's Pizza,544 Arthur Godfrey Rd,Miami Beach,US,FL,33140,FL
+2756,Marcello's Pizza,691 S Main St,Corona,US,CA,92882,CA
+2760,Weissgerber's Gasthaus,2720 N Grandview Blvd,Waukesha,US,WI,53188,WI
+2762,Two Brothers Deli,1424 Miner St,Idaho Springs,US,CO,,CO
+2765,Saltwater Cafe,1071 Tamiami Trl N,Nokomis,US,FL,34275,FL
+2767,Philly Cheese Steak Express,701 N Milwaukee Ave,Vernon Hills,US,IL,60061,IL
+2768,Sweet Tomatoes,461 Station Ave,South Yarmouth,US,So Yarmouth,2664,
+2769,Sokai Sushi Bar - Flagler,10141 W Flagler St,Miami,US,FL,33174-1811,FL
+2770,Woodlands Restaurants,444 Eagle Ridge Dr,Galena,US,IL,61036,IL
+2771,Paesano's,1 S Main St,Shrewsbury,US,PA,17361,PA
+2772,Jolane's,1100 Milwaukee Ave,Glenview,US,IL,60025,IL
+2773,New York Pizzeria,5320 Highway 6,Missouri City,US,TX,77459,TX
+2775,Stonebridge Bagels & Deli,1278 Yardville Allentown Rd,Allentown,US,NJ,8501,NJ
+2776,Leon's Italian Bistro & Pizza,8890 Porter Rd,Niagara Falls,US,Wheatfield,14304,NY
+2782,Xpress Pizzeria,709 Church Ave,Brooklyn,US,NY,11218,NY
+2784,Cove Pizza,864 Cove Rd,Stamford,US,CT,6902,CT
+2788,Johnny's Pizza House,1924 Julia St,Rayville,US,Holly Ridge,71269,IL
+2796,The Lafayette House,100 Route 94,Lafayette,US,NJ,7848,NJ
+2797,Sabatino's Pizza,873 N 26th St,Philadelphia,US,PA,19130,PA
+2805,Piazza D'angelo,22 Miller Ave,Mill Valley,US,Strawberry Point,94941,CA
+2818,Grotto - The Woodlands,9595 Six Pnes,Spring,US,TX,77380,TX
+2819,Brio Tuscan Grille - Lombard - The Shops On Butterfield,330 Yorktown Ctr,Lombard,US,IL,60148,IL
+2820,Mama's Cafe Baci,260 Mountain Ave,Hackettstown,US,NJ,7840,NJ
+2823,Angela's Pizza,192 Islip Ave,Islip,US,Islip Manor,11751,
+2827,Barona Hot Dog Cart,1932 Wildcat Canyon Rd,Lakeside,US,CA,92040,CA
+2828,East Coast Wings & Grill,12646 Capital Blvd,Wake Forest,US,NC,27587,NC
+2829,Citiline Deli 7,13430 Northwest Fwy,Houston,US,Bammel,77040,TX
+2833,Meglio's Pizza,500 Garden City Dr,Monroeville,US,PA,15146,PA
+2834,Pizza Chef,1904 N Division St,Davenport,US,IA,52804,IA
+2837,Yogurt Zone,2771 E Broad St,Mansfield,US,TX,76063,TX
+2841,Carlo's Gourmet Pizzeria & Restaurant,326 Us Highway 9,Englishtown,US,NJ,7726,NJ
+2842,Mignon's At Sky Valley Resort,74711 Dillon Rd,Desert Hot Springs,US,Sky Valley,92241,CA
+2843,Cafe Taylor,126 S Main St,Lancaster,US,SC,29720,SC
+2845,Wooden Windmill,1155 S Broad St,Fremont,US,NE,68025,NE
+2846,Hungry Hoiwes Pizza & Subs,1003 E Oak St,Arcadia,US,FL,34266,FL
+2864,Francesca's By The River,200 S Second St,Saint Charles,US,Valley View,60174,IL
+2866,The Dining Room @ The Woodlands Resort,2301 Milbend,Spring,US,TX,77380,TX
+2868,Fogle's Subs And Grill,909 Eagles Landing Pkwy,Stockbridge,US,GA,30281,GA
+2869,Don Carmelo's Pizzeria,1024 N 204th Ave,Elkhorn,US,NE,68022,NE
+2870,Casey's Carry Out Pizza,217 6th Ave,Grinnell,US,IA,50112,IA
+2874,Fatty 'cue Kiosk,Battery Park,New York,US,NY,10004,NY
+2876,Jo-jo's Original Pizzeria,616 Dixie Hwy,Rossford,US,OH,43460,OH
+2877,Pizza Inn,1352 E Broad Ave/hwy 74 E,Rockingham,US,NC,28379,NC
+2883,Pappy's Place,1635 Us 52 N,Rochester,US,MN,55901,MN
+2884,Sopranos Italian Market,Cayuta Ave,Waverly,US,NY,14892,NY
+2893,Gourmet Seafood & Grill,4101 W Skippack Pike,Schwenksville,US,Fruitville,19473,
+2894,Pizza Plus Inc of Lockport,1527 S State St,Lockport,US,IL,60441,IL
+2895,Cesco's Pizza,538 State Route 94 S,Newton,US,Fredon Twp,7860,KS
+2897,Simmzy's,5271 E 2nd St,Long Beach,US,Naples,90803,CA
+2900,Manhattan In The Desert - Palm Desert,74 225 Hwy 111,Palm Desert,US,CA,92260,CA
+2911,P.j. Whelihan's Pub Restaurant,853 E Lancaster Ave,Downingtown,US,PA,19335,PA
+2912,Rossini Di Lucca,1280 E Dundee Rd,Palatine,US,IL,60074,IL
+2918,Pizza Nora,6987 Hamner Ave,Corona,US,CA,92880,CA
+2923,Montys Old Brick Tavern,7921 Williston Rd,Williston,US,VT,5495,VT
+2924,Lucky Strike Lanes - Belmar,415 S Teller,Denver,US,CO,80226,CO
+2925,Manor House Restaurant,500 Main St,Blowing Rock,US,Bamboo,28605,
+2927,John's Pizzeria and Resturant,1492 N Leroy St,Fenton,US,MI,48430,MI
+2934,Bascettis Italian Grille,1568 Main St,Dunedin,US,FL,34698,FL
+2935,Park West Diner Cafe,1400 Us Highway 46,Little Falls,US,Great Notch,7424,MN
+2937,Unwined,262 Swansea Mall Dr,Swansea,US,MA,2777,MA
+2941,Texadelphia,12914 Fm 1960 Rd W,Houston,US,TX,77065,TX
+2942,Wick's Pizza,9700 Bluegrass Pkwy,Louisville,US,KY,40299,KY
+2950,Gusto,277 Alexander St,Rochester,US,NY,14607,NY
+2951,Casey's General Store,2243 N Cotner Blvd,Lincoln,US,NE,68505,NE
+2957,Manny's Pizza Sterling,312 Locust St,Sterling,US,IL,61081,IL
+2958,Mr T's Pizza,594 N Pinecrest Rd,Bolingbrook,US,IL,60440,IL
+2961,Pizza Inn,3332 Airport Blvd N W,Wilson,US,NC,27896,NC
+2967,Empire Pizza,300 New Britain Rd,Berlin,US,CT,06037-1355,CT
+2974,Acapulco Mexican Restaurant,10114 Saint Charles Rock Rd,Saint Ann,US,Saint Anne,63074,MO
+2975,Brio Tuscan Grille - Sarasota - University Town Center,190 University Town Center Dr,Sarasota,US,FL,34243,FL
+2976,Minnetonka Drive In,4658 Shoreline Dr,Spring Park,US,MN,55384,MN
+2978,Lunello's Montville Inn,167 Rte 202,Montville,US,Montville Township,7045,
+2980,John's Pizzeria,424,Chicopee,US,MA,1013,MA
+2993,Poplar Pizza & Restaurant,127 W US Highway 54,Andover,US,KS,67002,KS
+3001,Pizza Forum,215 Main St,Auburn,US,Norland Park,46706,IN
+3011,Ally's Comfort Cafe,13674 W State Road 84,Fort Lauderdale,US,Plantation,33325,FL
+3012,Saute,2844 Hudson St,Baltimore,US,MD,21224,MD
+3014,Nick's Pizza,10500 10534 S Ridgeland Ave,Chicago Ridge,US,IL,60415,IL
+3018,Bertucci's,194 Buckland Hills Dr,Manchester,US,CT,6042,CT
+3023,Wine Experience Cafe and World Cellar,6240 S Main Saint L115 (behind Mcalisteraposs Deli),Aurora,US,CO,80016,CO
+3024,Barraco's Pizza,8915 159th St,Tinley Park,US,IL,60487,IL
+3027,Cottage Inn Pizza,7840 Wyoming St,Dearborn,US,MI,48126,MI
+3030,Butera's Restaurant of Sayville,100 S Main St,Sayville,US,Fire Island Pines,11782,
+3032,Frisch's,5301 Grove Rd,Pittsburgh,US,West Mifflin,15236,PA
+3035,Joe's New York Pizza Pasta,1070 Palm Coast Pkwy Nw,Palm Coast,US,FL,32137,FL
+3038,Crown Fried Chicken,200 Dyckman St,New York,US,Manhattan,10040,NY
+3039,Preston's Market At Loews Miami Beach Hotel,1601 Collins Ave,Miami Beach,US,Venetian Islands,33139,FL
+3041,J. Peppers Southern Grille,841 Old Winston Rd,Kernersville,US,Matthewstown,27284,
+3044,Pepe Rosso 24,24 Manorhaven Blvd,Port Washington,US,Baxter Estates,11050,
+3046,Luigi's Patio Ristorante,3975 State Highway 6 S,College Station,US,TX,77845,TX
+3047,Uncle Buck's BBQ,361 W Main St,Plymouth,US,PA,18651,PA
+3049,Casa Giuseppe's Italian Grill,SE Indian St,Stuart,US,FL,34997,FL
+3050,Rosewood Cafe,201 W Market St,Baltimore,US,OH,43105,OH
+3051,Bella Piazza,286 Us Highway 46,Fairfield,US,NJ,7004,NJ
+3054,Cousins Cafe,20 Market St,Lockport,US,NY,14094,NY
+3055,Paesano's Pizza,1370 Dixwell Ave,Hamden,US,CT,6514,CT
+3057,Original Italian Pizza,904,Binghamton,US,Choconut Center,13905,NY
+3058,Arirang Hibachi Steakhouse,986 Route 9 S,Parlin,US,NJ,8859,NJ
+3059,City Bites,425 OK-152,Mustang,US,OK,73064,OK
+3060,Thirsty Lion Gastropub & Grill – Tempe,2000 E Rio Salado Pkwy,Tempe,US,AZ,85281,AZ
+3065,"Hearthstone Kitchen & Cellar - Red Rock Casino, Resort & Spa",11011 W Charleston Blvd,Las Vegas,US,NV,89135,NV
+3067,Ragtime Cafe,2080 Valleydale Rd,Birmingham,US,Riverchase,35244,AL
+3070,Andrea Pizza - Towle Building,330 2nd Ave S,Minneapolis,US,MN,55401,MN
+3071,Mackenzie River Pizza Co.,137 W,Missoula,US,MT,59802,MT
+3074,Carbone's Pizzeria,5988 Osgood Ave N,Stillwater,US,Oak Park Hts,55082,MN
+3079,Portland Adventist Medical Pavilion,10000 S E Main St,Portland,US,OR,97216,OR
+3082,Gattitown,1560 N Mcmullen Booth Rd,Clearwater,US,FL,33759,FL
+3099,Romeo S Pizza,117 Broad St,Staten Island,US,NY,10304,NY
+3104,Dunwellz Custom Kitchen & Pour House,7110 Brighton Park Dr,Charlotte,US,NC,28227,NC
+3105,Casey's General Store,400 W Mondamin St,Minooka,US,IL,60447,IL
+3117,Giadas Italian Cucina,2540 Anthem Village Dr,Henderson,US,NV,89052,NV
+3119,Morgans,Willow St,Allentown,US,PA,18104,PA
+3120,Lil' Frankie's,19 First Ave,New York,US,Manhattan,10003,NY
+3131,Java Mammas,214 Main St,Reisterstown,US,MD,21136,MD
+3132,Ogle's Brick Oven Pizza,201 Oglewood Ln,Gatlinburg,US,TN,37738,TN
+3134,Fat Belly's On Main,241 Main St,East Greenwich,US,RI,2818,RI
+3140,"Salute Trattoria Italiana ��� Red Rock Casino, Resort & Spa",11011 W Charleston Blvd,Las Vegas,US,NV,89135,NV
+3141,True Food Kitchen - Houston,1700 Post Oak Blvd,Houston,US,TX,77056,TX
+3142,John Harvard's Brewery and Ale House,1 Worcester Rd,Framingham,US,Framingham So,1701,MA
+3144,Maggiano's - Springfield,6500 Springfield Mall,Springfield,US,VA,22150,VA
+3145,Sea Salt,1709 E 1300 S,Salt Lake City,US,Salt Lake Cty,84108,UT
+3150,Mellow Mushroom - Kennesaw,1133 Chastain Rd N W,Kennesaw,US,GA,30144,GA
+3155,Disalvo's Pizza Italian Restaurant,2486 N Federal Hwy,Pompano Beach,US,Deerfield Beach,33064,FL
+3164,L'allegria Restaurant,11 Prospect St,Madison,US,NJ,7940,NJ
+3166,Wolfgangpuck Pizza | Bar,607 Green Valley Rd,Greensboro,US,Guilford Courthouse National,27408,NC
+3178,Euro Pizza,103 N State Rd,Briarcliff Manor,US,Briarcliff Mnr,10510,
+3188,Legal Sea Foods - Peabody,210 Andover Saint Northshore Mall,Peabody,US,MA,1960,MA
+3189,Georgio's Oven Fresh Pizza Co,1282 Som Center Rd,Cleveland,US,Mayfield Hts,44124,OH
+3191,Seasons Pizza,450 Marlton Pike E,Cherry Hill,US,Cherry Hill Township,8034,
+3196,Fricker's Richmond,3237 Chester Blvd,Richmond,US,East Haven,47374,MO
+3199,Fifth Street Bagels,211 S 5th St,Richmond,US,East Haven,47374,MO
+3200,Jake's Pizza,728 W Chicago St,Elgin,US,IL,60123,IL
+3201,Real Bar & Bistro,124 S Solana Hills Dr,Solana Beach,US,CA,92075,CA
+3202,Sunset Grill & Lounge,271 Lake Havasu Ave S,Lake Havasu City,US,AZ,86403,AZ
+3203,Denny's,1170 S E Bishop Blvd,Pullman,US,WA,99163,WA
+3204,Angry Ham's Octane Bar & Grill,2 Beacon St,Framingham,US,Framingham So,1701,MA
+3205,Piatti - Danville,100 Sycamore Valley Rd,Danville,US,CA,94526,CA
+3211,Cafe Pesto - Kawaihae Harbor,3665 Kawaihae Shopping Center / 61 Hi 270,Kamuela,US,HI,96743,HI
+3215,Louie's Dale Diner,189 W 231st St,Bronx,US,Spuyten Duyvil,10463,
+3216,Looper's Grille Bar,313 E 3rd St,Bethlehem,US,PA,18015,PA
+3217,Palisade,2601 W Marina Place Elliott Bay Marina,Seattle,US,Magnolia,98199,WA
+3218,T-bar Steak & Lounge (upper East Side),1278 3rd Ave,New York,US,Nyc,10028,NY
+3221,Getaway Cafe,3049 Sussex Ave,Pittsburgh,US,Pitt,15226,PA
+3222,Joe's American Bar Grill,466 King St,Franklin,US,MA,02038-2534,MA
+3223,Barrels,9 S Granville Ave,Margate City,US,Margate,8402,NJ
+3226,The Melting Pot - Columbia,10451 Twin Rivers Rd,Columbia,US,MD,21045,MD
+3228,The Union Kitchen (memorial Dr),12538 Memorial Dr,Houston,US,Bunker Hill Village,77024,TX
+3239,Five Below,Ulster Ave,Kingston,US,St Remy,,MO
+3240,Bravo Cucina Italiana - Whitehall - Lehigh Valley,950 Lehigh Valley Mall,Whitehall,US,PA,18052,PA
+3245,Zoës Kitchen,222 W Campbell Rd,Richardson,US,TX,75080,TX
+3247,Suki Japanese Restaurant,9208 3rd Ave,Brooklyn,US,NY,11209,NY
+3248,Little Italy Pizza Deli,180 Varick St,New York,US,Nyc,10014,NY
+3253,Chung Dam,2550 Pleasant Hill Rd,Duluth,US,GA,30096,GA
+3254,Big Daddy's Pizza,7669 S 700 E,Midvale,US,Cushing,84047,UT
+3255,Pizza Time,Hwy 15401,Bennettsville,US,SC,29512,SC
+3257,Cinders Wood Fire Grill,319 Rt,Mine Hill,US,NJ,7803,NJ
+3258,Fresh Pizzeria,807 Rockville Pike,Rockville,US,No Bethesda,20852,MD
+3272,Fresh Pizzeria,807 Rockville Pike,Rockville,US,No Bethesda,,MO
+3273,Cugino's Pizza,2151 Lemoine Ave,Fort Lee,US,West Fort Lee,7024,
+3274,Sammies,215 W Rollins Rd,Round Lake,US,Round Lake Heights,60073,MN
+3275,Nick's Pizzeria,47 S Main St,Williamstown,US,Collings Lakes,8094,KY
+3277,Cafe Stratos,23642 Lorain Rd,North Olmsted,US,OH,44070,OH
+3278,Meltz Extreme Grilled Cheese,1735 W Kathleen Ave,Coeur D Alene,US,Huetter,83815,ID
+3279,Hogarth's Bar & Bistro,5201 Center St,Williamsburg,US,VA,23188,VA
+3280,Bertucci's,2847 State Route 35,Hazlet,US,NJ,,NJ
+3287,Kefi,505 Columbus Ave,New York,US,Nyc,10024,NY
+3289,Kirin Hibachi Japanese Steakhouse,556 Route 25a,Saint James,US,Deer Wells,11780,
+3290,Jet's Pizza,16852 21 Mile Rd,Macomb,US,Macomb Twp,48044,IL
+3293,West Bricktown,124 E Sheridan,Oklahoma City,US,OK,73104,OK
+3294,Zi's Pizza,1809 1 W Anderson Ln,Austin,US,TX,78757,TX
+3296,Damon's Grill,10 E 120th Ave,Denver,US,North Glenn,80233,CO
+3301,Upper Crust Pizza,329 Old Santa Fe Trl,Santa Fe,US,Chupadero,87501,NM
+3302,Champney's Restaurant Tavern,81 Old Main St,Deerfield,US,West Deerfield,1342,FL
+3303,Cafe Gratitude - Venice,512 Rose Ave,Venice,US,CA,90291,CA
+3304,Casey's General Store,418 W 9th St,Mount Carmel,US,Friendsville,62863,IL
+3310,Nolita,363 Roberts St,East Hartford,US,East Htfd,6108,
+3322,Foodies,121 Firefighters Memorial Dr,Fort Montgomery,US,NY,10922,NY
+3324,Rosangela's Pizza,2807 W 95th St,Evergreen Park,US,IL,60805,IL
+3325,Uncle's Pizzeria & Co.,120 W Olive Saint Fort Collins Co,Fort Collins,US,CO,80524,CO
+3326,Park Ave Pizzeria,620 S Broad St,Lansdale,US,PA,19446,PA
+3332,Primanti Bros,516 E Oakland Park Blvd,Fort Lauderdale,US,Wilton Manors,33334,FL
+3333,Nypd Pizza,5761 Springdale Rd,Cincinnati,US,Groesbeck,45247,OH
+3335,Concord Pike Steak Shop,257 W Wilmington Chester Pike,Chadds Ford,US,PA,19317,PA
+3336,Warrens Place,27 Pleasant St,South Weymouth,US,Weymouth Nas,2190,
+3345,Cantina Di Napoli,7A Trolly Sq,Wilmington,US,DE,19806,DE
+3347,Geno's Deli,1751 Scottsville Rd,Bowling Green,US,KY,42104,KY
+3353,Adriatico Pizza,1424 Morris Ave,Union,US,Townley,7083,IA
+3365,Culina,300 S Doheny Dr,Los Angeles,US,Bicentennial,90048,CA
+3370,Paulo and Bill,16501 Midland Dr,Shawnee,US,Shawnee Mission,66217,KS
+3371,Taphouse 15,75 State Route 15,Wharton,US,NJ,7885,NJ
+3375,San Biagio's Pizza,1263 7th St,Upland,US,CA,,CA
+3381,Rusty Bucket,Woodward Ave Bloomfield Hills Mi,Bloomfield Hills,US,Bloomfld Hls,48304,MI
+3384,Cafe Noma,1 Collins Diboll Cir,New Orleans,US,LA,70124,LA
+3385,Brio Tuscan Grille - Murray,6173 S State St,Salt Lake City,US,Salt Lake Cty,84107,UT
+3386,The Melting Pot - Albany,1 Crossgates Mall Road Crossgates Mall,Albany,US,Mckownville,12203,KY
+3388,The Melting Pot - Westwood,250 Center Ave,Westwood,US,Rivervale,7675,KS
+3390,Applebee's,2180 Us Highway 70 S E,Hickory,US,Longview,28602,NC
+3391,Maria D's,1411 Mountain Rd,Joppa,US,Joppatowne,21085,
+3399,Dale Street Bistro Cafe,115 E Dale St,Colorado Springs,US,Co Spgs,80903,CO
+3403,Manhasset Bay Marina,10 Matinicock Ave,Port Washington,US,Baxter Estates,11050,
+3406,Coral Restaurant,3801 Broadway,New York,US,Nyc,10032,NY
+3407,Boonies Sports Bar,122 Diamond St,Titusville,US,PA,16354,PA
+3410,Quesadillas Mexican Restaurant,249 Church St,Amherst,US,Brownhelm,44001,OH
+3411,Ruby Asian Fusion and Sushi Bar,8285 Jericho Tpke,Woodbury,US,NY,11797,NY
+3412,Mellow Mushroom - Phoenix,14205 S 50th St,Phoenix,US,AZ,85044,AZ
+3422,Redbox,284 Civic Center Dr,Augusta,US,Togus,4330,KY
+3423,Villaggio Ristorante,150 07 14th Rd,Whitestone,US,Malba,11357,
+3424,Mc Kitchen,4141 N E 2nd Ave 101a,Miami,US,FL,33137,FL
+3425,Bravo Cucina Italiana - Rochester Hills,286 N Adams Rd,Rochester,US,MI,48309,MI
+3431,The James New York,27 Grand St,New York,US,Manhattan,10013,NY
+3432,Joe's Grill & Cantina,3400 S 74th St,Fort Smith,US,AR,72903,AR
+3433,Mainland Grille,2250 Rittenhouse Rd,Harleysville,US,PA,19438,PA
+3438,"Mineo's Wings, Pizza & Raw Bar",4261 Griffin Rd,Fort Lauderdale,US,Dania Beach,33314,FL
+3444,Quinnipiac Pizza Deli,1653 Quinnipiac Ave,New Haven,US,Fair Haven,6513,KY
+3453,The Loophole,2817 Maybank Hwy,Johns Island,US,Seabrook Island,29455,SC
+3455,Massey's Pizza,2970 Sullivant Ave,Columbus,US,Valleyview,43204,OH
+3457,Bulldog Ale House - Bolingbrook,157 S Weber Rd,Bolingbrook,US,IL,60490,IL
+3469,Wilmington House of Pizza,1016 S College Rd,Wilmington,US,Wilm,28403,NC
+3471,Mount Laurel Bagels & Bakery,888 Union Mill Rd,Mount Laurel,US,Mount Laurel Township,8054,
+3472,Deangelo's,2620 E Third St,Bloomington,US,IN,47401,IN
+3475,Russo's Coal-fired Italian Kitchen,14910 Pines Blvd,Hollywood,US,Pembroke Pnes,33027,FL
+3476,Nostrana,1401 S E Morrison,Portland,US,OR,97214,OR
+3478,Osteria Procaccini,101 Tree Farm Vlg,Pennington,US,NJ,8534,NJ
+3480,Romio's Pizza & Pasta - Downtown,927 Howell St,Seattle,US,WA,98101,WA
+3485,Pietro's Restaurante,645 Boardwalk Blvd,Bossier City,US,LA,71111,LA
+3486,The Melting Pot - Boise,200 N 6th St,Boise,US,ID,83702,ID
+3488,Famous Famiglia,757 Broadway,New York,US,Manhattan,10003,NY
+3492,Carvalho's Brazilian Kitchen,23623 N Scottsdale Rd D107,Scottsdale,US,AZ,85255,AZ
+3493,Rosa Mexicano,1063 1st Ave,New York,US,Manhattan,10022,NY
+3494,The Pizza Parlor,2810 Business Center Dr,Pearland,US,TX,77584,TX
+3498,Rick's Cabaret,3551 Lafayette Rd,Indianapolis,US,IN,46222,IN
+3499,Mighty Mick's Pub & Cafe,10727 Randolph Saint Crown Point In,Crown Point,US,Palmer,46307,IN
+3500,Prison Brews Brewery & Restaurant,305 Ash St,Jefferson City,US,Honey Creek,65101,MO
+3507,Moonlight Cafe,4140 Carlisle Rd,Dover,US,Davidsburg,17315,MN
+3509,Guidos,9563 Kings Charter Doctor B,Ashland,US,VA,23005,VA
