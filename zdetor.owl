@@ -90,6 +90,12 @@
     
 
 
+    <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis/hasTopping -->
+
+    <owl:ObjectProperty rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/hasTopping"/>
+    
+
+
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis/isAddressOf -->
 
     <owl:ObjectProperty rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/isAddressOf"/>
@@ -192,10 +198,18 @@
     
 
 
-    <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis/BiancaWhitePizza -->
+    <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis/BasilTopping -->
 
-    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/BiancaWhitePizza">
-        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/NamedPizza"/>
+    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/BasilTopping">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis/BbqTopping -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/BbqTopping">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/PizzaTopping"/>
     </owl:Class>
     
 
@@ -244,6 +258,15 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Drink">
         <owl:disjointWith rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Food"/>
+        <owl:disjointWith rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/VeggiePizza"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis/FetaTopping -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/FetaTopping">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/PizzaTopping"/>
     </owl:Class>
     
 
@@ -266,6 +289,14 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/GreekRestaurant">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Restaurant"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis/GreenPeppersTopping -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/GreenPeppersTopping">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/PizzaTopping"/>
     </owl:Class>
     
 
@@ -324,6 +355,22 @@
     
 
 
+    <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis/MozzarellaTopping -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/MozzarellaTopping">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis/MushroomsTopping -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/MushroomsTopping">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/PizzaTopping"/>
+    </owl:Class>
+    
+
+
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis/NamedPizza -->
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/NamedPizza">
@@ -332,10 +379,34 @@
     
 
 
+    <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis/OnionTopping -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/OnionTopping">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis/ParmezanTopping -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/ParmezanTopping">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/PizzaTopping"/>
+    </owl:Class>
+    
+
+
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis/PepperoniPizza -->
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/PepperoniPizza">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/NamedPizza"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis/PepperoniTopping -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/PepperoniTopping">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/PizzaTopping"/>
     </owl:Class>
     
 
@@ -377,6 +448,14 @@
     
 
 
+    <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis/RedPeppersTopping -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/RedPeppersTopping">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/PizzaTopping"/>
+    </owl:Class>
+    
+
+
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Restaurant -->
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Restaurant">
@@ -391,10 +470,26 @@
     
 
 
+    <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis/RicottaTopping -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/RicottaTopping">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/PizzaTopping"/>
+    </owl:Class>
+    
+
+
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis/SeafoodRestaurant -->
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/SeafoodRestaurant">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Restaurant"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis/SicilianPizza -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/SicilianPizza">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/NamedPizza"/>
     </owl:Class>
     
 
@@ -409,6 +504,31 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/SushiRestaurant">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Restaurant"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis/TomatoTopping -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/TomatoTopping">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis/VeggiePizza -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/VeggiePizza">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Pizza"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis/WhitePizza -->
+
+    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/WhitePizza">
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/NamedPizza"/>
+        <rdfs:label></rdfs:label>
     </owl:Class>
     
 
@@ -445,25 +565,6 @@
     <owl:NamedIndividual rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/USD">
         <rdf:type rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Currency"/>
     </owl:NamedIndividual>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // General axioms
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/BiancaWhitePizza"/>
-            <rdf:Description rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/HawaiianPizza"/>
-            <rdf:Description rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis/MargheritaPizza"/>
-        </owl:members>
-    </rdf:Description>
 </rdf:RDF>
 
 

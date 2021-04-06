@@ -57,6 +57,10 @@ zdetor:hasState rdf:type owl:ObjectProperty ,
                 rdfs:range zdetor:State .
 
 
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/hasTopping
+zdetor:hasTopping rdf:type owl:ObjectProperty .
+
+
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/isAddressOf
 zdetor:isAddressOf rdf:type owl:ObjectProperty .
 
@@ -74,6 +78,18 @@ zdetor:addressLine rdf:type owl:DatatypeProperty ;
                    rdfs:domain zdetor:Address ;
                    rdfs:range xsd:string ;
                    rdfs:comment "The address line is not made functional to allow for multiple address lines per address" .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/currency
+zdetor:currency rdf:type owl:DatatypeProperty .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/description
+zdetor:description rdf:type owl:DatatypeProperty .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/name
+zdetor:name rdf:type owl:DatatypeProperty .
 
 
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/postCode
@@ -115,12 +131,17 @@ zdetor:AsianRestaurant rdf:type owl:Class ;
 
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/BarRestaurant
 zdetor:BarRestaurant rdf:type owl:Class ;
-                     rdfs:subClassOf zdetor:Place .
+                     rdfs:subClassOf zdetor:Restaurant .
 
 
-###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/BiancaWhitePizza
-zdetor:BiancaWhitePizza rdf:type owl:Class ;
-                        rdfs:subClassOf zdetor:NamedPizza .
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/BasilTopping
+zdetor:BasilTopping rdf:type owl:Class ;
+                    rdfs:subClassOf zdetor:PizzaTopping .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/BbqTopping
+zdetor:BbqTopping rdf:type owl:Class ;
+                  rdfs:subClassOf zdetor:PizzaTopping .
 
 
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/CheesePizza
@@ -151,16 +172,32 @@ zdetor:Currency rdf:type owl:Class ;
 
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Drink
 zdetor:Drink rdf:type owl:Class ;
-             owl:disjointWith zdetor:Food .
+             owl:disjointWith zdetor:Food ,
+                              zdetor:VeggiePizza .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/FetaTopping
+zdetor:FetaTopping rdf:type owl:Class ;
+                   rdfs:subClassOf zdetor:PizzaTopping .
 
 
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Food
 zdetor:Food rdf:type owl:Class .
 
 
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/FrenchRestaurant
+zdetor:FrenchRestaurant rdf:type owl:Class ;
+                        rdfs:subClassOf zdetor:Restaurant .
+
+
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/GreekRestaurant
 zdetor:GreekRestaurant rdf:type owl:Class ;
                        rdfs:subClassOf zdetor:Restaurant .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/GreenPeppersTopping
+zdetor:GreenPeppersTopping rdf:type owl:Class ;
+                           rdfs:subClassOf zdetor:PizzaTopping .
 
 
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/HawaiianPizza
@@ -197,14 +234,39 @@ zdetor:MexicanRestaurant rdf:type owl:Class ;
                          rdfs:subClassOf zdetor:Restaurant .
 
 
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/MozzarellaTopping
+zdetor:MozzarellaTopping rdf:type owl:Class ;
+                         rdfs:subClassOf zdetor:PizzaTopping .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/MushroomsTopping
+zdetor:MushroomsTopping rdf:type owl:Class ;
+                        rdfs:subClassOf zdetor:PizzaTopping .
+
+
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/NamedPizza
 zdetor:NamedPizza rdf:type owl:Class ;
                   rdfs:subClassOf zdetor:Pizza .
 
 
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/OnionTopping
+zdetor:OnionTopping rdf:type owl:Class ;
+                    rdfs:subClassOf zdetor:PizzaTopping .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/ParmezanTopping
+zdetor:ParmezanTopping rdf:type owl:Class ;
+                       rdfs:subClassOf zdetor:PizzaTopping .
+
+
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/PepperoniPizza
 zdetor:PepperoniPizza rdf:type owl:Class ;
                       rdfs:subClassOf zdetor:NamedPizza .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/PepperoniTopping
+zdetor:PepperoniTopping rdf:type owl:Class ;
+                        rdfs:subClassOf zdetor:PizzaTopping .
 
 
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Pizza
@@ -230,6 +292,11 @@ zdetor:Place rdf:type owl:Class ;
                              ] .
 
 
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/RedPeppersTopping
+zdetor:RedPeppersTopping rdf:type owl:Class ;
+                         rdfs:subClassOf zdetor:PizzaTopping .
+
+
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Restaurant
 zdetor:Restaurant rdf:type owl:Class ;
                   rdfs:subClassOf zdetor:Place ,
@@ -239,9 +306,19 @@ zdetor:Restaurant rdf:type owl:Class ;
                                   ] .
 
 
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/RicottaTopping
+zdetor:RicottaTopping rdf:type owl:Class ;
+                      rdfs:subClassOf zdetor:PizzaTopping .
+
+
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/SeafoodRestaurant
 zdetor:SeafoodRestaurant rdf:type owl:Class ;
                          rdfs:subClassOf zdetor:Restaurant .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/SicilianPizza
+zdetor:SicilianPizza rdf:type owl:Class ;
+                     rdfs:subClassOf zdetor:NamedPizza .
 
 
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/State
@@ -251,6 +328,22 @@ zdetor:State rdf:type owl:Class .
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/SushiRestaurant
 zdetor:SushiRestaurant rdf:type owl:Class ;
                        rdfs:subClassOf zdetor:Restaurant .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/TomatoTopping
+zdetor:TomatoTopping rdf:type owl:Class ;
+                     rdfs:subClassOf zdetor:PizzaTopping .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/VeggiePizza
+zdetor:VeggiePizza rdf:type owl:Class ;
+                   rdfs:subClassOf zdetor:Pizza .
+
+
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/WhitePizza
+zdetor:WhitePizza rdf:type owl:Class ;
+                  rdfs:subClassOf zdetor:NamedPizza ;
+                  rdfs:label "" .
 
 
 #################################################################
@@ -270,18 +363,6 @@ zdetor:GBP rdf:type owl:NamedIndividual ,
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/USD
 zdetor:USD rdf:type owl:NamedIndividual ,
                     zdetor:Currency .
-
-
-#################################################################
-#    General axioms
-#################################################################
-
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( zdetor:BiancaWhitePizza
-                zdetor:HawaiianPizza
-                zdetor:MargheritaPizza
-              )
-] .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
