@@ -1,0 +1,675 @@
+,cityName,state,num_of_restaurants
+0,Aptos,,1
+1,Babylon,,1
+2,Barrington,,1
+3,Bellmawr,,1
+4,Blowing Rock,,1
+5,Briarcliff Manor,,1
+6,Cherry Hill,,1
+7,Collegeville,,1
+8,Connellsville,,1
+9,Coraopolis,,1
+10,Drexel Hill,,1
+11,East Hartford,,1
+12,Ellicott City,,1
+13,Endicott,,2
+14,Fair Lawn,,1
+15,Fleetwood,,1
+16,Fort Lee,,1
+17,Great Barrington,,1
+18,Hammonton,,1
+19,Hershey,,1
+20,Islip,,2
+21,Joppa,,1
+22,Kernersville,,2
+23,Lawrence Township,,1
+24,Long Island City,,2
+25,Mahopac,,1
+26,Marlton,,1
+27,Mastic Beach,,1
+28,Mc Cordsville,,1
+29,Mechanicsburg,,1
+30,Middle Village,,1
+31,Montville,,1
+32,Mount Laurel,,3
+33,Natick,,1
+34,Newington,,1
+35,Pine Plains,,1
+36,Port Jefferson,,1
+37,Port Washington,,2
+38,Rockville Centre,,1
+39,Saint Albans,,1
+40,Saint James,,1
+41,Sayville,,1
+42,Schwenksville,,1
+43,South Burlington,,1
+44,South Weymouth,,1
+45,South Windsor,,1
+46,South Yarmouth,,1
+47,Vernon Rockville,,1
+48,Voorhees,,1
+49,West Deptford,,1
+50,Whitestone,,1
+51,Winston Salem,,2
+52,Fairbanks,AK,1
+53,Auburn,AL,3
+54,Mobile,AL,1
+55,Montgomery,AL,1
+56,Sylacauga,AL,1
+57,Bentonville,AR,1
+58,Cabot,AR,1
+59,Fort Smith,AR,1
+60,Jonesboro,AR,1
+61,Sherwood,AR,1
+62,Cave Creek,AZ,1
+63,Chandler,AZ,1
+64,Flagstaff,AZ,1
+65,Glendale,AZ,1
+66,Lake Havasu City,AZ,1
+67,Phoenix,AZ,4
+68,Prescott,AZ,1
+69,Prescott Valley,AZ,1
+70,Scottsdale,AZ,3
+71,Sedona,AZ,1
+72,Show Low,AZ,1
+73,Tempe,AZ,1
+74,Williams,AZ,1
+75,Alameda,CA,1
+76,Aliso Viejo,CA,1
+77,Bakersfield,CA,1
+78,Brentwood,CA,1
+79,Canoga Park,CA,1
+80,Chatsworth,CA,2
+81,Corona,CA,3
+82,Costa Mesa,CA,1
+83,Danville,CA,1
+84,Desert Hot Springs,CA,1
+85,Dinuba,CA,1
+86,El Segundo,CA,1
+87,Encinitas,CA,2
+88,Folsom,CA,1
+89,Fresno,CA,1
+90,Fullerton,CA,1
+91,Hermosa Beach,CA,1
+92,Hollister,CA,1
+93,Huntington Beach,CA,1
+94,Irvine,CA,2
+95,Laguna Niguel,CA,1
+96,Lake Forest,CA,1
+97,Lakeside,CA,1
+98,Lathrop,CA,1
+99,Lompoc,CA,1
+100,Long Beach,CA,2
+101,Los Angeles,CA,8
+102,Marina Del Rey,CA,1
+103,Menifee,CA,1
+104,Mill Valley,CA,1
+105,Modesto,CA,2
+106,Moorpark,CA,1
+107,Novato,CA,1
+108,Palm Desert,CA,2
+109,Palo Alto,CA,2
+110,Pasadena,CA,2
+111,Petaluma,CA,1
+112,Pleasant Hill,CA,1
+113,Pomona,CA,1
+114,Rancho Cucamonga,CA,1
+115,Rancho Palos Verdes,CA,1
+116,Redondo Beach,CA,1
+117,Redwood City,CA,1
+118,Rohnert Park,CA,1
+119,Sacramento,CA,2
+120,San Diego,CA,5
+121,San Francisco,CA,2
+122,San Jose,CA,1
+123,San Juan,CA,1
+124,San Rafael,CA,1
+125,Santa Clarita,CA,1
+126,Santa Cruz,CA,2
+127,Santa Maria,CA,1
+128,Solana Beach,CA,1
+129,South San Francisco,CA,1
+130,Studio City,CA,1
+131,Thousand Oaks,CA,2
+132,Tracy,CA,1
+133,Upland,CA,1
+134,Vallejo,CA,1
+135,Venice,CA,1
+136,Ventura,CA,2
+137,Yucaipa,CA,2
+138,Arvada,CO,2
+139,Berthoud,CO,1
+140,Colorado Springs,CO,3
+141,Denver,CO,6
+142,Englewood,CO,1
+143,Evergreen,CO,1
+144,Fort Collins,CO,1
+145,Idaho Springs,CO,1
+146,Johnstown,CO,1
+147,Littleton,CO,1
+148,Berlin,CT,1
+149,Bloomfield,CT,2
+150,Danbury,CT,1
+151,East Granby,CT,1
+152,Hamden,CT,1
+153,Manchester,CT,2
+154,Milford,CT,2
+155,Newtown,CT,1
+156,Pawcatuck,CT,1
+157,Shelton,CT,1
+158,Simsbury,CT,1
+159,Stamford,CT,1
+160,Wallingford,CT,1
+161,Waterbury,CT,1
+162,West Haven,CT,1
+163,Washington,DC,4
+164,Wilmington,DE,4
+165,Alachua,FL,1
+166,Altamonte Springs,FL,3
+167,Arcadia,FL,1
+168,Bartow,FL,1
+169,Belleview,FL,1
+170,Bradenton Beach,FL,1
+171,Broward County,FL,1
+172,Clearwater,FL,1
+173,Deerfield,FL,1
+174,Deland,FL,1
+175,Destin,FL,1
+176,Dunedin,FL,1
+177,Fort Lauderdale,FL,5
+178,Fort Myers,FL,1
+179,Gainesville,FL,1
+180,Hollywood,FL,2
+181,Jacksonville,FL,2
+182,Kissimmee,FL,1
+183,Lehigh Acres,FL,1
+184,Maitland,FL,2
+185,Miami,FL,2
+186,Miami Beach,FL,2
+187,Naples,FL,1
+188,Nokomis,FL,1
+189,North Miami Beach,FL,1
+190,North Port,FL,1
+191,Ocala,FL,1
+192,Orlando,FL,3
+193,Palm Coast,FL,1
+194,Pompano Beach,FL,2
+195,Punta Gorda,FL,1
+196,Saint Cloud,FL,1
+197,Saint Petersburg,FL,3
+198,Sarasota,FL,1
+199,Stuart,FL,1
+200,Wellington,FL,1
+201,West Palm Beach,FL,1
+202,Americus,GA,1
+203,Athens,GA,1
+204,Atlanta,GA,4
+205,Duluth,GA,2
+206,Kennesaw,GA,1
+207,Kingston,GA,1
+208,Lawrenceville,GA,1
+209,Mcdonough,GA,1
+210,Palmetto,GA,1
+211,Perry,GA,1
+212,Stockbridge,GA,1
+213,Trenton,GA,2
+214,Honolulu,HI,4
+215,Kamuela,HI,1
+216,Burlington,IA,2
+217,Davenport,IA,1
+218,Des Moines,IA,1
+219,Grinnell,IA,2
+220,Hartford,IA,1
+221,Marshalltown,IA,1
+222,Providence,IA,2
+223,Sioux City,IA,1
+224,Union,IA,2
+225,Vail,IA,1
+226,Boise,ID,1
+227,Coeur D Alene,ID,1
+228,Eagle,ID,1
+229,Rome,ID,1
+230,Addison,IL,2
+231,Aurora,IL,2
+232,Berwyn,IL,1
+233,Bloomington,IL,3
+234,Bolingbrook,IL,2
+235,Buffalo Grove,IL,1
+236,Chatham,IL,1
+237,Chicago,IL,6
+238,Chicago Ridge,IL,1
+239,Decatur,IL,1
+240,Elgin,IL,1
+241,Evergreen Park,IL,1
+242,Frankfort,IL,1
+243,Freeport,IL,2
+244,Galena,IL,1
+245,Glenview,IL,1
+246,Godfrey,IL,1
+247,Highwood,IL,1
+248,Homer Glen,IL,2
+249,Joliet,IL,1
+250,Justice,IL,1
+251,Lisle,IL,1
+252,Lockport,IL,3
+253,Lombard,IL,1
+254,Lyons,IL,1
+255,Macomb,IL,1
+256,Midlothian,IL,1
+257,Minooka,IL,1
+258,Mount Carmel,IL,1
+259,Mount Prospect,IL,1
+260,North Aurora,IL,1
+261,Oak Park,IL,1
+262,Palatine,IL,1
+263,Palos Hills,IL,1
+264,Peoria,IL,1
+265,Peoria Heights,IL,1
+266,Quincy,IL,1
+267,Rayville,IL,1
+268,River Grove,IL,1
+269,Rockford,IL,1
+270,Saint Charles,IL,1
+271,Skokie,IL,1
+272,Sterling,IL,1
+273,Tinley Park,IL,1
+274,Urbana,IL,1
+275,Vernon Hills,IL,1
+276,Wheeling,IL,2
+277,Woodridge,IL,1
+278,Butler,IN,1
+279,Crown Point,IN,1
+280,Fishers,IN,1
+281,Franklin,IN,2
+282,Granger,IN,1
+283,Indianapolis,IN,5
+284,Schererville,IN,1
+285,Albany,KS,2
+286,Andover,KS,1
+287,Augusta,KS,2
+288,Ayer,KS,1
+289,Garfield,KS,1
+290,Hamilton,KS,1
+291,Lancaster,KS,3
+292,Newton,KS,1
+293,Olathe,KS,1
+294,Paradise,KS,1
+295,Shawnee,KS,1
+296,Syracuse,KS,1
+297,Troy,KS,1
+298,Westwood,KS,2
+299,Wichita,KS,2
+300,Ashland,KY,3
+301,Audubon,KY,1
+302,Bowling Green,KY,1
+303,Covington,KY,1
+304,Louisville,KY,3
+305,Matthews,KY,1
+306,Middletown,KY,3
+307,New Haven,KY,1
+308,Williamstown,KY,1
+309,Bossier City,LA,1
+310,Broussard,LA,1
+311,Farmerville,LA,1
+312,Harvey,LA,1
+313,New Orleans,LA,2
+314,Abington,MA,1
+315,Boston,MA,1
+316,Brookline,MA,1
+317,Chicopee,MA,1
+318,Clinton,MA,1
+319,Danvers,MA,2
+320,Dennis Port,MA,1
+321,Falmouth,MA,1
+322,Framingham,MA,3
+323,Gardner,MA,1
+324,Hadley,MA,1
+325,Hopkinton,MA,1
+326,Hyannis,MA,1
+327,Marblehead,MA,2
+328,Marlborough,MA,1
+329,Medway,MA,1
+330,Nantucket,MA,1
+331,Newton Highlands,MA,1
+332,North Andover,MA,1
+333,Peabody,MA,1
+334,Pittsfield,MA,1
+335,Reading,MA,1
+336,Sturbridge,MA,1
+337,Swansea,MA,1
+338,Tyngsboro,MA,1
+339,Wareham,MA,1
+340,Baltimore,MD,4
+341,Bowie,MD,1
+342,Chevy Chase,MD,1
+343,Cockeysville,MD,1
+344,Columbia,MD,1
+345,Essex,MD,2
+346,Frederick,MD,1
+347,Frostburg,MD,1
+348,Kensington,MD,1
+349,Laurel,MD,1
+350,Reisterstown,MD,1
+351,Rockville,MD,4
+352,Sykesville,MD,1
+353,Westminster,MD,2
+354,Windsor Mill,MD,1
+355,Kennebunk,ME,1
+356,Scarborough,ME,1
+357,South Portland,ME,1
+358,Waterville,ME,1
+359,Yarmouth,ME,1
+360,Birmingham,MI,2
+361,Bloomfield Hills,MI,1
+362,Bronson,MI,1
+363,Cadillac,MI,1
+364,Dearborn,MI,1
+365,Detroit,MI,1
+366,Fenton,MI,1
+367,Flat Rock,MI,1
+368,Flushing,MI,1
+369,Fruitport,MI,1
+370,Grand Rapids,MI,1
+371,Houghton,MI,1
+372,Marquette,MI,1
+373,Northville,MI,1
+374,Novi,MI,1
+375,Petoskey,MI,1
+376,Plymouth,MI,2
+377,Redford,MI,1
+378,Southgate,MI,1
+379,Utica,MI,1
+380,WY,MI,1
+381,White Lake,MI,1
+382,Wyoming,MI,1
+383,Detroit Lakes,MN,2
+384,Dover,MN,1
+385,Excelsior,MN,1
+386,Inver Grove Heights,MN,1
+387,Isanti,MN,1
+388,Mankato,MN,2
+389,Minneapolis,MN,5
+390,Osseo,MN,1
+391,Round Lake,MN,1
+392,Sartell,MN,1
+393,Spring Park,MN,1
+394,Stillwater,MN,2
+395,Arnold,MO,1
+396,Camdenton,MO,1
+397,Chesterfield,MO,1
+398,Jefferson City,MO,1
+399,Kansas City,MO,1
+400,Lake Ozark,MO,1
+401,Saint Ann,MO,1
+402,Saint Louis,MO,4
+403,Hattiesburg,MS,1
+404,Hernando,MS,1
+405,Southaven,MS,1
+406,Billings,MT,1
+407,Bozeman,MT,1
+408,Missoula,MT,3
+409,Charlotte,NC,2
+410,Cherokee,NC,1
+411,Cherryville,NC,1
+412,Greensboro,NC,2
+413,Hendersonville,NC,1
+414,Hickory,NC,2
+415,Kinston,NC,1
+416,Locust,NC,1
+417,Raleigh,NC,1
+418,Rockingham,NC,1
+419,Wake Forest,NC,1
+420,Wilson,NC,2
+421,Grand Forks,ND,1
+422,Elkhorn,NE,1
+423,Fremont,NE,1
+424,Lexington,NE,3
+425,Omaha,NE,2
+426,Wayne,NE,1
+427,Laconia,NH,1
+428,Peterborough,NH,1
+429,Portsmouth,NH,1
+430,Bayonne,NJ,2
+431,Berkeley Heights,NJ,1
+432,Califon,NJ,1
+433,Clark,NJ,1
+434,Cliffside Park,NJ,1
+435,Clifton,NJ,2
+436,Clifton Park,NJ,2
+437,Denville,NJ,1
+438,E Windsor,NJ,1
+439,East Brunswick,NJ,1
+440,Edgewater,NJ,1
+441,Englishtown,NJ,2
+442,Fairfield,NJ,3
+443,Fords,NJ,1
+444,Hackettstown,NJ,1
+445,Hazlet,NJ,1
+446,Hoboken,NJ,1
+447,Lafayette,NJ,4
+448,Little Ferry,NJ,1
+449,Madison,NJ,2
+450,Maple Shade,NJ,1
+451,Margate City,NJ,1
+452,Merchantville,NJ,1
+453,Mine Hill,NJ,1
+454,Montclair,NJ,1
+455,Moorestown,NJ,1
+456,Morristown,NJ,2
+457,New Brunswick,NJ,1
+458,Northfield,NJ,1
+459,Paramus,NJ,1
+460,Parlin,NJ,1
+461,Pennington,NJ,1
+462,Piscataway,NJ,1
+463,Rahway,NJ,1
+464,Saddle Brook,NJ,1
+465,Sicklerville,NJ,1
+466,Skillman,NJ,1
+467,Summit,NJ,1
+468,Weehawken,NJ,1
+469,Wharton,NJ,1
+470,Whippany,NJ,1
+471,Whitehouse Station,NJ,1
+472,Wyckoff,NJ,1
+473,Albuquerque,NM,1
+474,Farmington,NM,1
+475,Santa Fe,NM,1
+476,Henderson,NV,3
+477,Las Vegas,NV,6
+478,Reno,NV,1
+479,Amsterdam,Ny,2
+480,Binghamton,Ny,2
+481,Bronx,Ny,7
+482,Brooklyn,Ny,16
+483,Buffalo,Ny,4
+484,Campbell Hall,Ny,2
+485,Centereach,Ny,2
+486,Fort Montgomery,Ny,2
+487,Grand Island,Ny,2
+488,Hyde Park,Ny,2
+489,Little Falls,Ny,2
+490,Massapequa Park,Ny,2
+491,Mount Kisco,Ny,2
+492,Nanuet,Ny,2
+493,New City,Ny,57
+494,New York,Ny,57
+495,Niagara Falls,Ny,4
+496,Pearl River,Ny,2
+497,Pound Ridge,Ny,2
+498,Rochester,Ny,10
+499,Rye,Ny,2
+500,Staten Island,Ny,6
+501,Waverly,Ny,2
+502,Westbury,Ny,2
+503,White Plains,Ny,6
+504,Woodbury,Ny,2
+505,York,Ny,57
+506,Akron,OH,1
+507,Amherst,OH,1
+508,Brookpark,OH,1
+509,Bucyrus,OH,1
+510,Celina,OH,1
+511,Cincinnati,OH,3
+512,Cleveland,OH,1
+513,Columbus,OH,5
+514,Dayton,OH,2
+515,Elyria,OH,1
+516,Findlay,OH,2
+517,Hilliard,OH,1
+518,Kent,OH,3
+519,Lakeview,OH,1
+520,Loveland,OH,1
+521,Medina,OH,1
+522,Mount Vernon,OH,1
+523,N Olmsted,OH,1
+524,Newark,OH,3
+525,North Olmsted,OH,1
+526,Oxford,OH,3
+527,Reynoldsburg,OH,1
+528,Rossford,OH,1
+529,Strongsville,OH,1
+530,Toledo,OH,1
+531,Upper Sandusky,OH,1
+532,Wapakoneta,OH,1
+533,Willoughby,OH,1
+534,Chickasha,OK,1
+535,Duncan,OK,1
+536,Edmond,OK,1
+537,Mustang,OK,1
+538,Oklahoma City,OK,2
+539,Tulsa,OK,1
+540,Astoria,OR,3
+541,Beaverton,OR,1
+542,Bend,OR,3
+543,Corvallis,OR,1
+544,Portland,OR,4
+545,Salem,OR,3
+546,Sandy,OR,1
+547,West Linn,OR,1
+548,Allentown,PA,2
+549,Bethlehem,PA,2
+550,Canonsburg,PA,1
+551,Chadds Ford,PA,1
+552,Downingtown,PA,1
+553,Erie,PA,3
+554,Harleysville,PA,1
+555,King Of Prussia,PA,2
+556,Lafayette Hill,PA,1
+557,Lansdale,PA,1
+558,Luzerne,PA,1
+559,Mckeesport,PA,1
+560,Monroeville,PA,1
+561,Philadelphia,PA,13
+562,Pittsburg,PA,6
+563,Pittsburgh,PA,6
+564,Pottstown,PA,3
+565,Ridley Park,PA,1
+566,Shrewsbury,PA,2
+567,Skippack,PA,1
+568,State College,PA,2
+569,Titusville,PA,1
+570,Verona,PA,1
+571,West Chester,PA,1
+572,Wexford,PA,1
+573,Whitehall,PA,1
+574,Wilkes Barre,PA,1
+575,Willow Grove,PA,1
+576,Bristol,RI,2
+577,East Greenwich,RI,2
+578,Lincoln,RI,2
+579,Newport,RI,2
+580,West Warwick,RI,1
+581,Bennettsville,SC,1
+582,Charleston,SC,3
+583,Florence,SC,1
+584,Greenville,SC,1
+585,Hilton Head Island,SC,2
+586,Johns Island,SC,1
+587,Myrtle Beach,SC,1
+588,Pickens,SC,1
+589,Taylors,SC,1
+590,Sioux Falls,SD,1
+591,Gatlinburg,TN,1
+592,Memphis,TN,2
+593,Murfreesboro,TN,1
+594,Nashville,TN,3
+595,Paris,TN,1
+596,Allen,TX,1
+597,Austin,TX,5
+598,Cedar Hill,TX,1
+599,Cedar Park,TX,2
+600,College Station,TX,2
+601,Dallas,TX,3
+602,El Paso,TX,1
+603,Fort Worth,TX,1
+604,Garland,TX,1
+605,Grand Prairie,TX,2
+606,Grapevine,TX,2
+607,Houston,TX,8
+608,Jamaica,TX,1
+609,Katy,TX,1
+610,Keller,TX,1
+611,Kingwood,TX,1
+612,Mansfield,TX,1
+613,Mcallen,TX,2
+614,Mesquite,TX,1
+615,Midland,TX,1
+616,Missouri City,TX,1
+617,Pearland,TX,1
+618,Plano,TX,1
+619,Richardson,TX,1
+620,San Antonio,TX,3
+621,Southlake,TX,2
+622,Spring,TX,4
+623,Cedar City,UT,1
+624,Gunnison,UT,1
+625,Layton,UT,2
+626,Midvale,UT,1
+627,Provo,UT,1
+628,Saint George,UT,1
+629,Salt Lake City,UT,3
+630,Arlington,VA,1
+631,Blacksburg,VA,1
+632,Chesapeake,VA,1
+633,Daleville,VA,1
+634,Fairfax,VA,1
+635,Front Royal,VA,1
+636,Harrisonburg,VA,1
+637,Henrico,VA,1
+638,Manassas,VA,1
+639,Norfolk,VA,1
+640,Richmond,VA,3
+641,Springfield,VA,3
+642,Suffolk,VA,1
+643,Williamsburg,VA,1
+644,Williston,VT,1
+645,Bellevue,WA,1
+646,Bonney Lake,WA,1
+647,Bothell,WA,1
+648,Ephrata,WA,1
+649,Federal Way,WA,1
+650,Kirkland,WA,3
+651,Langley,WA,1
+652,Lynden,WA,1
+653,Marysville,WA,1
+654,Moses Lake,WA,1
+655,Olympia,WA,1
+656,Pullman,WA,2
+657,Seattle,WA,6
+658,Snohomish,WA,1
+659,Spokane,WA,1
+660,Tacoma,WA,1
+661,Vancouver,WA,1
+662,Green Bay,WI,1
+663,Medford,WI,1
+664,Milwaukee,WI,3
+665,Racine,WI,1
+666,Roberts,WI,1
+667,Schofield,WI,1
+668,Waukesha,WI,1
+669,Wausau,WI,2
+670,Barboursville,WV,1
+671,Beckley,WV,1
+672,Weirton,WV,1
+673,Jackson,Wyoming,2
