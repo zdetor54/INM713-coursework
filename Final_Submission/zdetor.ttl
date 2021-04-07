@@ -40,6 +40,14 @@ zdetor:hasCountry rdf:type owl:ObjectProperty ,
                   rdfs:range zdetor:Country .
 
 
+###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/hasCurrency
+zdetor:hasCurrency rdf:type owl:ObjectProperty ;
+                   rdfs:range [ rdf:type owl:Restriction ;
+                                owl:onProperty zdetor:hasCurrency ;
+                                owl:someValuesFrom zdetor:Currency
+                              ] .
+
+
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis/hasMenuItem
 zdetor:hasMenuItem rdf:type owl:ObjectProperty ;
                    owl:inverseOf zdetor:isMenuItemOf ;

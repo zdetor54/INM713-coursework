@@ -112,19 +112,20 @@ print(f"Restaurants that sell pizzas without tomate: {res_len_2}")
 
 ## Subtask SPARQL.3 
 # Return the average prize of a Margherita pizza (20%).
-query_string_3 = """ SELECT (sum(?price)/count(?pizza) as ?averagePrice)
+query_string_3 = """ SELECT (sum(?price)/count(?pizza) as ?averagePrice) ?currency
 WHERE{
         ?pizza  a zdetor:MargheritaPizza;
                 zdetor:price ?price;
+                zdetor:currency ?currency;
                 zdetor:isMenuItemOf [ zdetor:hasAddress [ zdetor:addressLine ?addressLine] ] .
 }
-#GROUP BY ?pizza ?addressLine
+GROUP BY ?currency
 
 """
 
 res_len_3, results_3 = returnResults(g, query_string_3)
-results_3.to_csv("Results_3.csv")
-print(f"The average price for the Margherita Pizza is: ${str(round(float(results_3.iloc[0].averagePrice),2))}")
+# results_3.to_csv("Results_3.csv")
+print(f"The average price for the Margherita Pizza is: {str(round(float(results_3.iloc[0].averagePrice),2))} {str(results_3.iloc[0].currency)}")
 
 ## Subtask SPARQL.4 
 # Return number of restaurants by city, sorted by state and number of restaurants (20%).

@@ -90694,17 +90694,17 @@ xsd:string a rdfs:Datatype ;
 [] a err:ErrorMessage ;
     err:error "Lexical value of the literal '0.0' does not match its datatype (http://www.w3.org/2001/XMLSchema#float)" .
 
-_:f60a46ac553c7403ebdc45b81080cfd32b1 rdf:first zdetor:EUR ;
-    rdf:rest _:f60a46ac553c7403ebdc45b81080cfd32b2 ;
-    owl:sameAs _:f60a46ac553c7403ebdc45b81080cfd32b1 .
+_:f9498ca77014f40f18c4f11bb8b6282ddb1 rdf:first zdetor:EUR ;
+    rdf:rest _:f9498ca77014f40f18c4f11bb8b6282ddb2 ;
+    owl:sameAs _:f9498ca77014f40f18c4f11bb8b6282ddb1 .
 
-_:f60a46ac553c7403ebdc45b81080cfd32b2 rdf:first zdetor:GBP ;
-    rdf:rest _:f60a46ac553c7403ebdc45b81080cfd32b3 ;
-    owl:sameAs _:f60a46ac553c7403ebdc45b81080cfd32b2 .
+_:f9498ca77014f40f18c4f11bb8b6282ddb2 rdf:first zdetor:GBP ;
+    rdf:rest _:f9498ca77014f40f18c4f11bb8b6282ddb3 ;
+    owl:sameAs _:f9498ca77014f40f18c4f11bb8b6282ddb2 .
 
-_:f60a46ac553c7403ebdc45b81080cfd32b3 rdf:first zdetor:USD ;
+_:f9498ca77014f40f18c4f11bb8b6282ddb3 rdf:first zdetor:USD ;
     rdf:rest () ;
-    owl:sameAs _:f60a46ac553c7403ebdc45b81080cfd32b3 .
+    owl:sameAs _:f9498ca77014f40f18c4f11bb8b6282ddb3 .
 
 _:ub2bL157C37 a owl:Class ;
     rdfs:subClassOf _:ub2bL157C37,
@@ -90712,7 +90712,7 @@ _:ub2bL157C37 a owl:Class ;
         zdetor:Currency ;
     owl:equivalentClass _:ub2bL157C37,
         zdetor:Currency ;
-    owl:oneOf _:f60a46ac553c7403ebdc45b81080cfd32b1 ;
+    owl:oneOf _:f9498ca77014f40f18c4f11bb8b6282ddb1 ;
     owl:sameAs _:ub2bL157C37 .
 
 _:ub2bL295C35 a owl:Restriction ;
