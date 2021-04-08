@@ -1,0 +1,5 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza> owl:equivalentClass <https://www.city.ac.uk/ds/inm713/zacharias_detorakis/Pizza> .
+
+<http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping> owl:equivalentClass <https://www.city.ac.uk/ds/inm713/zacharias_detorakis/PizzaTopping> .
