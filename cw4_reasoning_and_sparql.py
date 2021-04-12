@@ -156,7 +156,7 @@ if __name__ == '__main__':
 
     """
     
-    file_output = "Results_2.csv"
+    file_output = "./output_files/Results_2.csv"
     res_len_2, results_2 = solution.returnResults(query_string_2)
     results_2.to_csv(file_output)
     print(f"Restaurants that sell pizzas without tomate: {res_len_2}")
@@ -206,7 +206,7 @@ if __name__ == '__main__':
 
     """
 
-    file_output = "Results_4.csv"
+    file_output = "./output_files/Results_4.csv"
     res_len_4, results_4 = solution.returnResults(query_string_4)
     results_4.to_csv(file_output)
     print(f"Unique cities with restaurants by state: {res_len_4}")
@@ -231,7 +231,7 @@ if __name__ == '__main__':
 
     """
     
-    file_output = "Results_5.csv"
+    file_output = "./output_files/Results_5.csv"
     res_len_5, results_5 = solution.returnResults(query_string_5)
     results_5.to_csv(file_output)
     print(f"Number of restaurants with missing postcode: {res_len_5}")
