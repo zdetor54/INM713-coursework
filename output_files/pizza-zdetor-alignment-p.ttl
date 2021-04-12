@@ -1,0 +1,36 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pizza: <http://www.co-ode.org/ontologies/pizza/pizza.owl#> .
+@prefix zdetor: <https://www.city.ac.uk/ds/inm713/zacharias_detorakis#> .
+
+pizza:CheeseyPizza owl:equivalentClass zdetor:CheesePizza .
+
+pizza:Country owl:equivalentClass zdetor:Country .
+
+pizza:Food owl:equivalentClass zdetor:Food .
+
+pizza:GreenPepperTopping owl:equivalentClass zdetor:GreenPeppersTopping .
+
+pizza:Margherita owl:equivalentClass zdetor:MargheritaPizza .
+
+pizza:MozzarellaTopping owl:equivalentClass zdetor:MozzarellaTopping .
+
+pizza:MushroomTopping owl:equivalentClass zdetor:MushroomsTopping .
+
+pizza:NamedPizza owl:equivalentClass zdetor:NamedPizza .
+
+pizza:OnionTopping owl:equivalentClass zdetor:OnionTopping .
+
+pizza:ParmesanTopping owl:equivalentClass zdetor:ParmezanTopping .
+
+pizza:PeperoniSausageTopping owl:equivalentClass zdetor:PepperoniTopping .
+
+pizza:Pizza owl:equivalentClass zdetor:Pizza .
+
+pizza:PizzaTopping owl:equivalentClass zdetor:PizzaTopping .
+
+pizza:TomatoTopping owl:equivalentClass zdetor:TomatoTopping .
+
+pizza:hasCountryOfOrigin owl:equivalentProperty zdetor:hasCountry .
+
+pizza:hasTopping owl:equivalentProperty zdetor:hasTopping .
+
