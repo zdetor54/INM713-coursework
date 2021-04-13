@@ -5,6 +5,8 @@ Created on 01 April 2021
 Perform a basic alignment between the pizza.owl ontology and the created ontology.
 This alignment is important to perform SPARQL queries using the vocabulary of the pizza.owl ontology instead of the created ontology.
 '''
+import sys
+sys.path.append('./lib/')
 
 from owlready2 import *
 import pandas as pd

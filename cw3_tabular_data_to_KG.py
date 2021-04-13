@@ -449,7 +449,7 @@ if __name__ == '__main__':
     print(f" - COMPLETED ({round(end-start,2)} sec)")
 
     start = time.time()
-    print('* Processing city class', end='')
+    print('* Processing city class', end='', flush=True)
     solution.g.bind("dpo", Namespace("http://dbpedia.org/resource/"))
     if 'city' in solution.df:
         solution.mappingToCreateTypeTriple('city',solution.zdetor.City, True)
@@ -457,14 +457,14 @@ if __name__ == '__main__':
     print(f" - COMPLETED ({round(end-start,2)} sec)")
     
     start = time.time()
-    print('* Processing country class', end='')  
+    print('* Processing country class', end='', flush=True)  
     if 'country' in solution.df:
         solution.mappingToCreateTypeTriple('country',solution.zdetor.Country, True)
     end = time.time()
     print(f" - COMPLETED ({round(end-start,2)} sec)")
     
     start = time.time()
-    print('* Processing state class', end='')
+    print('* Processing state class', end='', flush=True)
     solution.loadStateISO2UrisFromDBPedia()
     if 'state_code' in solution.df:
         solution.mappingToCreateTypeTriple('state_code',solution.zdetor.State, True)
@@ -472,14 +472,14 @@ if __name__ == '__main__':
     print(f" - COMPLETED ({round(end-start,2)} sec)")
     
     start = time.time()
-    print('* Processing address class', end='')    
+    print('* Processing address class', end='', flush=True)    
     if 'address_id' in solution.df:
         solution.mappingToCreateTypeTriple('address_id',solution.zdetor.Address, False)
     end = time.time()
     print(f" - COMPLETED ({round(end-start,2)} sec)")
     
     start = time.time()
-    print('* Processing pizza and menu item classes', end='')
+    print('* Processing pizza and menu item classes', end='', flush=True)
     if 'pizza_name' in solution.df:
         solution.mappingToCreateTypeTriple('pizza_name',solution.zdetor.Pizza, False)
         solution.mappingToCreateTypeTriple('pizza_name',solution.zdetor.MenuItem, False)
@@ -487,9 +487,11 @@ if __name__ == '__main__':
     print(f" - COMPLETED ({round(end-start,2)} sec)")
     
     start = time.time()
-    print('* Processing currency class')
+    print('* Processing currency class', end='', flush=True)
     if 'currency' in solution.df:
         solution.mappingToCreateTypeTriple('currency',solution.zdetor.Currency, False)
+    end = time.time()
+    print(f" - COMPLETED ({round(end-start,2)} sec)")
 
     #########################################
     #                                       #
@@ -515,7 +517,8 @@ if __name__ == '__main__':
     #                                     #
     #           DATA PROPERTIES           #
     #                                     #
-    ####################################### 
+    #######################################
+    print('CREATING DATA PROPERTIES (LITERALS):')
     if 'name' in solution.df:
         solution.mappingToCreateLiteralTriple('restaurant_name','name',solution.zdetor.name, XSD.string)
         
@@ -547,6 +550,7 @@ if __name__ == '__main__':
     categories = solution.getOntoClassesByTerm('./input_files/zdetor.owl','zdetor','Restaurant')
     pizzas = solution.getOntoClassesByTerm('./input_files/zdetor.owl','zdetor','Pizza')
     toppings = solution.getOntoClassesByTerm('./input_files/zdetor.owl','zdetor','Topping')
+    print("SubClasses for the Restaurants, Pizzas and PizzaToppings loaded from the ontology")
 
     #we then create individuals for all the toppings (i.e. one individual per pizzaTopping class)
     solution.classStringToURI['topping'] = dict()
@@ -558,10 +562,12 @@ if __name__ == '__main__':
 
 
     #finally we add the subclasses to the restaurants and pizzas
+    print("Adding the subclasses to the restaurants and pizzas")
     solution.mappingToCreateObjectProperty('restaurant_name','categories',categories)
     solution.mappingToCreateObjectProperty('pizza_name','menu item',pizzas)
 
     # and the pizza topping URIs to the pizzas
+    print("Adding the pizza topping URIs to the pizzas")
     solution.mappingToCreatePizzaToppings('pizza_name','item description',solution.classStringToURI['topping'],solution.zdetor.hasTopping)
     # print(solution.g.serialize(format="turtle").decode("utf-8"))
 

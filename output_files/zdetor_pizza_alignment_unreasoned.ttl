@@ -173,72 +173,89 @@ skos:definition a owl:AnnotationProperty .
 
 skos:prefLabel a owl:AnnotationProperty .
 
-zdetor: a owl:Ontology .
+zdetor: a owl:Ontology ;
+    rdfs:label "cw_zdetor"@en ;
+    rdfs:comment "An ontology containing restaurants and menu items created as part of the coursework for INM713 - Semantic Web Technologies and Knowledge Graphs"@en ;
+    zdetor:creator "Zacharias Detorakis"@en .
 
 zdetor:AmericanRestaurant a owl:Class ;
-    rdfs:subClassOf zdetor:Restaurant .
+    rdfs:subClassOf zdetor:EthnicRestaurant .
 
 zdetor:AsianRestaurant a owl:Class ;
-    rdfs:subClassOf zdetor:Restaurant .
+    rdfs:subClassOf zdetor:EthnicRestaurant .
 
 zdetor:BarRestaurant a owl:Class ;
-    rdfs:subClassOf zdetor:Restaurant .
+    rdfs:subClassOf zdetor:Restaurant ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:BasilTopping a owl:Class ;
-    rdfs:subClassOf zdetor:PizzaTopping .
+    rdfs:subClassOf zdetor:PizzaTopping ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:BbqTopping a owl:Class ;
-    rdfs:subClassOf zdetor:PizzaTopping .
-
-zdetor:Drink a owl:Class ;
-    owl:disjointWith zdetor:Food,
-        zdetor:VeggiePizza .
+    rdfs:subClassOf zdetor:PizzaTopping ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:FetaTopping a owl:Class ;
-    rdfs:subClassOf zdetor:PizzaTopping .
+    rdfs:subClassOf zdetor:PizzaTopping ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:FrenchRestaurant a owl:Class ;
-    rdfs:subClassOf zdetor:Restaurant .
+    rdfs:subClassOf zdetor:EthnicRestaurant .
 
 zdetor:GreekRestaurant a owl:Class ;
-    rdfs:subClassOf zdetor:Restaurant .
+    rdfs:subClassOf zdetor:EthnicRestaurant .
 
 zdetor:HawaiianPizza a owl:Class ;
-    rdfs:subClassOf zdetor:NamedPizza .
+    rdfs:subClassOf zdetor:NamedPizza ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:ItalianRestaurant a owl:Class ;
-    rdfs:subClassOf zdetor:Restaurant .
+    rdfs:subClassOf zdetor:EthnicRestaurant .
 
 zdetor:MediterraneanRestaurant a owl:Class ;
-    rdfs:subClassOf zdetor:Restaurant .
+    rdfs:subClassOf zdetor:Restaurant ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:MexicanRestaurant a owl:Class ;
-    rdfs:subClassOf zdetor:Restaurant .
+    rdfs:subClassOf zdetor:EthnicRestaurant .
 
 zdetor:PepperoniPizza a owl:Class ;
-    rdfs:subClassOf zdetor:NamedPizza .
+    rdfs:subClassOf zdetor:NamedPizza ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:PizzaRestaurant a owl:Class ;
-    rdfs:subClassOf zdetor:Restaurant .
+    rdfs:subClassOf zdetor:Restaurant ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:RedPeppersTopping a owl:Class ;
-    rdfs:subClassOf zdetor:PizzaTopping .
+    rdfs:subClassOf zdetor:PizzaTopping ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:RicottaTopping a owl:Class ;
-    rdfs:subClassOf zdetor:PizzaTopping .
+    rdfs:subClassOf zdetor:PizzaTopping ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:SeafoodRestaurant a owl:Class ;
-    rdfs:subClassOf zdetor:Restaurant .
+    rdfs:subClassOf zdetor:Restaurant ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:SicilianPizza a owl:Class ;
-    rdfs:subClassOf zdetor:NamedPizza .
+    rdfs:subClassOf zdetor:NamedPizza ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:SushiRestaurant a owl:Class ;
-    rdfs:subClassOf zdetor:Restaurant .
+    rdfs:subClassOf zdetor:Restaurant ;
+    zdetor:creator "zacharias.detorakis"@en .
+
+zdetor:VeggiePizza a owl:Class ;
+    rdfs:subClassOf zdetor:Pizza ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:WhitePizza a owl:Class ;
     rdfs:label "" ;
-    rdfs:subClassOf zdetor:NamedPizza .
+    rdfs:subClassOf zdetor:NamedPizza ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:addressLine a owl:DatatypeProperty ;
     rdfs:comment "The address line is not made functional to allow for multiple address lines per address" ;
@@ -251,14 +268,6 @@ zdetor:currency a owl:DatatypeProperty ;
     rdfs:subPropertyOf owl:topDataProperty .
 
 zdetor:description a owl:DatatypeProperty .
-
-zdetor:hasCity a owl:ObjectProperty ;
-    rdfs:domain zdetor:Address ;
-    rdfs:range zdetor:City .
-
-zdetor:hasState a owl:ObjectProperty ;
-    rdfs:domain zdetor:Address ;
-    rdfs:range zdetor:State .
 
 zdetor:name a owl:DatatypeProperty ;
     rdfs:range xsd:string .
@@ -927,15 +936,20 @@ pizza:isBaseOf a owl:FunctionalProperty,
 
 pizza:isToppingOf a owl:ObjectProperty ;
     rdfs:comment "Any given instance of topping should only be added to a single pizza (no cheap half-measures on our pizzas)"@en ;
-    rdfs:subPropertyOf pizza:isIngredientOf .
+    rdfs:subPropertyOf pizza:isIngredientOf ;
+    owl:equivalentProperty zdetor:isToppingOf .
 
 zdetor:CheesePizza a owl:Class ;
-    rdfs:subClassOf zdetor:Pizza .
+    rdfs:subClassOf zdetor:Pizza ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:ChickenTopping a owl:Class ;
-    rdfs:subClassOf zdetor:PizzaTopping .
+    rdfs:subClassOf zdetor:PizzaTopping ;
+    zdetor:creator "zacharias.detorakis"@en .
 
-zdetor:City a owl:Class .
+zdetor:Drink a owl:Class ;
+    owl:disjointWith zdetor:Food ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:EUR a owl:NamedIndividual,
         zdetor:Currency .
@@ -944,67 +958,70 @@ zdetor:GBP a owl:NamedIndividual,
         zdetor:Currency .
 
 zdetor:GreenPeppersTopping a owl:Class ;
-    rdfs:subClassOf zdetor:PizzaTopping .
+    rdfs:subClassOf zdetor:PizzaTopping ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:HamTopping a owl:Class ;
-    rdfs:subClassOf zdetor:PizzaTopping .
+    rdfs:subClassOf zdetor:PizzaTopping ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:MargheritaPizza a owl:Class ;
-    rdfs:subClassOf zdetor:NamedPizza .
+    rdfs:subClassOf zdetor:NamedPizza ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:MozzarellaTopping a owl:Class ;
-    rdfs:subClassOf zdetor:PizzaTopping .
+    rdfs:subClassOf zdetor:PizzaTopping ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:MushroomsTopping a owl:Class ;
-    rdfs:subClassOf zdetor:PizzaTopping .
+    rdfs:subClassOf zdetor:PizzaTopping ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:OnionTopping a owl:Class ;
-    rdfs:subClassOf zdetor:PizzaTopping .
+    rdfs:subClassOf zdetor:PizzaTopping ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:ParmezanTopping a owl:Class ;
-    rdfs:subClassOf zdetor:PizzaTopping .
+    rdfs:subClassOf zdetor:PizzaTopping ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:PepperoniTopping a owl:Class ;
-    rdfs:subClassOf zdetor:PizzaTopping .
+    rdfs:subClassOf zdetor:PizzaTopping ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:Place a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:onProperty zdetor:hasAddress ;
-            owl:someValuesFrom zdetor:Address ] .
-
-zdetor:State a owl:Class .
+            owl:someValuesFrom zdetor:Address ] ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:TomatoTopping a owl:Class ;
-    rdfs:subClassOf zdetor:PizzaTopping .
+    rdfs:subClassOf zdetor:PizzaTopping ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:USD a owl:NamedIndividual,
         zdetor:Currency .
-
-zdetor:VeggiePizza a owl:Class ;
-    rdfs:subClassOf zdetor:Pizza .
 
 zdetor:hasAddress a owl:FunctionalProperty,
         owl:ObjectProperty ;
     owl:inverseOf zdetor:isAddressOf .
 
-zdetor:hasCountry a owl:FunctionalProperty,
-        owl:ObjectProperty ;
+zdetor:hasCity a owl:ObjectProperty ;
     rdfs:domain zdetor:Address ;
-    rdfs:range zdetor:Country .
+    rdfs:range zdetor:City .
 
 zdetor:hasCurrency a owl:ObjectProperty ;
     rdfs:range [ a owl:Restriction ;
             owl:onProperty zdetor:hasCurrency ;
             owl:someValuesFrom zdetor:Currency ] .
 
-zdetor:hasMenuItem a owl:AsymmetricProperty,
-        owl:IrreflexiveProperty,
-        owl:ObjectProperty ;
-    rdfs:domain zdetor:Restaurant ;
-    rdfs:range zdetor:MenuItem ;
-    owl:inverseOf zdetor:isMenuItemOf .
+zdetor:hasState a owl:ObjectProperty ;
+    rdfs:domain zdetor:Address ;
+    rdfs:range zdetor:State .
 
-zdetor:hasTopping a owl:ObjectProperty .
+zdetor:hasTopping a owl:ObjectProperty ;
+    rdfs:subPropertyOf zdetor:hasIngredient ;
+    owl:inverseOf zdetor:isToppingOf .
 
 zdetor:isAddressOf a owl:ObjectProperty .
 
@@ -1109,20 +1126,47 @@ pizza:hasIngredient a owl:ObjectProperty,
     rdfs:comment "NB Transitive - the ingredients of ingredients are ingredients of the whole"@en ;
     rdfs:domain pizza:Food ;
     rdfs:range pizza:Food ;
+    owl:equivalentProperty zdetor:hasIngredient ;
     owl:inverseOf pizza:isIngredientOf .
 
-zdetor:Country a owl:Class ;
-    rdfs:label "Country"@en ;
-    rdfs:comment "This is a class that will have all the countries that can be used as part of the address of the restaurant sites"@en ;
+zdetor:City a owl:Class ;
+    rdfs:label "City"@en ;
+    rdfs:comment "The details of the city"@en ;
     zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:MenuItem a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom [ a owl:Class ;
+                    owl:unionOf ( zdetor:Drink zdetor:Pizza ) ] ;
+            owl:onProperty zdetor:hasMenuItem ],
+        [ a owl:Restriction ;
             owl:onClass zdetor:Restaurant ;
             owl:onProperty zdetor:isMenuItemOf ;
-            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ] .
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ] ;
+    zdetor:creator "zacharias.detorakis"@en .
+
+zdetor:State a owl:Class ;
+    zdetor:creator "zacharias.detorakis"@en .
+
+zdetor:hasCountry a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain zdetor:Address ;
+    rdfs:range zdetor:Country .
+
+zdetor:hasIngredient a owl:ObjectProperty ;
+    owl:inverseOf zdetor:isIngredientOf .
+
+zdetor:hasMenuItem a owl:AsymmetricProperty,
+        owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
+    rdfs:domain zdetor:Restaurant ;
+    rdfs:range zdetor:MenuItem ;
+    owl:inverseOf zdetor:isMenuItemOf .
 
 zdetor:isMenuItemOf a owl:ObjectProperty .
+
+zdetor:isToppingOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf zdetor:isIngredientOf .
 
 pizza:ArtichokeTopping a owl:Class ;
     rdfs:label "ArtichokeTopping"@en,
@@ -1279,7 +1323,15 @@ pizza:hasBase a owl:FunctionalProperty,
 
 pizza:isIngredientOf a owl:ObjectProperty,
         owl:TransitiveProperty ;
-    rdfs:comment "The inverse property tree to hasIngredient - all subproperties and attributes of the properties should reflect those under hasIngredient."@en .
+    rdfs:comment "The inverse property tree to hasIngredient - all subproperties and attributes of the properties should reflect those under hasIngredient."@en ;
+    owl:equivalentProperty zdetor:isIngredientOf .
+
+zdetor:Country a owl:Class ;
+    rdfs:label "Country"@en ;
+    rdfs:comment "This is a class that will have all the countries that can be used as part of the address of the restaurant sites"@en ;
+    zdetor:creator "zacharias.detorakis"@en .
+
+zdetor:isIngredientOf a owl:ObjectProperty .
 
 pizza:America a pizza:Country,
         owl:NamedIndividual,
@@ -1318,13 +1370,11 @@ pizza:Spiciness a owl:Class ;
 
 zdetor:Currency a owl:Class ;
     owl:equivalentClass [ a owl:Class ;
-            owl:oneOf ( zdetor:EUR zdetor:GBP zdetor:USD ) ] .
+            owl:oneOf ( zdetor:EUR zdetor:GBP zdetor:USD ) ] ;
+    zdetor:creator "zacharias.detorakis"@en .
 
-zdetor:Food a owl:Class .
-
-zdetor:Pizza a owl:Class ;
-    rdfs:subClassOf zdetor:Food ;
-    owl:disjointWith zdetor:PizzaTopping .
+zdetor:Food a owl:Class ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 pizza:Country a owl:Class ;
     rdfs:label "Country"@en,
@@ -1379,6 +1429,11 @@ pizza:PizzaBase a owl:Class ;
     rdfs:subClassOf pizza:Food ;
     skos:prefLabel "Pizza Base"@en .
 
+zdetor:Pizza a owl:Class ;
+    rdfs:subClassOf zdetor:Food ;
+    owl:disjointWith zdetor:PizzaTopping ;
+    zdetor:creator "zacharias.detorakis"@en .
+
 pizza:Food a owl:Class ;
     rdfs:label "Food"@en ;
     rdfs:subClassOf pizza:DomainConcept ;
@@ -1392,10 +1447,32 @@ pizza:Italy a pizza:Country,
 pizza:hasCountryOfOrigin a owl:ObjectProperty ;
     owl:equivalentProperty zdetor:hasCountry .
 
-zdetor:Address a owl:Class .
+zdetor:Address a owl:Class ;
+    rdfs:label "Address"@en ;
+    rdfs:comment """An entity to hold all the details of the addres:
+- address (i.e. representing the address line)
+- city
+- country
+- state and
+- postcode"""@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty zdetor:hasCity ;
+            owl:someValuesFrom zdetor:City ],
+        [ a owl:Restriction ;
+            owl:onProperty zdetor:hasCountry ;
+            owl:someValuesFrom zdetor:Country ],
+        [ a owl:Restriction ;
+            owl:onProperty zdetor:hasState ;
+            owl:someValuesFrom zdetor:State ] ;
+    zdetor:creator "zacharias.detorakis"@en .
+
+zdetor:EthnicRestaurant a owl:Class ;
+    rdfs:subClassOf zdetor:Restaurant ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 zdetor:NamedPizza a owl:Class ;
-    rdfs:subClassOf zdetor:Pizza .
+    rdfs:subClassOf zdetor:Pizza ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 pizza:MeatTopping a owl:Class ;
     rdfs:label "MeatTopping"@en,
@@ -1436,6 +1513,13 @@ pizza:OnionTopping a owl:Class ;
         pizza:VegetableTopping ;
     owl:equivalentClass zdetor:OnionTopping ;
     skos:prefLabel "Onion"@en .
+
+zdetor:Restaurant a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom zdetor:MenuItem ;
+            owl:onProperty zdetor:hasMenuItem ],
+        zdetor:Place ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 pizza:AnchoviesTopping a owl:Class ;
     rdfs:label "AnchoviesTopping"@en,
@@ -1507,12 +1591,6 @@ pizza:PizzaTopping a owl:Class ;
     owl:equivalentClass zdetor:PizzaTopping ;
     skos:prefLabel "Pizza Topping"@en .
 
-zdetor:Restaurant a owl:Class ;
-    rdfs:subClassOf [ a owl:Restriction ;
-            owl:onProperty zdetor:hasMenuItem ;
-            owl:someValuesFrom zdetor:MenuItem ],
-        zdetor:Place .
-
 pizza:Pizza a owl:Class ;
     rdfs:label "Pizza"@en ;
     rdfs:seeAlso <https://en.wikipedia.org/wiki/Pizza> ;
@@ -1524,7 +1602,8 @@ pizza:Pizza a owl:Class ;
     skos:prefLabel "Pizza"@en .
 
 zdetor:PizzaTopping a owl:Class ;
-    rdfs:subClassOf zdetor:Food .
+    rdfs:subClassOf zdetor:Food ;
+    zdetor:creator "zacharias.detorakis"@en .
 
 pizza:VegetableTopping a owl:Class ;
     rdfs:label "VegetableTopping"@en,

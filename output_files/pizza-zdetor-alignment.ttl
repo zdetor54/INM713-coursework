@@ -36,5 +36,11 @@ pizza:TomatoTopping owl:equivalentClass zdetor:TomatoTopping .
 
 pizza:hasCountryOfOrigin owl:equivalentProperty zdetor:hasCountry .
 
+pizza:hasIngredient owl:equivalentProperty zdetor:hasIngredient .
+
 pizza:hasTopping owl:equivalentProperty zdetor:hasTopping .
+
+pizza:isIngredientOf owl:equivalentProperty zdetor:isIngredientOf .
+
+pizza:isToppingOf owl:equivalentProperty zdetor:isToppingOf .
 
