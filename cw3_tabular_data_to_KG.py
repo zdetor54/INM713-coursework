@@ -20,6 +20,7 @@ import math
 from SPARQLWrapper import SPARQLWrapper, JSON
 from stringcmp import isub
 from lookup import DBpediaLookup
+import time
 # import yake
 import re
 
@@ -50,9 +51,9 @@ class FinalCoursework(object):
         
         #read the raw data into a dataframe
         self.df = pd.read_csv(filepath_or_buffer = self.file, sep=',', quotechar='"',escapechar="\\")
+    
     def is_nan(self, x):
         return (x != x)
-
 
     def findNewRestaurantName(self,original_value,mapping_dict):
         """
@@ -117,8 +118,6 @@ class FinalCoursework(object):
         new_df['restaurant_name'] = new_df['restaurant_name'].apply(lambda x: self.findNewRestaurantName(x,new_name_dict))
         # new_df.to_csv("temp.csv")
         self.df = new_df
-
-
 
     def convertPostCodeStringToPostCodes(self,post_code):
 
@@ -216,7 +215,6 @@ class FinalCoursework(object):
             except:
                 pass
 
-
     def getExternalKGURI(self,name):
         '''
         Approximate solution: We get the entity with highest lexical similarity
@@ -234,7 +232,7 @@ class FinalCoursework(object):
                 current_uri = ent.ident
                 current_sim = isub_score
 
-    #     print(current_uri)
+  
         return current_uri
 
     def loadStateISO2UrisFromDBPedia(self):
@@ -289,29 +287,27 @@ class FinalCoursework(object):
                 self.g.add((URIRef(entity_uri), RDF.type, class_type))
             except:
                 pass
-
-            
+          
     def mappingToCreateLiteralTriple(self, subject_column, object_column, predicate, datatype):
 
-        for subject, lit_value in zip(df[subject_column], df[object_column]):
+        for subject, lit_value in zip(self.df[subject_column], self.df[object_column]):
 
             # check if the value is empty and if it is do not create the litteral value
-            if solution.is_nan(lit_value) or lit_value==None or lit_value=="":
+            if self.is_nan(lit_value) or lit_value==None or lit_value=="":
                 pass
 
             else:
                 try:
                     #Uri as already created
-                    entity_uri=classStringToURI[subject_column][subject.lower()]
+                    entity_uri=self.classStringToURI[subject_column][subject.lower()]
 
                     #Literal
                     lit = Literal(lit_value, datatype=datatype)
 
                     #New triple
-                    solution.g.add((URIRef(entity_uri), predicate, lit))
+                    self.g.add((URIRef(entity_uri), predicate, lit))
                 except:
                     pass
-
 
     def mappingToCreateObjectTriple(self, subject_column, object_column, predicate):
 
@@ -328,9 +324,83 @@ class FinalCoursework(object):
 
                 #New triple
                 self.g.add((URIRef(subject_uri), predicate, URIRef(object_uri)))
+
+    def getClasses(self,onto):        
+            return onto.classes()
+        
+    def getOntoClassesByTerm(self,urionto, prefix, parent_class):
+
+        # load the ontology
+        onto = get_ontology(urionto).load()
+        
+        # get all ontology classes
+        entities = list(self.getClasses(onto))
+
+        
+        #create a dictionary with subclasses of the parent_class. Assuming the name of the parent class is there as a suffix in the subclass
+        classes = dict()
+        for entity in entities:
+            #expectein the name of the parent class to appear in the subclass name but NOT immediately after the prefix
+            if str(entity).find(parent_class)>len(prefix)+1:
+                classes[str(entity).replace(prefix+".","").replace(parent_class,"").lower()] = str(entity).replace('zdetor.',solution.zdetor_ns_str)
+        return classes
+
+    def mappingToCreateObjectProperty(self, subject_column, object_column, object_dict, predicate = RDF.type):
+
+        for subject, object in zip(self.df[subject_column], self.df[object_column]):
+
+            if self.is_nan(object) or object==None or object=="":
+                pass
+
+            else:
+                separate_val = set(re.split(r'[,( ]\s*', object.lower()))
+
+                for val in separate_val:
+                    try:
+
+                        subject_uri=self.classStringToURI[subject_column][subject.lower()]
+                        self.g.add((URIRef(subject_uri), predicate, URIRef(object_dict[val])))
+                    except:
+                        pass
+                    
+    def mappingToCreatePizzaToppings(self, subject_column, object_column, object_dict, predicate = RDF.type):
+
+        for subject, object in zip(self.df[subject_column], self.df[object_column]):
+
+            if self.is_nan(object) or object==None or object=="":
+                pass
+
+            else:
+                separate_val = set(re.split(r'[.,( ]\s*', object.lower()))
+
+                for val in separate_val:
+                    try:
+                        subject_uri=self.classStringToURI[subject_column][subject.lower()]
+                        self.g.add((URIRef(subject_uri), predicate, URIRef(object_dict[val])))
+                    except:
+                        pass
+
+    def saveGraph(self, file_output):
+
+        self.g.serialize(destination=file_output, format='ttl')
+        print("Triples including ontology: '" + str(len(self.g)) + "'.")
+
+    def performReasoning(self, ontology_file):
+
+        print("Triples including ontology: '" + str(len(self.g)) + "'.")
+        
+        #We should load the ontology first
+        self.g.load(ontology_file,  format='ttl') #e.g., format=ttl
+
+
+        #We apply reasoning and expand the graph with new triples 
+        owlrl.DeductiveClosure(owlrl.OWLRL_Semantics, axiomatic_triples=False, datatype_axioms=False).expand(sellf.g)
+
+        print("Triples after OWL 2 RL reasoning: '" + str(len(self.g)) + "'.")
+
 if __name__ == '__main__':
     input_csv = "./input_files/INM713_coursework_data_pizza_8358_1_reduced.csv"
-    input_csv = "./input_files/INM713_coursework_data_pizza_8358_1_reduced - small.csv"
+    # input_csv = "./input_files/INM713_coursework_data_pizza_8358_1_reduced - small.csv"
     
     solution = FinalCoursework(input_csv)
 
@@ -371,33 +441,52 @@ if __name__ == '__main__':
     #                              #
     ################################ 
     print('CREATING CLASSES:')
-    print('* Processing restaurant class')
+    print('* Processing restaurant class', end='')
+    start = time.time()
     if 'restaurant_name' in solution.df:
         solution.mappingToCreateTypeTriple('restaurant_name',solution.zdetor.Restaurant, False)
+    end = time.time()
+    print(f" - COMPLETED ({round(end-start,2)} sec)")
 
-    print('* Processing city class')
+    start = time.time()
+    print('* Processing city class', end='')
     solution.g.bind("dpo", Namespace("http://dbpedia.org/resource/"))
     if 'city' in solution.df:
         solution.mappingToCreateTypeTriple('city',solution.zdetor.City, True)
-
-    print('* Processing country class')  
+    end = time.time()
+    print(f" - COMPLETED ({round(end-start,2)} sec)")
+    
+    start = time.time()
+    print('* Processing country class', end='')  
     if 'country' in solution.df:
         solution.mappingToCreateTypeTriple('country',solution.zdetor.Country, True)
-
-    print('* Processing state class')
+    end = time.time()
+    print(f" - COMPLETED ({round(end-start,2)} sec)")
+    
+    start = time.time()
+    print('* Processing state class', end='')
     solution.loadStateISO2UrisFromDBPedia()
     if 'state_code' in solution.df:
         solution.mappingToCreateTypeTriple('state_code',solution.zdetor.State, True)
-
-    print('* Processing address class')    
+    end = time.time()
+    print(f" - COMPLETED ({round(end-start,2)} sec)")
+    
+    start = time.time()
+    print('* Processing address class', end='')    
     if 'address_id' in solution.df:
         solution.mappingToCreateTypeTriple('address_id',solution.zdetor.Address, False)
-
-    print('* Processing pizza and menu item classes')
+    end = time.time()
+    print(f" - COMPLETED ({round(end-start,2)} sec)")
+    
+    start = time.time()
+    print('* Processing pizza and menu item classes', end='')
     if 'pizza_name' in solution.df:
         solution.mappingToCreateTypeTriple('pizza_name',solution.zdetor.Pizza, False)
         solution.mappingToCreateTypeTriple('pizza_name',solution.zdetor.MenuItem, False)
-
+    end = time.time()
+    print(f" - COMPLETED ({round(end-start,2)} sec)")
+    
+    start = time.time()
     print('* Processing currency class')
     if 'currency' in solution.df:
         solution.mappingToCreateTypeTriple('currency',solution.zdetor.Currency, False)
@@ -422,7 +511,58 @@ if __name__ == '__main__':
     if 'pizza_name' in solution.df:
         solution.mappingToCreateObjectTriple('pizza_name','currency',solution.zdetor.hasCurrency)
 
-    # print(solution.df.columns)
-    # print(solution.df[['name', 'restaurant_name','state','state_code','pizza_name', 'address_id']].head(15))
+    #######################################
+    #                                     #
+    #           DATA PROPERTIES           #
+    #                                     #
+    ####################################### 
+    if 'name' in solution.df:
+        solution.mappingToCreateLiteralTriple('restaurant_name','name',solution.zdetor.name, XSD.string)
+        
+    if 'city' in solution.df:
+        solution.mappingToCreateLiteralTriple('city','city',solution.zdetor.name, XSD.string)
+    print('Cities complete')
+        
+    if 'country' in solution.df:
+        solution.mappingToCreateLiteralTriple('country','country',solution.zdetor.name, XSD.string)
+    print('Countries complete')
 
-    print(solution.g.serialize(format="turtle").decode("utf-8"))
+    if 'state_code' in solution.df:
+        solution.mappingToCreateLiteralTriple('state_code','state_code',solution.zdetor.name, XSD.string)
+    print('States complete')
+        
+    if 'address_id' in solution.df:
+        solution.mappingToCreateLiteralTriple('address_id','address',solution.zdetor.addressLine, XSD.string)
+        solution.mappingToCreateLiteralTriple('address_id','postcode',solution.zdetor.postCode, XSD.string)
+        
+    if 'pizza_name' in solution.df:
+        solution.mappingToCreateLiteralTriple('pizza_name','item value',solution.zdetor.price, XSD.float)
+        solution.mappingToCreateLiteralTriple('pizza_name','currency',solution.zdetor.currency, XSD.string)
+        solution.mappingToCreateLiteralTriple('pizza_name','menu item',solution.zdetor.name, XSD.string)
+        solution.mappingToCreateLiteralTriple('pizza_name','item description',solution.zdetor.description, XSD.string)
+
+    from owlready2 import *
+    
+    #next we load the subClasses for the Restaurants, Pizzas and PizzaToppings from the ontology to use them in the tripples
+    categories = solution.getOntoClassesByTerm('./input_files/zdetor.owl','zdetor','Restaurant')
+    pizzas = solution.getOntoClassesByTerm('./input_files/zdetor.owl','zdetor','Pizza')
+    toppings = solution.getOntoClassesByTerm('./input_files/zdetor.owl','zdetor','Topping')
+
+    #we then create individuals for all the toppings (i.e. one individual per pizzaTopping class)
+    solution.classStringToURI['topping'] = dict()
+    for topping in toppings:
+
+        entity_uri = solution.zdetor_ns_str+topping
+        solution.classStringToURI['topping'][topping] = entity_uri
+        solution.g.add((URIRef(entity_uri), RDF.type, URIRef(toppings[topping])))
+
+
+    #finally we add the subclasses to the restaurants and pizzas
+    solution.mappingToCreateObjectProperty('restaurant_name','categories',categories)
+    solution.mappingToCreateObjectProperty('pizza_name','menu item',pizzas)
+
+    # and the pizza topping URIs to the pizzas
+    solution.mappingToCreatePizzaToppings('pizza_name','item description',solution.classStringToURI['topping'],solution.zdetor.hasTopping)
+    # print(solution.g.serialize(format="turtle").decode("utf-8"))
+
+    solution.saveGraph('./input_files/cw-data.ttl')

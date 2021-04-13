@@ -7,11 +7,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:zdetor="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#">
-    <owl:Ontology rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#">
-        <rdfs:comment xml:lang="en">An ontology containing restaurants and menu items created as part of the coursework for INM713 - Semantic Web Technologies and Knowledge Graphs</rdfs:comment>
-        <rdfs:label xml:lang="en">cw_zdetor</rdfs:label>
-        <creator xml:lang="en">Zacharias Detorakis</creator>
-    </owl:Ontology>
+    <owl:Ontology rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#"/>
     
 
 
@@ -84,14 +80,6 @@
     
 
 
-    <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasIngredient -->
-
-    <owl:ObjectProperty rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasIngredient">
-        <owl:inverseOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#isIngredientOf"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasMenuItem -->
 
     <owl:ObjectProperty rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasMenuItem">
@@ -115,10 +103,7 @@
 
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasTopping -->
 
-    <owl:ObjectProperty rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasTopping">
-        <rdfs:subPropertyOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasIngredient"/>
-        <owl:inverseOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#isToppingOf"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasTopping"/>
     
 
 
@@ -128,23 +113,9 @@
     
 
 
-    <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis#isIngredientOf -->
-
-    <owl:ObjectProperty rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#isIngredientOf"/>
-    
-
-
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis#isMenuItemOf -->
 
     <owl:ObjectProperty rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#isMenuItemOf"/>
-    
-
-
-    <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis#isToppingOf -->
-
-    <owl:ObjectProperty rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#isToppingOf">
-        <rdfs:subPropertyOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#isIngredientOf"/>
-    </owl:ObjectProperty>
     
 
 
@@ -222,41 +193,14 @@
 
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Address -->
 
-    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Address">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasCity"/>
-                <owl:someValuesFrom rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#City"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasCountry"/>
-                <owl:someValuesFrom rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Country"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasState"/>
-                <owl:someValuesFrom rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#State"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">An entity to hold all the details of the addres:
-- address (i.e. representing the address line)
-- city
-- country
-- state and
-- postcode</rdfs:comment>
-        <rdfs:label xml:lang="en">Address</rdfs:label>
-        <creator xml:lang="en">zacharias.detorakis</creator>
-    </owl:Class>
+    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Address"/>
     
 
 
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis#AmericanRestaurant -->
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#AmericanRestaurant">
-        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#EthnicRestaurant"/>
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Restaurant"/>
     </owl:Class>
     
 
@@ -264,7 +208,7 @@
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis#AsianRestaurant -->
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#AsianRestaurant">
-        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#EthnicRestaurant"/>
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Restaurant"/>
     </owl:Class>
     
 
@@ -273,7 +217,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#BarRestaurant">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Restaurant"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -282,7 +225,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#BasilTopping">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -291,7 +233,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#BbqTopping">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -300,7 +241,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#CheesePizza">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Pizza"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -309,18 +249,13 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#ChickenTopping">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
 
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis#City -->
 
-    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#City">
-        <rdfs:comment xml:lang="en">The details of the city</rdfs:comment>
-        <rdfs:label xml:lang="en">City</rdfs:label>
-        <creator xml:lang="en">zacharias.detorakis</creator>
-    </owl:Class>
+    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#City"/>
     
 
 
@@ -346,7 +281,6 @@
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -355,16 +289,7 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Drink">
         <owl:disjointWith rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Food"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
-    </owl:Class>
-    
-
-
-    <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis#EthnicRestaurant -->
-
-    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#EthnicRestaurant">
-        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Restaurant"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
+        <owl:disjointWith rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#VeggiePizza"/>
     </owl:Class>
     
 
@@ -373,23 +298,20 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#FetaTopping">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
 
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Food -->
 
-    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Food">
-        <creator xml:lang="en">zacharias.detorakis</creator>
-    </owl:Class>
+    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Food"/>
     
 
 
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis#FrenchRestaurant -->
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#FrenchRestaurant">
-        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#EthnicRestaurant"/>
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Restaurant"/>
     </owl:Class>
     
 
@@ -397,7 +319,7 @@
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis#GreekRestaurant -->
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#GreekRestaurant">
-        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#EthnicRestaurant"/>
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Restaurant"/>
     </owl:Class>
     
 
@@ -406,7 +328,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#GreenPeppersTopping">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -415,7 +336,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#HamTopping">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -424,7 +344,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#HawaiianPizza">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#NamedPizza"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -432,7 +351,7 @@
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis#ItalianRestaurant -->
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#ItalianRestaurant">
-        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#EthnicRestaurant"/>
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Restaurant"/>
     </owl:Class>
     
 
@@ -441,7 +360,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#MargheritaPizza">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#NamedPizza"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -450,7 +368,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#MediterraneanRestaurant">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Restaurant"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -460,25 +377,11 @@
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#MenuItem">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasMenuItem"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Drink"/>
-                            <rdf:Description rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Pizza"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#isMenuItemOf"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Restaurant"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -486,7 +389,7 @@
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis#MexicanRestaurant -->
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#MexicanRestaurant">
-        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#EthnicRestaurant"/>
+        <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Restaurant"/>
     </owl:Class>
     
 
@@ -495,7 +398,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#MozzarellaTopping">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -504,7 +406,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#MushroomsTopping">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -513,7 +414,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#NamedPizza">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Pizza"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -522,7 +422,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#OnionTopping">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -531,7 +430,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#ParmezanTopping">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -540,7 +438,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PepperoniPizza">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#NamedPizza"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -549,7 +446,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PepperoniTopping">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -559,7 +455,6 @@
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Pizza">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Food"/>
         <owl:disjointWith rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -568,7 +463,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaRestaurant">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Restaurant"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -577,7 +471,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Food"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -591,7 +484,6 @@
                 <owl:someValuesFrom rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Address"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -600,7 +492,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#RedPeppersTopping">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -612,10 +503,9 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasMenuItem"/>
-                <owl:allValuesFrom rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#MenuItem"/>
+                <owl:someValuesFrom rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#MenuItem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -624,7 +514,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#RicottaTopping">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -633,7 +522,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#SeafoodRestaurant">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Restaurant"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -642,16 +530,13 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#SicilianPizza">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#NamedPizza"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
 
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis#State -->
 
-    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#State">
-        <creator xml:lang="en">zacharias.detorakis</creator>
-    </owl:Class>
+    <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#State"/>
     
 
 
@@ -659,7 +544,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#SushiRestaurant">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Restaurant"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -668,7 +552,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#TomatoTopping">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -677,7 +560,6 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#VeggiePizza">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Pizza"/>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 
@@ -687,7 +569,6 @@
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#WhitePizza">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#NamedPizza"/>
         <rdfs:label></rdfs:label>
-        <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
 

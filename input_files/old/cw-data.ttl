@@ -1,0 +1,512 @@
+@prefix dpo: <http://dbpedia.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix zdetor: <https://www.city.ac.uk/ds/inm713/zacharias_detorakis#> .
+
+zdetor:bertucci_s___1 a zdetor:ItalianRestaurant,
+        zdetor:PizzaRestaurant,
+        zdetor:Restaurant ;
+    zdetor:hasAddress zdetor:htfd_2929_berlin_tpke ;
+    zdetor:hasMenuItem zdetor:bertucci_s___1_any_brick_oven_pizza,
+        zdetor:bertucci_s___1_bbq_chicken_pizza,
+        zdetor:bertucci_s___1_buffalo_chicken_flatbread_pizza,
+        zdetor:bertucci_s___1_cheese_party_pizza,
+        zdetor:bertucci_s___1_cheese_pizza,
+        zdetor:bertucci_s___1_margherita_flatbread_pizza ;
+    zdetor:name "Bertucci's"^^xsd:string .
+
+zdetor:bertucci_s___2 a zdetor:ItalianRestaurant,
+        zdetor:Restaurant ;
+    zdetor:hasAddress zdetor:il_10333_s_roberts_rd ;
+    zdetor:hasMenuItem zdetor:bertucci_s___2_pizza_bread_or_tomato_bread ;
+    zdetor:name "Bertucci's"^^xsd:string .
+
+zdetor:bertucci_s___3 a zdetor:ItalianRestaurant,
+        zdetor:PizzaRestaurant,
+        zdetor:Restaurant ;
+    zdetor:hasAddress zdetor:ct_194_buckland_hills_dr ;
+    zdetor:hasMenuItem zdetor:bertucci_s___3_any_brick_oven_pizza,
+        zdetor:bertucci_s___3_bbq_chicken_pizza,
+        zdetor:bertucci_s___3_buffalo_chicken_flatbread_pizza,
+        zdetor:bertucci_s___3_cheese_party_pizza,
+        zdetor:bertucci_s___3_cheese_pizza ;
+    zdetor:name "Bertucci's"^^xsd:string .
+
+zdetor:bertucci_s___4 a zdetor:ItalianRestaurant,
+        zdetor:Restaurant ;
+    zdetor:hasAddress zdetor:nj_2847_state_route_35 ;
+    zdetor:hasMenuItem zdetor:bertucci_s___4_any_brick_oven_pizza,
+        zdetor:bertucci_s___4_bbq_chicken_pizza,
+        zdetor:bertucci_s___4_buffalo_chicken_flatbread_pizza,
+        zdetor:bertucci_s___4_cheese_party_pizza,
+        zdetor:bertucci_s___4_cheese_pizza,
+        zdetor:bertucci_s___4_margherita_flatbread_pizza ;
+    zdetor:name "Bertucci's"^^xsd:string .
+
+zdetor:carvalho_s_brazilian_kitchen a zdetor:Restaurant ;
+    zdetor:hasAddress zdetor:az_23623_n_scottsdale_rd_d107 ;
+    zdetor:hasMenuItem zdetor:carvalho_s_brazilian_kitchen_nan ;
+    zdetor:name "Carvalho's Brazilian Kitchen"^^xsd:string .
+
+zdetor:country_bagel_bakery a zdetor:Restaurant ;
+    zdetor:hasAddress zdetor:pa_145_e_gay_st ;
+    zdetor:hasMenuItem zdetor:country_bagel_bakery_pizza_bagel,
+        zdetor:country_bagel_bakery_pizza_bagel__plain_,
+        zdetor:country_bagel_bakery_pizza_bagel_with_mushroom,
+        zdetor:country_bagel_bakery_pizza_bagel_with_pepperoni,
+        zdetor:country_bagel_bakery_pizza_bagel_with_pepperoni_and_mushroom ;
+    zdetor:name "Country Bagel Bakery"^^xsd:string .
+
+zdetor:feta a zdetor:FetaTopping .
+
+zdetor:greenpeppers a zdetor:GreenPeppersTopping .
+
+zdetor:guidos a zdetor:Restaurant ;
+    zdetor:hasAddress zdetor:va_9563_kings_charter_doctor_b ;
+    zdetor:hasMenuItem zdetor:guidos_nan ;
+    zdetor:name "Guidos"^^xsd:string .
+
+zdetor:ham a zdetor:HamTopping .
+
+zdetor:mighty_mick_s_pub___cafe a zdetor:BarRestaurant,
+        zdetor:Restaurant ;
+    zdetor:hasAddress zdetor:palmer_10727_randolph_saint_crown_point_in ;
+    zdetor:hasMenuItem zdetor:mighty_mick_s_pub___cafe_nan ;
+    zdetor:name "Mighty Mick's Pub & Cafe"^^xsd:string .
+
+zdetor:moonlight_cafe a zdetor:ItalianRestaurant,
+        zdetor:Restaurant ;
+    zdetor:hasAddress zdetor:davidsburg_4140_carlisle_rd ;
+    zdetor:hasMenuItem zdetor:moonlight_cafe_nan ;
+    zdetor:name "Moonlight Cafe"^^xsd:string .
+
+zdetor:mushrooms a zdetor:MushroomsTopping .
+
+zdetor:onion a zdetor:OnionTopping .
+
+zdetor:parmezan a zdetor:ParmezanTopping .
+
+zdetor:prison_brews_brewery___restaurant a zdetor:BarRestaurant,
+        zdetor:Restaurant ;
+    zdetor:hasAddress zdetor:honey_creek_305_ash_st ;
+    zdetor:hasMenuItem zdetor:prison_brews_brewery___restaurant_nan ;
+    zdetor:name "Prison Brews Brewery & Restaurant"^^xsd:string .
+
+zdetor:redpeppers a zdetor:RedPeppersTopping .
+
+zdetor:rick_s_cabaret a zdetor:AmericanRestaurant,
+        zdetor:BarRestaurant,
+        zdetor:Restaurant ;
+    zdetor:hasAddress zdetor:in_3551_lafayette_rd ;
+    zdetor:hasMenuItem zdetor:rick_s_cabaret_nan ;
+    zdetor:name "Rick's Cabaret"^^xsd:string .
+
+zdetor:ricotta a zdetor:RicottaTopping .
+
+zdetor:rosa_mexicano a zdetor:Restaurant ;
+    zdetor:hasAddress zdetor:manhattan_1063_1st_ave ;
+    zdetor:hasMenuItem zdetor:rosa_mexicano_nan ;
+    zdetor:name "Rosa Mexicano"^^xsd:string .
+
+zdetor:the_pizza_parlor a zdetor:ItalianRestaurant,
+        zdetor:Restaurant ;
+    zdetor:hasAddress zdetor:tx_2810_business_center_dr ;
+    zdetor:hasMenuItem zdetor:the_pizza_parlor_nan ;
+    zdetor:name "The Pizza Parlor"^^xsd:string .
+
+dpo:Arizona a zdetor:State ;
+    zdetor:name "AZ"^^xsd:string .
+
+<http://dbpedia.org/resource/Ashland,_Ohio> a zdetor:City ;
+    zdetor:name "Ashland"^^xsd:string .
+
+dpo:Connecticut a zdetor:State ;
+    zdetor:name "CT"^^xsd:string .
+
+<http://dbpedia.org/resource/Crown_Point,_Oregon> a zdetor:City ;
+    zdetor:name "Crown Point"^^xsd:string .
+
+dpo:Dover a zdetor:City ;
+    zdetor:name "Dover"^^xsd:string .
+
+dpo:Hazlet_station a zdetor:City ;
+    zdetor:name "Hazlet"^^xsd:string .
+
+dpo:Illinois a zdetor:State ;
+    zdetor:name "IL"^^xsd:string .
+
+dpo:Indianapolis a zdetor:City ;
+    zdetor:name "Indianapolis"^^xsd:string .
+
+<http://dbpedia.org/resource/Jefferson_City,_Missouri> a zdetor:City ;
+    zdetor:name "Jefferson City"^^xsd:string .
+
+dpo:Manchester a zdetor:City ;
+    zdetor:name "Manchester"^^xsd:string .
+
+dpo:Minnesota a zdetor:State ;
+    zdetor:name "MN"^^xsd:string .
+
+dpo:New_Jersey a zdetor:State ;
+    zdetor:name "NJ"^^xsd:string .
+
+<http://dbpedia.org/resource/New_York_(state)> a zdetor:State ;
+    zdetor:name "NY"^^xsd:string .
+
+dpo:New_York_City a zdetor:City ;
+    zdetor:name "New York"^^xsd:string .
+
+dpo:Palos_Verdes_Hills a zdetor:City ;
+    zdetor:name "Palos Hills"^^xsd:string .
+
+<http://dbpedia.org/resource/Pearland,_Texas> a zdetor:City ;
+    zdetor:name "Pearland"^^xsd:string .
+
+dpo:Pennsylvania a zdetor:State ;
+    zdetor:name "PA"^^xsd:string .
+
+<http://dbpedia.org/resource/Scottsdale,_Arizona> a zdetor:City ;
+    zdetor:name "Scottsdale"^^xsd:string .
+
+dpo:Stoke_Newington a zdetor:City ;
+    zdetor:name "Newington"^^xsd:string .
+
+dpo:Tennessee a zdetor:State ;
+    zdetor:name "TN"^^xsd:string .
+
+dpo:Texas a zdetor:State ;
+    zdetor:name "TX"^^xsd:string .
+
+dpo:Virginia a zdetor:State ;
+    zdetor:name "VA"^^xsd:string .
+
+dpo:West_Chester_University a zdetor:City ;
+    zdetor:name "West Chester"^^xsd:string .
+
+zdetor:az_23623_n_scottsdale_rd_d107 a zdetor:Address ;
+    zdetor:addressLine "23623 N Scottsdale Rd D107"^^xsd:string ;
+    zdetor:hasCity <http://dbpedia.org/resource/Scottsdale,_Arizona> ;
+    zdetor:hasCountry dpo:United_States ;
+    zdetor:hasState dpo:Arizona ;
+    zdetor:postCode "85255.0"^^xsd:string .
+
+zdetor:bertucci_s___1_any_brick_oven_pizza a zdetor:MenuItem,
+        zdetor:Pizza ;
+    zdetor:description "Small"^^xsd:string ;
+    zdetor:name "Any Brick Oven Pizza"^^xsd:string .
+
+zdetor:bertucci_s___1_bbq_chicken_pizza a zdetor:MenuItem,
+        zdetor:Pizza ;
+    zdetor:currency "USD"^^xsd:string ;
+    zdetor:description "BBQ chicken marinated in a smoky hickory BBQ sauce topped with caramelized onions and mozzarella cheese."^^xsd:string ;
+    zdetor:hasCurrency zdetor:usd ;
+    zdetor:hasTopping zdetor:bbq,
+        zdetor:chicken,
+        zdetor:mozzarella ;
+    zdetor:name "Bbq Chicken Pizza"^^xsd:string ;
+    zdetor:price "10.99"^^xsd:float .
+
+zdetor:bertucci_s___1_buffalo_chicken_flatbread_pizza a zdetor:MenuItem,
+        zdetor:Pizza ;
+    zdetor:currency "USD"^^xsd:string ;
+    zdetor:description "Grilled chicken tossed with buffalo sauce. Topped with Romano and Mozzarella cheese and drizzled with blue cheese dressing."^^xsd:string ;
+    zdetor:hasCurrency zdetor:usd ;
+    zdetor:hasTopping zdetor:chicken,
+        zdetor:mozzarella ;
+    zdetor:name "Buffalo Chicken Flatbread Pizza"^^xsd:string ;
+    zdetor:price "8.49"^^xsd:float .
+
+zdetor:bertucci_s___1_cheese_party_pizza a zdetor:CheesePizza,
+        zdetor:MenuItem,
+        zdetor:Pizza ;
+    zdetor:currency "USD"^^xsd:string ;
+    zdetor:hasCurrency zdetor:usd ;
+    zdetor:name "Cheese Party Pizza"^^xsd:string ;
+    zdetor:price "5.0"^^xsd:float .
+
+zdetor:bertucci_s___1_cheese_pizza a zdetor:CheesePizza,
+        zdetor:MenuItem,
+        zdetor:Pizza ;
+    zdetor:currency "USD"^^xsd:string ;
+    zdetor:hasCurrency zdetor:usd ;
+    zdetor:name "Cheese Pizza"^^xsd:string ;
+    zdetor:price "10.29"^^xsd:float .
+
+zdetor:bertucci_s___1_margherita_flatbread_pizza a zdetor:MargheritaPizza,
+        zdetor:MenuItem,
+        zdetor:Pizza ;
+    zdetor:description "Fresh mozzarella, house made tomato sauce and Romano cheese topped with fresh basil."^^xsd:string ;
+    zdetor:hasTopping zdetor:basil,
+        zdetor:mozzarella,
+        zdetor:tomato ;
+    zdetor:name "Margherita Flatbread Pizza"^^xsd:string .
+
+zdetor:bertucci_s___2_pizza_bread_or_tomato_bread a zdetor:MenuItem,
+        zdetor:Pizza ;
+    zdetor:currency "USD"^^xsd:string ;
+    zdetor:hasCurrency zdetor:usd ;
+    zdetor:name "Pizza Bread or Tomato Bread"^^xsd:string ;
+    zdetor:price "3.75"^^xsd:float .
+
+zdetor:bertucci_s___3_any_brick_oven_pizza a zdetor:MenuItem,
+        zdetor:Pizza ;
+    zdetor:description "Small"^^xsd:string ;
+    zdetor:name "Any Brick Oven Pizza"^^xsd:string .
+
+zdetor:bertucci_s___3_bbq_chicken_pizza a zdetor:MenuItem,
+        zdetor:Pizza ;
+    zdetor:currency "USD"^^xsd:string ;
+    zdetor:description "BBQ chicken marinated in a smoky hickory BBQ sauce topped with caramelized onions and mozzarella cheese."^^xsd:string ;
+    zdetor:hasCurrency zdetor:usd ;
+    zdetor:hasTopping zdetor:bbq,
+        zdetor:chicken,
+        zdetor:mozzarella ;
+    zdetor:name "Bbq Chicken Pizza"^^xsd:string ;
+    zdetor:price "10.99"^^xsd:float .
+
+zdetor:bertucci_s___3_buffalo_chicken_flatbread_pizza a zdetor:MenuItem,
+        zdetor:Pizza ;
+    zdetor:currency "USD"^^xsd:string ;
+    zdetor:description "Grilled chicken tossed with buffalo sauce. Topped with Romano and Mozzarella cheese and drizzled with blue cheese dressing."^^xsd:string ;
+    zdetor:hasCurrency zdetor:usd ;
+    zdetor:hasTopping zdetor:chicken,
+        zdetor:mozzarella ;
+    zdetor:name "Buffalo Chicken Flatbread Pizza"^^xsd:string ;
+    zdetor:price "8.49"^^xsd:float .
+
+zdetor:bertucci_s___3_cheese_party_pizza a zdetor:CheesePizza,
+        zdetor:MenuItem,
+        zdetor:Pizza ;
+    zdetor:currency "USD"^^xsd:string ;
+    zdetor:hasCurrency zdetor:usd ;
+    zdetor:name "Cheese Party Pizza"^^xsd:string ;
+    zdetor:price "5.0"^^xsd:float .
+
+zdetor:bertucci_s___3_cheese_pizza a zdetor:CheesePizza,
+        zdetor:MenuItem,
+        zdetor:Pizza ;
+    zdetor:currency "USD"^^xsd:string ;
+    zdetor:hasCurrency zdetor:usd ;
+    zdetor:name "Cheese Pizza"^^xsd:string ;
+    zdetor:price "10.29"^^xsd:float .
+
+zdetor:bertucci_s___4_any_brick_oven_pizza a zdetor:MenuItem,
+        zdetor:Pizza ;
+    zdetor:description "Small"^^xsd:string ;
+    zdetor:name "Any Brick Oven Pizza"^^xsd:string .
+
+zdetor:bertucci_s___4_bbq_chicken_pizza a zdetor:MenuItem,
+        zdetor:Pizza ;
+    zdetor:currency "USD"^^xsd:string ;
+    zdetor:description "BBQ chicken marinated in a smoky hickory BBQ sauce topped with caramelized onions and mozzarella cheese."^^xsd:string ;
+    zdetor:hasCurrency zdetor:usd ;
+    zdetor:hasTopping zdetor:bbq,
+        zdetor:chicken,
+        zdetor:mozzarella ;
+    zdetor:name "Bbq Chicken Pizza"^^xsd:string ;
+    zdetor:price "10.99"^^xsd:float .
+
+zdetor:bertucci_s___4_buffalo_chicken_flatbread_pizza a zdetor:MenuItem,
+        zdetor:Pizza ;
+    zdetor:currency "USD"^^xsd:string ;
+    zdetor:description "Grilled chicken tossed with buffalo sauce. Topped with Romano and Mozzarella cheese and drizzled with blue cheese dressing."^^xsd:string ;
+    zdetor:hasCurrency zdetor:usd ;
+    zdetor:hasTopping zdetor:chicken,
+        zdetor:mozzarella ;
+    zdetor:name "Buffalo Chicken Flatbread Pizza"^^xsd:string ;
+    zdetor:price "8.49"^^xsd:float .
+
+zdetor:bertucci_s___4_cheese_party_pizza a zdetor:CheesePizza,
+        zdetor:MenuItem,
+        zdetor:Pizza ;
+    zdetor:currency "USD"^^xsd:string ;
+    zdetor:description "With purchase of any Party Pizza. (Carry out only) Mention this offer when ordering"^^xsd:string ;
+    zdetor:hasCurrency zdetor:usd ;
+    zdetor:hasTopping zdetor:pizza ;
+    zdetor:name "Cheese Party Pizza"^^xsd:string ;
+    zdetor:price "5.0"^^xsd:float .
+
+zdetor:bertucci_s___4_cheese_pizza a zdetor:CheesePizza,
+        zdetor:MenuItem,
+        zdetor:Pizza ;
+    zdetor:currency "USD"^^xsd:string ;
+    zdetor:hasCurrency zdetor:usd ;
+    zdetor:name "Cheese Pizza"^^xsd:string ;
+    zdetor:price "10.29"^^xsd:float .
+
+zdetor:bertucci_s___4_margherita_flatbread_pizza a zdetor:MargheritaPizza,
+        zdetor:MenuItem,
+        zdetor:Pizza ;
+    zdetor:description "Fresh mozzarella, house made tomato sauce and Romano cheese topped with fresh basil."^^xsd:string ;
+    zdetor:hasTopping zdetor:basil,
+        zdetor:mozzarella,
+        zdetor:tomato ;
+    zdetor:name "Margherita Flatbread Pizza"^^xsd:string .
+
+zdetor:carvalho_s_brazilian_kitchen_nan a zdetor:MenuItem,
+        zdetor:Pizza .
+
+zdetor:country_bagel_bakery_pizza_bagel a zdetor:MenuItem,
+        zdetor:Pizza ;
+    zdetor:currency "USD"^^xsd:string ;
+    zdetor:description "with mushroom"^^xsd:string,
+        "with pepperoni"^^xsd:string,
+        "with pepperoni & mushroom"^^xsd:string ;
+    zdetor:hasCurrency zdetor:usd ;
+    zdetor:hasTopping zdetor:pepperoni ;
+    zdetor:name "Pizza Bagel"^^xsd:string .
+
+zdetor:country_bagel_bakery_pizza_bagel__plain_ a zdetor:MenuItem,
+        zdetor:Pizza ;
+    zdetor:currency "USD"^^xsd:string ;
+    zdetor:hasCurrency zdetor:usd ;
+    zdetor:name "Pizza Bagel (plain)"^^xsd:string ;
+    zdetor:price "2.59"^^xsd:float .
+
+zdetor:country_bagel_bakery_pizza_bagel_with_mushroom a zdetor:MenuItem,
+        zdetor:Pizza ;
+    zdetor:currency "USD"^^xsd:string ;
+    zdetor:hasCurrency zdetor:usd ;
+    zdetor:name "Pizza Bagel With Mushroom"^^xsd:string ;
+    zdetor:price "3.29"^^xsd:float .
+
+zdetor:country_bagel_bakery_pizza_bagel_with_pepperoni a zdetor:MenuItem,
+        zdetor:PepperoniPizza,
+        zdetor:Pizza ;
+    zdetor:currency "USD"^^xsd:string ;
+    zdetor:hasCurrency zdetor:usd ;
+    zdetor:name "Pizza Bagel With Pepperoni"^^xsd:string ;
+    zdetor:price "3.29"^^xsd:float .
+
+zdetor:country_bagel_bakery_pizza_bagel_with_pepperoni_and_mushroom a zdetor:MenuItem,
+        zdetor:PepperoniPizza,
+        zdetor:Pizza ;
+    zdetor:currency "USD"^^xsd:string ;
+    zdetor:hasCurrency zdetor:usd ;
+    zdetor:name "Pizza Bagel With Pepperoni and Mushroom"^^xsd:string ;
+    zdetor:price "3.59"^^xsd:float .
+
+zdetor:ct_194_buckland_hills_dr a zdetor:Address ;
+    zdetor:addressLine "194 Buckland Hills Dr"^^xsd:string ;
+    zdetor:hasCity dpo:Manchester ;
+    zdetor:hasCountry dpo:United_States ;
+    zdetor:hasState dpo:Connecticut ;
+    zdetor:postCode "6042.0"^^xsd:string .
+
+zdetor:davidsburg_4140_carlisle_rd a zdetor:Address ;
+    zdetor:addressLine "4140 Carlisle Rd"^^xsd:string ;
+    zdetor:hasCity dpo:Dover ;
+    zdetor:hasCountry dpo:United_States ;
+    zdetor:hasState dpo:Minnesota ;
+    zdetor:postCode "17315.0"^^xsd:string .
+
+zdetor:guidos_nan a zdetor:MenuItem,
+        zdetor:Pizza .
+
+zdetor:honey_creek_305_ash_st a zdetor:Address ;
+    zdetor:addressLine "305 Ash St"^^xsd:string ;
+    zdetor:hasCity <http://dbpedia.org/resource/Jefferson_City,_Missouri> ;
+    zdetor:hasCountry dpo:United_States ;
+    zdetor:hasState dpo:Tennessee ;
+    zdetor:postCode "65101.0"^^xsd:string .
+
+zdetor:htfd_2929_berlin_tpke a zdetor:Address ;
+    zdetor:addressLine "2929 Berlin Tpke"^^xsd:string ;
+    zdetor:hasCity dpo:Stoke_Newington ;
+    zdetor:hasCountry dpo:United_States ;
+    zdetor:postCode "6111.0"^^xsd:string .
+
+zdetor:il_10333_s_roberts_rd a zdetor:Address ;
+    zdetor:addressLine "10333 S Roberts Rd"^^xsd:string ;
+    zdetor:hasCity dpo:Palos_Verdes_Hills ;
+    zdetor:hasCountry dpo:United_States ;
+    zdetor:hasState dpo:Illinois ;
+    zdetor:postCode "60465.0"^^xsd:string .
+
+zdetor:in_3551_lafayette_rd a zdetor:Address ;
+    zdetor:addressLine "3551 Lafayette Rd"^^xsd:string ;
+    zdetor:hasCity dpo:Indianapolis ;
+    zdetor:hasCountry dpo:United_States ;
+    zdetor:hasState dpo:Indiana ;
+    zdetor:postCode "46222.0"^^xsd:string .
+
+zdetor:manhattan_1063_1st_ave a zdetor:Address ;
+    zdetor:addressLine "1063 1st Ave"^^xsd:string ;
+    zdetor:hasCity dpo:New_York_City ;
+    zdetor:hasCountry dpo:United_States ;
+    zdetor:hasState <http://dbpedia.org/resource/New_York_(state)> ;
+    zdetor:postCode "10022.0"^^xsd:string .
+
+zdetor:mighty_mick_s_pub___cafe_nan a zdetor:MenuItem,
+        zdetor:Pizza .
+
+zdetor:moonlight_cafe_nan a zdetor:MenuItem,
+        zdetor:Pizza .
+
+zdetor:nj_2847_state_route_35 a zdetor:Address ;
+    zdetor:addressLine "2847 State Route 35"^^xsd:string ;
+    zdetor:hasCity dpo:Hazlet_station ;
+    zdetor:hasCountry dpo:United_States ;
+    zdetor:hasState dpo:New_Jersey .
+
+zdetor:pa_145_e_gay_st a zdetor:Address ;
+    zdetor:addressLine "145 E Gay St"^^xsd:string ;
+    zdetor:hasCity dpo:West_Chester_University ;
+    zdetor:hasCountry dpo:United_States ;
+    zdetor:hasState dpo:Pennsylvania ;
+    zdetor:postCode "19380.0"^^xsd:string .
+
+zdetor:palmer_10727_randolph_saint_crown_point_in a zdetor:Address ;
+    zdetor:addressLine "10727 Randolph Saint Crown Point In"^^xsd:string ;
+    zdetor:hasCity <http://dbpedia.org/resource/Crown_Point,_Oregon> ;
+    zdetor:hasCountry dpo:United_States ;
+    zdetor:hasState dpo:Indiana ;
+    zdetor:postCode "46307.0"^^xsd:string .
+
+zdetor:pepperoni a zdetor:PepperoniTopping .
+
+zdetor:pizza a zdetor:PizzaTopping .
+
+zdetor:prison_brews_brewery___restaurant_nan a zdetor:MenuItem,
+        zdetor:Pizza .
+
+zdetor:rick_s_cabaret_nan a zdetor:MenuItem,
+        zdetor:Pizza .
+
+zdetor:rosa_mexicano_nan a zdetor:MenuItem,
+        zdetor:Pizza .
+
+zdetor:the_pizza_parlor_nan a zdetor:MenuItem,
+        zdetor:Pizza .
+
+zdetor:tx_2810_business_center_dr a zdetor:Address ;
+    zdetor:addressLine "2810 Business Center Dr"^^xsd:string ;
+    zdetor:hasCity <http://dbpedia.org/resource/Pearland,_Texas> ;
+    zdetor:hasCountry dpo:United_States ;
+    zdetor:hasState dpo:Texas ;
+    zdetor:postCode "77584.0"^^xsd:string .
+
+zdetor:va_9563_kings_charter_doctor_b a zdetor:Address ;
+    zdetor:addressLine "9563 Kings Charter Doctor B"^^xsd:string ;
+    zdetor:hasCity <http://dbpedia.org/resource/Ashland,_Ohio> ;
+    zdetor:hasCountry dpo:United_States ;
+    zdetor:hasState dpo:Virginia ;
+    zdetor:postCode "23005.0"^^xsd:string .
+
+dpo:Indiana a zdetor:State ;
+    zdetor:name "IN"^^xsd:string .
+
+zdetor:basil a zdetor:BasilTopping .
+
+zdetor:tomato a zdetor:TomatoTopping .
+
+zdetor:bbq a zdetor:BbqTopping .
+
+zdetor:chicken a zdetor:ChickenTopping .
+
+zdetor:mozzarella a zdetor:MozzarellaTopping .
+
+dpo:United_States a zdetor:Country ;
+    zdetor:name "US"^^xsd:string .
+
+zdetor:usd a zdetor:Currency .
+
