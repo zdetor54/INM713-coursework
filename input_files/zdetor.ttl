@@ -27,20 +27,17 @@ zdetor:creator rdf:type owl:AnnotationProperty .
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasAddress
 zdetor:hasAddress rdf:type owl:ObjectProperty ;
                   owl:inverseOf zdetor:isAddressOf ;
-                  rdf:type owl:FunctionalProperty .
+                  rdf:type owl:FunctionalProperty ;
+                  rdfs:range zdetor:Address .
 
 
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasCity
-zdetor:hasCity rdf:type owl:ObjectProperty ;
-               rdfs:domain zdetor:Address ;
-               rdfs:range zdetor:City .
+zdetor:hasCity rdf:type owl:ObjectProperty .
 
 
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasCountry
 zdetor:hasCountry rdf:type owl:ObjectProperty ,
-                           owl:FunctionalProperty ;
-                  rdfs:domain zdetor:Address ;
-                  rdfs:range zdetor:Country .
+                           owl:FunctionalProperty .
 
 
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasCurrency
@@ -66,9 +63,7 @@ zdetor:hasMenuItem rdf:type owl:ObjectProperty ;
 
 
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasState
-zdetor:hasState rdf:type owl:ObjectProperty ;
-                rdfs:domain zdetor:Address ;
-                rdfs:range zdetor:State .
+zdetor:hasState rdf:type owl:ObjectProperty .
 
 
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasTopping
@@ -78,7 +73,9 @@ zdetor:hasTopping rdf:type owl:ObjectProperty ;
 
 
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis#isAddressOf
-zdetor:isAddressOf rdf:type owl:ObjectProperty .
+zdetor:isAddressOf rdf:type owl:ObjectProperty ,
+                            owl:InverseFunctionalProperty ;
+                   rdfs:domain zdetor:Address .
 
 
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis#isIngredientOf
@@ -86,7 +83,8 @@ zdetor:isIngredientOf rdf:type owl:ObjectProperty .
 
 
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis#isMenuItemOf
-zdetor:isMenuItemOf rdf:type owl:ObjectProperty .
+zdetor:isMenuItemOf rdf:type owl:ObjectProperty ,
+                             owl:FunctionalProperty .
 
 
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis#isToppingOf
@@ -306,6 +304,11 @@ zdetor:MenuItem rdf:type owl:Class ;
                                   owl:onProperty zdetor:isMenuItemOf ;
                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                   owl:onClass zdetor:Restaurant
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty zdetor:hasCurrency ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onClass zdetor:Currency
                                 ] ;
                 zdetor:creator "zacharias.detorakis"@en .
 
@@ -359,7 +362,11 @@ zdetor:PepperoniTopping rdf:type owl:Class ;
 
 ###  https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Pizza
 zdetor:Pizza rdf:type owl:Class ;
-             rdfs:subClassOf zdetor:Food ;
+             rdfs:subClassOf zdetor:Food ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty zdetor:hasTopping ;
+                               owl:someValuesFrom zdetor:PizzaTopping
+                             ] ;
              owl:disjointWith zdetor:PizzaTopping ;
              zdetor:creator "zacharias.detorakis"@en .
 

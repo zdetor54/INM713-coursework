@@ -48,16 +48,14 @@
     <owl:ObjectProperty rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasAddress">
         <owl:inverseOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#isAddressOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Address"/>
     </owl:ObjectProperty>
     
 
 
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasCity -->
 
-    <owl:ObjectProperty rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasCity">
-        <rdfs:domain rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Address"/>
-        <rdfs:range rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#City"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasCity"/>
     
 
 
@@ -65,8 +63,6 @@
 
     <owl:ObjectProperty rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasCountry">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Address"/>
-        <rdfs:range rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Country"/>
     </owl:ObjectProperty>
     
 
@@ -106,10 +102,7 @@
 
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasState -->
 
-    <owl:ObjectProperty rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasState">
-        <rdfs:domain rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Address"/>
-        <rdfs:range rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#State"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasState"/>
     
 
 
@@ -124,7 +117,10 @@
 
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis#isAddressOf -->
 
-    <owl:ObjectProperty rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#isAddressOf"/>
+    <owl:ObjectProperty rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#isAddressOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Address"/>
+    </owl:ObjectProperty>
     
 
 
@@ -136,7 +132,9 @@
 
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis#isMenuItemOf -->
 
-    <owl:ObjectProperty rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#isMenuItemOf"/>
+    <owl:ObjectProperty rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#isMenuItemOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
     
 
 
@@ -478,6 +476,13 @@
                 <owl:onClass rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Restaurant"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasCurrency"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Currency"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
@@ -558,6 +563,12 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Pizza">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Food"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping"/>
         <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
