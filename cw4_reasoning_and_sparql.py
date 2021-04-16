@@ -148,8 +148,8 @@ if __name__ == '__main__':
                     zdetor:description ?description.
             ?restaurant zdetor:name ?name;
                         zdetor:hasAddress [ zdetor:addressLine ?addressLine] .
-        FILTER (regex(LCASE(?pizzaName), \"white\") || regex(LCASE(?pizzaName), \"bianca\") || regex(LCASE(?pizzaName), \"bianco\") ).
-    #    FILTER NOT EXISTS {
+        FILTER (regex(LCASE(?pizzaName), \"white\") || regex(LCASE(?pizzaName), \"bianca\") || regex(LCASE(?pizzaName), \"bianco\") )
+    #     FILTER NOT EXISTS {
     #        FILTER regex(?description, \"tomato\").
     #    }
     }

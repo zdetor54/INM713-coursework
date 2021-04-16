@@ -263,7 +263,7 @@ class FinalCoursework(object):
 
     def mappingToCreateTypeTriple(self, subject_column, class_type, use_external_uri):
         
-        # First we create a new key for the class with a value of another dictionary
+        # First we create a new key for the class with a value of another dictionary. For state_code we've have a separate function to create the values in the dict
         if subject_column != 'state_code':
             self.classStringToURI[subject_column] = dict()
 
