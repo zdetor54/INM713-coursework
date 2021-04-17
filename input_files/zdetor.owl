@@ -344,6 +344,8 @@
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:comment xml:lang="en">The currency for now this is used for the menu items and their prices.</rdfs:comment>
+        <rdfs:label xml:lang="en">Currency</rdfs:label>
         <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
@@ -353,6 +355,8 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Drink">
         <owl:disjointWith rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Food"/>
+        <rdfs:comment xml:lang="en">A class containing drinks. Currently not used by the KG</rdfs:comment>
+        <rdfs:label xml:lang="en">Drink</rdfs:label>
         <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
@@ -379,6 +383,7 @@
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Food -->
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Food">
+        <rdfs:label xml:lang="en">Food</rdfs:label>
         <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
@@ -570,6 +575,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping"/>
+        <rdfs:label xml:lang="en">Pizza</rdfs:label>
         <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
@@ -588,6 +594,7 @@
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping">
         <rdfs:subClassOf rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Food"/>
+        <rdfs:label xml:lang="en">PizzaTopping</rdfs:label>
         <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
@@ -602,6 +609,7 @@
                 <owl:someValuesFrom rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Address"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Place</rdfs:label>
         <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
@@ -626,6 +634,7 @@
                 <owl:allValuesFrom rdf:resource="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#MenuItem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Restaurant</rdfs:label>
         <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
@@ -661,6 +670,8 @@
     <!-- https://www.city.ac.uk/ds/inm713/zacharias_detorakis#State -->
 
     <owl:Class rdf:about="https://www.city.ac.uk/ds/inm713/zacharias_detorakis#State">
+        <rdfs:comment xml:lang="en">The state of the addresses</rdfs:comment>
+        <rdfs:label xml:lang="en">State</rdfs:label>
         <creator xml:lang="en">zacharias.detorakis</creator>
     </owl:Class>
     
