@@ -2,7 +2,7 @@
 from gensim.models import KeyedVectors
 
 
-wv = KeyedVectors.load("Standalone_0.1/output_embedding/walker_random/cw_data.embeddings", mmap='r')
+wv = KeyedVectors.load("Standalone_0.1/output_embedding/exp3/cw_data.embeddings", mmap='r')
 
 # vector = wv.wv['pizza']  # Get numpy vector of a word
 # print(vector)
