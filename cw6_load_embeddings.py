@@ -4,42 +4,24 @@ from gensim.models import KeyedVectors
 
 wv = KeyedVectors.load("Standalone_0.1/output_embedding/walker_random/cw_data.embeddings", mmap='r')
 
-vector = wv.wv['pizza']  # Get numpy vector of a word
-print(vector)
-
-# for key in wv.wv.vocab:
-#     print(key)
-
-# similarity = wv.similarity('pizza', 'giuseppe')
-
-# print(similarity)
-
-
-# similarity = wv.similarity('ham', 'mushroom')
-
-# print(similarity)
-
-
-
-# similarity = wv.similarity('tomato', 'pizza')
-# print(similarity)
-
-
-# similarity = wv.similarity('http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping', 'http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza')
-# print(similarity)
-
-# similarity = wv.similarity('http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping', 'http://www.co-ode.org/ontologies/pizza/pizza.owl#Margherita')
-# print(similarity)
+# vector = wv.wv['pizza']  # Get numpy vector of a word
+# print(vector)
 
 
 similarity = wv.wv.similarity('pizza', 'https://www.city.ac.uk/ds/inm713/zacharias_detorakis#MargheritaPizza')
-print(similarity)
+print('pizza - https://www.city.ac.uk/ds/inm713/zacharias_detorakis#MargheritaPizza: ', similarity)
 
-similarity = wv.wv.similarity('chicken', 'https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Pizza')
-print(similarity)
+similarity = wv.wv.similarity('https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping', 'https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Pizza')
+print('https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping - https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Pizza: ', similarity)
 
-similarity = wv.wv.similarity('https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Pizza', 'https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Pizza')
-print(similarity)
+similarity = wv.wv.similarity('https://www.city.ac.uk/ds/inm713/zacharias_detorakis#State', 'https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Pizza')
+print('https://www.city.ac.uk/ds/inm713/zacharias_detorakis#State - https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Pizza: ', similarity)
+
+similarity = wv.wv.similarity('https://www.city.ac.uk/ds/inm713/zacharias_detorakis#addressLine', 'https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Pizza')
+print('https://www.city.ac.uk/ds/inm713/zacharias_detorakis#addressLine - https://www.city.ac.uk/ds/inm713/zacharias_detorakis#Pizza: ', similarity)
+
+similarity = wv.wv.similarity('https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping', 'https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PepperoniTopping')
+print('https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PizzaTopping - https://www.city.ac.uk/ds/inm713/zacharias_detorakis#PepperoniTopping: ', similarity)
 
 # result = wv.most_similar_cosmul(positive=['margherita'])
 
